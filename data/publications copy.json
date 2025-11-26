@@ -1,0 +1,746 @@
+{
+  "venues": {
+    "conferences": ["CVPR", "ICCV", "ECCV", "NeurIPS", "ICML", "ICLR", "EMNLP", "EMNLP Findings", "ACL", "AAAI", "IJCAI", "WACV", "ICIP", "IROS"],
+    "journals": ["IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)", "Medical Image Analysis", "Pattern Recognition", "Information Sciences", "Medical Physics"]
+  },
+  "categories": {
+    "cv": "CV",
+    "ml": "ML",
+    "nlp": "NLP",
+    "medical_imaging": "Medical Imaging",
+    "multimodal": "Multi-Modal Learning"
+  },
+
+
+  "publications": [
+    {
+      "title": "MomentMix Augmentation with Length-Aware DETR for Temporally Robust Moment Retrieval",
+      "authors": ["Seojeong Park", "Jiho Choi", "Kyungjune Baek", "Hyunjung Shim"],
+      "venue": "WACV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Moment Retrieval", "DETR", "Augmentation"],
+      "category": "cv"
+    },
+    {
+      "title": "Rethinking Direct Preference Optimization in Diffusion Models",
+      "authors": ["Junyong Kang*", "Seohyun Lim*", "Kyungjune Baek", "Hyunjung Shim"],
+      "venue": "AAAI",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "presentation": "Oral",
+      "keywords": ["Reinforcement Learning", "Diffusion Models", "Preference Optimization"],
+      "category": "ml"
+    },
+    {
+      "title": "MaskRIS: Semantic Distortion-aware Data Augmentation for Referring Image Segmentation",
+      "authors": ["Minhyun Lee*", "Seungho Lee*", "Song Park", "Dongyoon Han", "Byeongho Heo", "Hyunjung Shim"],
+      "venue": "Transactions on Machine Learning Research",
+      "year": 2025,
+      "type": "journal",
+      "status": "accepted",
+      "keywords": ["Data Augmentation", "Image Segmentation"],
+      "category": "ml"
+    },
+    {
+      "title": "3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation",
+      "authors": ["Seonho Lee*", "Jiho Choi*", "Inha Kang", "Jiwook Kim", "Junsung Park", "Hyunjung Shim"],
+      "venue": "EMNLP",
+      "presentation": "Findings",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Vision-Language Models", "3D", "Geometric Distillation"],
+      "category": "cv"
+    },
+    {
+      "title": "Scribble-Guided Diffusion for Training-free Text-to-Image Generation",
+      "authors": ["Seonho Lee*", "Jiho Choi*", "Seohyun Lim", "Jiwook Kim", "Hyunjung Shim"],
+      "venue": "ICIP",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Diffusion Models", "Text-to-Image", "Scribble Guidance"],
+      "category": "cv"
+    },
+    {
+      "title": "I0T: Embedding Standardization Method Towards Zero Modality Gap",
+      "authors": ["Na Min An*", "Eunki Kim*", "James Thorne", "Hyunjung Shim"],
+      "venue": "ACL",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "presentation": "Outstanding paper",
+      "keywords": ["Multimodal Learning", "Embeddings", "Cross-Modal", "Modality Gap"],
+      "category": "nlp",
+      "pdf_url": "https://aclanthology.org/2025.acl-long.1319/",
+      "code_url": "https://github.com/xfactlab/I0T/tree/main",
+      "project_url": "https://kaist-cvml.github.io/i0t",
+      "category": "ml"
+    },
+    {
+      "title": "Fine-Grained Image-Text Correspondence with Cost Aggregation for Open-Vocabulary Part Segmentation",
+      "authors": ["Jiho Choi*", "Seonho Lee*", "Minhyun Lee", "Seungho Lee", "Hyunjung Shim"],
+      "venue": "CVPR",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Part Segmentation", "Open-Vocabulary", "Image-Text Correspondence"],
+      "category": "cv",
+      "pdf_url": "https://cvpr.thecvf.com/virtual/2025/poster/32627",
+      "code_url": "https://github.com/kaist-cvml/part-catseg"
+    },
+    {
+      "title": "Classifier-guided CLIP Distillation for Unsupervised Multi-label Classification",
+      "authors": ["Dongseob Kim", "Hyunjung Shim"],
+      "venue": "CVPR",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["CLIP", "Multi-label Classification", "Knowledge Distillation", "Unsupervised Learning"],
+      "category": "ml"
+    },
+    {
+      "title": "No Thing, Nothing: Highlighting Safety-Critical Classes for Robust LiDAR Semantic Segmentation in Adverse Weather",
+      "authors": ["Junsung Park", "Hwijeong Lee", "Inha Kang", "Hyunjung Shim"],
+      "venue": "CVPR",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["LiDAR", "Semantic Segmentation", "Adverse Weather", "Autonomous Driving"],
+      "category": "cv",
+      "pdf_url": "https://arxiv.org/pdf/2503.15910",
+      "code_url": "https://github.com/engineerJPark/NTN",
+      "project_url": "https://engineerjpark.github.io/CVPR2025NTN/"
+    },
+    {
+      "title": "DGQ: Distribution-Aware Group Quantization for Text-to-Image Diffusion Models",
+      "authors": ["Hyogon Ryu", "NaHyeon Park", "Hyunjung Shim"],
+      "venue": "ICLR",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Quantization", "Diffusion Models", "Text-to-Image", "Model Compression"],
+      "category": "ml"
+    },
+    {
+      "title": "DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation",
+      "authors": ["Jiwook Kim*", "Seonho Lee*", "Jaeyo Shin", "Jiho Choi", "Hyunjung Shim"],
+      "venue": "ICLR",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["3D Editing", "Identity Preservation", "Generative Models"],
+      "pdf_url": "https://arxiv.org/pdf/2407.11394",
+      "code_url": "https://github.com/kaist-cvml/DreamCatalyst",
+      "project_url": "https://dream-catalyst.github.io",
+      "category": "cv"
+    },
+    {
+      "title": "Label-Augmented Dataset Distillation",
+      "authors": ["Seoungyoon Kang*", "Youngsun Lim*", "Hyunjung Shim"],
+      "venue": "WACV",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "presentation": "Oral",
+      "keywords": ["Dataset Distillation", "Label Augmentation", "Efficient Training"],
+      "category": "ml"
+    },
+    {
+      "title": "Evaluating Image Hallucination in Text-to-Image Generation with Question-Answering",
+      "authors": ["Youngsun Lim*", "Hojun Choi*", "Hyunjung Shim"],
+      "venue": "AAAI",
+      "year": 2025,
+      "type": "conference",
+      "status": "accepted",
+      "presentation": "Oral",
+      "keywords": ["Image Hallucination", "Text-to-Image", "Evaluation", "Question-Answering"],
+      "category": "cv"
+    },
+    {
+      "title": "Understanding Multi-Granularity for Open-Vocabulary Part Segmentation",
+      "authors": ["Jiho Choi*", "Seonho Lee*", "Seungho Lee", "Minhyun Lee", "Hyunjung Shim"],
+      "venue": "NeurIPS",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Part Segmentation", "Multi-Granularity", "Open-Vocabulary"],
+      "category": "cv"
+    },
+    {
+      "title": "Rethinking Data Augmentation for Robust LiDAR Semantic Segmentation in Adverse Weather",
+      "authors": ["Junsung Park", "Kyungmin Kim", "Hyunjung Shim"],
+      "venue": "ECCV",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "presentation": "Oral",
+      "keywords": ["LiDAR", "Data Augmentation", "Adverse Weather", "Semantic Segmentation"],
+      "category": "cv",
+      "pdf_url": "https://arxiv.org/pdf/2407.02286",
+      "code_url": "https://github.com/engineerJPark/LiDARWeather",
+      "project_url": "https://engineerjpark.github.io/ECCV2024LiDARWeather/"
+    },
+    {
+      "title": "SeiT++: Masked Token Modeling Improves Storage-efficient Training",
+      "authors": ["Minhyun Lee*", "Song Park*", "Byeongho Heo", "Dongyoon Han", "Hyunjung Shim"],
+      "venue": "ECCV",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Masked Token Modeling", "Storage-Efficient Training", "Vision Transformers"],
+      "category": "ml"
+    },
+    {
+      "title": "Memory-Efficient Fine-Tuning for Quantized Diffusion Model",
+      "authors": ["Hyogon Ryu", "Seohyun Lim", "Hyunjung Shim"],
+      "venue": "ECCV",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Memory-Efficient", "Fine-Tuning", "Quantization", "Diffusion Models"],
+      "category": "ml"
+    },
+    {
+      "title": "Learning from Spatio-temporal Correlation for Semi-Supervised LiDAR Semantic Segmentation",
+      "authors": ["Seungho Lee", "Hwijeong Lee", "Hyunjung Shim"],
+      "venue": "IROS",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "presentation": "Oral",
+      "keywords": ["Spatio-temporal Correlation", "Semi-Supervised Learning", "LiDAR", "Semantic Segmentation"],
+      "category": "cv"
+    },
+    {
+      "title": "Locally Conditioned GANs: Self-supervised Local Patch Representation Learning for Conditional Generation",
+      "authors": ["Dongseob Kim", "Hyunjung Shim"],
+      "venue": "IEEE Access",
+      "year": 2024,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["GANs", "Self-supervised Learning", "Conditional Generation"],
+      "category": "cv"
+    },
+    {
+      "title": "Preventing Image Hallucination in Text-to-Image Generation through Factual Image Retrieval",
+      "authors": ["Youngsun Lim", "Hyunjung Shim"],
+      "venue": "IJCAI TIDMwFM",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Image Hallucination", "Text-to-Image", "Image Retrieval"],
+      "category": "cv"
+    },
+    {
+      "title": "Adapting Low-Dose CT Denoisers for Texture Preservation using Zero-Shot Local Noise-level Matching",
+      "authors": ["Youngjun Ko*", "Seongjong Song*", "Jongduk Baek", "Hyunjung Shim"],
+      "venue": "Medical Physics (MP)",
+      "year": 2024,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Low-Dose CT", "Denoising", "Zero-Shot", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "Weakly Supervised Semantic Segmentation for Driving Scenes",
+      "authors": ["Dongseob Kim*", "Seungho Lee*", "Junsuk Choe", "Hyunjung Shim"],
+      "venue": "AAAI",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Weakly Supervised", "Semantic Segmentation", "Driving Scenes"],
+      "category": "cv"
+    },
+    {
+      "title": "Self-Supervised Vision Transformers Are Efficient Segmentation Learners for Imperfect Labels",
+      "authors": ["Seungho Lee*", "Seoungyoon Kang*", "Hyunjung Shim"],
+      "venue": "AAAIW",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Self-Supervised Learning", "Vision Transformers", "Segmentation", "Imperfect Labels"],
+      "category": "cv"
+    },
+    {
+      "title": "Precision matters: Precision-aware ensemble for weakly supervised semantic segmentation",
+      "authors": ["Junsung Park", "Hyunjung Shim"],
+      "venue": "AAAIW",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Precision-aware", "Ensemble Learning", "Weakly Supervised", "Semantic Segmentation"],
+      "category": "cv",
+      "pdf_url": "https://arxiv.org/pdf/2406.19638",
+      "code_url": "https://github.com/engineerJPark/ORANDNet"
+    },
+    {
+      "title": "Local Expert Diffusion Models for Efficient Training in Denoising Diffusion Probabilistic Models",
+      "authors": ["Seoungyoon Kang*", "Yunji Jung*", "Hyunjung Shim"],
+      "venue": "AAAIW",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Diffusion Models", "Efficient Training", "Denoising"],
+      "category": "ml"
+    },
+    {
+      "title": "Saliency as Pseudo-pixel Supervision for Weakly and Semi-supervised Semantic Segmentation",
+      "authors": ["M Lee*", "S Lee*", "J Lee", "Hyunjung Shim"],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Saliency", "Weakly Supervised", "Semi-Supervised", "Semantic Segmentation"],
+      "category": "cv"
+    },
+    {
+      "title": "Entropy Regularization for Weakly Supervised Object Localization",
+      "authors": ["D Hwang", "J-W. Ha", "Hyunjung Shim", "J Choe"],
+      "venue": "Pattern Recognition Letters",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Entropy Regularization", "Weakly Supervised", "Object Localization"],
+      "category": "cv"
+    },
+    {
+      "title": "TADA: Timestep-Aware Data Augmentation for Diffusion Models",
+      "authors": ["NaHyeon Park*", "Kunhee Kim*", "Song Park", "Jung-Woo Ha", "Hyunjung Shim"],
+      "venue": "NeurIPS Workshop",
+      "year": 2023,
+      "type": "workshop",
+      "status": "published",
+      "keywords": ["Data Augmentation", "Diffusion Models", "Timestep-Aware"],
+      "category": "ml"
+    },
+    {
+      "title": "Your Lottery Ticket is Damaged: Towards All-Alive Pruning for Extremely Sparse Networks",
+      "authors": ["D Kim", "M Kim", "Hyunjung Shim", "J Lee"],
+      "venue": "Information Sciences (IS)",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Lottery Ticket Hypothesis", "Network Pruning", "Sparse Networks"],
+      "category": "ml"
+    },
+    {
+      "title": "Utilization of an Attentive Map to Preserve Anatomical Features for Training Convolutional Neural Network based Low-dose CT Denoiser.",
+      "authors": ["M Han", "Hyunjung Shim", "J Baek"],
+      "venue": "Medical Physics (MP)",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Attention", "Low-dose CT", "Denoising", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "CoMix: Collaborative Filtering with Mixup for Implicit Datasets",
+      "authors": ["J Moon", "Y Jeong", "D-K Chae", "J Choi", "Hyunjung Shim", "J Lee"],
+      "venue": "Information Sciences (IS)",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Collaborative Filtering", "Mixup", "Recommendation Systems", "Implicit Data"],
+      "category": "ml"
+    },
+    {
+      "title": "Few-shot Font Generation with Weakly Supervised Localized Representations",
+      "authors": ["S Park*", "S Chun*", "S Lee", "J Cha", "B Lee", "Hyunjung Shim"],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Few-shot Learning", "Font Generation", "Weakly Supervised"],
+      "category": "cv"
+    },
+    {
+      "title": "F2RPC: Fake to Real Portrait Control from a Virtual Character",
+      "authors": ["S Kang", "M Kim", "Hyunjung Shim"],
+      "venue": "IEEE Access",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Image Translation", "Portrait Generation", "Generative Models"],
+      "category": "cv"
+    },
+    {
+      "title": "HybridMatch: Semi-supervised Facial Landmark Detection via Hybrid Heatmap Representations",
+      "authors": ["S Kang*", "M Lee*", "M Kim", "Hyunjung Shim"],
+      "venue": "IEEE Access",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Semi-supervised Learning", "Facial Landmark Detection", "Heatmap Representation"],
+      "category": "cv"
+    },
+    {
+      "title": "Long-tail Mixup for Extreme Multi-label Classification",
+      "authors": ["S Han", "E Choi", "C Lim", "J Lee", "Hyunjung Shim", "J Lee"],
+      "venue": "CIKM",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Long-tail Distribution", "Mixup", "Multi-label Classification"],
+      "category": "ml"
+    },
+    {
+      "title": "A streak artifact reduction algorithm in sparse-view CT using a self-supervised neural representation",
+      "authors": ["B Kim", "Hyunjung Shim", "J Baek"],
+      "venue": "Medical Physics (MP)",
+      "year": 2022,
+      "type": "journal",
+      "status": "published",
+      "presentation": "Editor's Choice",
+      "keywords": ["Artifact Reduction", "Sparse-view CT", "Self-supervised Learning", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "Perceptual CT Loss: Implementing CT Image Specific Perceptual Loss for CNN-Based Low-Dose CT Denoiser",
+      "authors": ["M Han", "Hyunjung Shim", "J Baek"],
+      "venue": "IEEE Access",
+      "year": 2022,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Perceptual Loss", "Low-Dose CT", "Denoising", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "Evaluation for Weakly Supervised Object Localization: Protocol, Metrics, and Datasets",
+      "authors": ["J Choe*", "S-J Oh*", "S Chun", "S Lee", "Z Akata", "Hyunjung Shim"],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)",
+      "year": 2022,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Weakly Supervised", "Object Localization", "Evaluation", "Datasets"],
+      "category": "cv"
+    },
+    {
+      "title": "Knowledge distillation meets recommendation: collaborative distillation for top-N recommendation",
+      "authors": ["J-W Lee", "M Choi", "S Lee", "Hyunjung Shim", "J Lee"],
+      "venue": "Knowledge and Information Systems (KIS)",
+      "year": 2022,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Knowledge Distillation", "Recommendation Systems", "Collaborative Filtering"],
+      "category": "ml"
+    },
+    {
+      "title": "Logit Mixing Training for More Reliable and Accurate Prediction",
+      "authors": ["D Bang*", "K Baek*", "J Kim", "Y Jeon", "JH Kim", "J Kim", "J Lee", "Hyunjung Shim"],
+      "venue": "IJCAI",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Logit Mixing", "Reliable Prediction", "Deep Learning"],
+      "category": "ml"
+    },
+    {
+      "title": "Commonality in Natural Images Rescues GANs: Pretraining GANs with Generic and Privacy-free Synthetic Data",
+      "authors": ["K Baek", "Hyunjung Shim"],
+      "venue": "CVPR",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["GANs", "Pretraining", "Synthetic Data", "Generative Models"],
+      "category": "cv"
+    },
+    {
+      "title": "Threshold Matters in WSSS: Manipulating the Activation for the Robust and Accurate Segmentation Model Against Thresholds",
+      "authors": ["M Lee*", "D Kim*", "Hyunjung Shim"],
+      "venue": "CVPR",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Weakly Supervised Semantic Segmentation", "Activation Manipulation", "Threshold Robustness"],
+      "category": "cv"
+    },
+    {
+      "title": "Learning from Better Supervision: Self-distillation for Learning with Noisy Labels",
+      "authors": ["K Baek*", "S Lee*", "Hyunjung Shim"],
+      "venue": "ICPR",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Self-distillation", "Noisy Labels", "Supervised Learning"],
+      "category": "ml"
+    },
+    {
+      "title": "Two-phase Learning-based 3D Deblurring Method for Digital Breast Tomosynthesis Images",
+      "authors": ["Y Choi", "M Han", "H Jang", "Hyunjung Shim", "J Baek"],
+      "venue": "Plos One",
+      "year": 2022,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Deblurring", "3D Imaging", "Tomosynthesis", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "S-Walk: Accurate and Scalable Session-based Recommendation with Random Walks",
+      "authors": ["M Choi", "J Kim", "J Lee", "Hyunjung Shim", "J Lee"],
+      "venue": "WSDM",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Session-based Recommendation", "Random Walks", "Recommender Systems"],
+      "category": "ml"
+    },
+    {
+      "title": "Knowledge Distillation Meets Recommendation: Collaborative Distillation for Top-N Recommendation",
+      "authors": ["J Lee", "M Choi", "Hyunjung Shim", "J Lee"],
+      "venue": "Knowledge and Information Systems (KAIS)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Knowledge Distillation", "Recommendation Systems", "Collaborative Filtering"],
+      "category": "ml"
+    },
+    {
+      "title": "Distilling from Professors: Enhancing the Knowledge Distillation of Teachers",
+      "authors": ["D Bang", "J Lee", "Hyunjung Shim"],
+      "venue": "Information Sciences (IS)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Knowledge Distillation", "Teacher-Student Model"],
+      "category": "ml"
+    },
+    {
+      "title": "Low Dose CT Denoising via Convolutional Neural Network with an Observer Loss Function",
+      "authors": ["M Han", "Hyunjung Shim", "J Baek"],
+      "venue": "Medical Physics (MP)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Low-Dose CT", "Denoising", "Observer Loss", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "Rethinking the Truly Unsupervised Image-to-Image Translation",
+      "authors": ["K Baek", "Y Choi", "Y Uh", "J Yoo", "Hyunjung Shim"],
+      "venue": "ICCV",
+      "year": 2021,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Unsupervised Learning", "Image-to-Image Translation", "Generative Models"],
+      "category": "cv"
+    },
+    {
+      "title": "Multiple Heads are Better than One: Few-shot Font Generation with Multiple Localized Experts",
+      "authors": ["S Park", "S Chun", "J Cha", "B Lee", "Hyunjung Shim"],
+      "venue": "ICCV",
+      "year": 2021,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Few-shot Learning", "Font Generation", "Mixture of Experts"],
+      "category": "cv"
+    },
+    {
+      "title": "Weakly-Supervised Progressive Denoising with Unpaired CT Images",
+      "authors": ["B Kim", "Hyunjung Shim", "J Baek"],
+      "venue": "Medical Image Analysis (MEDIA)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Weakly Supervised", "Denoising", "CT Images", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "Region-based Dropout with Attention Prior for Weakly Supervised Object Localization",
+      "authors": ["J Choe", "D Han", "S Yun", "J Ha", "S Oh", "Hyunjung Shim"],
+      "venue": "Pattern recognition (PR)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Dropout", "Attention", "Weakly Supervised", "Object Localization"],
+      "category": "cv"
+    },
+    {
+      "title": "Railroad is not a Train: Saliency as Pseudo-pixel Supervision for Weakly Supervised Semantic Segmentation",
+      "authors": ["S Lee*", "M Lee*", "J Lee", "Hyunjung Shim"],
+      "venue": "CVPR",
+      "year": 2021,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Saliency", "Weakly Supervised", "Semantic Segmentation"],
+      "category": "cv"
+    },
+    {
+      "title": "Session-aware Linear Item-Item Models for Session-based Recommendation",
+      "authors": ["M Choi", "J Kim", "J Lee", "Hyunjung Shim", "J Lee"],
+      "venue": "The Web Conference (WWW)",
+      "year": 2021,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Session-based Recommendation", "Item-Item Models", "Recommender Systems"],
+      "category": "ml"
+    },
+    {
+      "title": "Few-shot Font Generation with Localized Style Representations and Factorization",
+      "authors": ["S Park*", "S Chun*", "J Cha", "B Lee", "Hyunjung Shim"],
+      "venue": "AAAI",
+      "year": 2021,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Few-shot Learning", "Font Generation", "Style Representation"],
+      "category": "cv"
+    },
+    {
+      "title": "Rigid and non-rigid motion artifact reduction in X-ray CT using attention module",
+      "authors": ["Y Ko", "S Moon", "J Baek", "Hyunjung Shim"],
+      "venue": "Medical Image Analysis (MEDIA)",
+      "year": 2020,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Motion Artifact Reduction", "X-ray CT", "Attention", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "GridMix: Strong Regularization Through Local Context Mapping",
+      "authors": ["K Baek*", "D Bang*", "Hyunjung Shim"],
+      "venue": "Pattern Recognition (PR)",
+      "year": 2020,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Regularization", "Data Augmentation", "Local Context"],
+      "category": "ml"
+    },
+    {
+      "title": "Attention-based Dropout Layer for Weakly Supervised Single Object Localization and Semantic Segmentation",
+      "authors": ["J Choe*", "S Lee*", "Hyunjung Shim"],
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)",
+      "year": 2020,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Attention", "Dropout", "Weakly Supervised", "Object Localization"],
+      "category": "cv"
+    },
+    {
+      "title": "Evaluating Weakly Supervised Object Localization Methods Right",
+      "authors": ["J Choe*", "S J Oh*", "S Lee", "S Chun", "Z Akata", "Hyunjung Shim"],
+      "venue": "CVPR",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Weakly Supervised", "Object Localization", "Evaluation"],
+      "category": "cv"
+    },
+    {
+      "title": "Discriminator Feature-based Inference by Recycling the Discriminator of GANs",
+      "authors": ["D Bang*", "S Kang*", "Hyunjung Shim"],
+      "venue": "International Journal of Computer Vision (IJCV)",
+      "year": 2020,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["GANs", "Discriminator", "Feature Inference"],
+      "category": "cv"
+    },
+    {
+      "title": "PsyNet: Self-supervised Object Localization using Point Symmetric Transformation",
+      "authors": ["K Baek*", "MH Lee*", "Hyunjung Shim"],
+      "venue": "AAAI",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Self-supervised Learning", "Object Localization", "Symmetry"],
+      "category": "cv"
+    },
+    {
+      "title": "Diversity Regularized Autoencoders for Text Generation",
+      "authors": ["Hyeseon Ko", "Junhyuk Lee", "Jinhong Kim", "Jongwuk Lee", "Hyunjung Shim"],
+      "venue": "SAC",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Autoencoders", "Text Generation", "Diversity", "Regularization"],
+      "category": "nlp"
+    },
+    {
+      "title": "A convolutional neural network‐based model observer for breast CT images",
+      "authors": ["G Kim", "M Han", "Hyunjung Shim", "J Baek"],
+      "venue": "Medical Physics (MP)",
+      "year": 2020,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["CNN", "Model Observer", "Breast CT", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "Collaborative Distillation for Top-N Recommendation",
+      "authors": ["J Lee", "M Choi", "J Lee", "Hyunjung Shim"],
+      "venue": "ICDM",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "presentation": "Oral presentation",
+      "keywords": ["Knowledge Distillation", "Recommendation Systems", "Collaborative Filtering"],
+      "category": "ml"
+    },
+    {
+      "title": "CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features",
+      "authors": ["S Yun", "D Han", "S J Oh", "S Chun", "J Choe", "Y Yoo"],
+      "venue": "ICCV",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "presentation": "Oral presentation",
+      "keywords": ["Regularization", "Data Augmentation", "Classification"],
+      "category": "ml"
+    },
+    {
+      "title": "A performance comparison of convolutional neural network‐based image denoising methods: The effect of loss functions on low‐dose CT images",
+      "authors": ["B Kim", "M Han", "Hyunjung Shim", "J Baek"],
+      "venue": "Medical Physics (MP)",
+      "year": 2019,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["CNN", "Image Denoising", "Loss Functions", "Low-Dose CT", "Medical Imaging"],
+      "category": "medical_imaging"
+    },
+    {
+      "title": "Attention-based Dropout Layer for Weakly Supervised Object Localization",
+      "authors": ["J Choe", "Hyunjung Shim"],
+      "venue": "CVPR",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "presentation": "Oral presentation",
+      "keywords": ["Attention", "Dropout", "Weakly Supervised", "Object Localization"],
+      "category": "cv"
+    },
+    {
+      "title": "An Empirical Evaluation on Robustness and Uncertainty of Regularization Methods",
+      "authors": ["S Chun", "S J Oh", "S Yun", "D Han", "J Choe", "Y Yoo"],
+      "venue": "ICML Workshop",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "keywords": ["Regularization", "Robustness", "Uncertainty"],
+      "category": "ml"
+    },
+    {
+      "title": "Semantic-Aware Neural Style Transfer",
+      "authors": ["J Park", "S Park", "Hyunjung Shim"],
+      "venue": "Image and Vision Computing",
+      "year": 2019,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Neural Style Transfer", "Semantic Awareness"],
+      "category": "cv"
+    },
+    {
+      "title": "Dual Neural Personalized Ranking",
+      "authors": ["S Kim", "J Lee", "Hyunjung Shim"],
+      "venue": "The Web Conference (WWW)",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "presentation": "Oral presentation",
+      "keywords": ["Personalized Ranking", "Recommendation Systems"],
+      "category": "ml"
+    }
+  ]
+}

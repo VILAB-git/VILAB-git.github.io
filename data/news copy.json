@@ -1,0 +1,188 @@
+{
+  "news": [
+    {
+      "id": "news021",
+      "date": "2025-11-09",
+      "title": "Rethinking Direct Preference Optimization in Diffusion Models Accepted",
+      "content": "The paper \"<strong>Rethinking Direct Preference Optimization in Diffusion Models</strong>\" is accepted to <strong>AAAI 2026 and selected as oral presentation</strong>.",
+      "category": "publication",
+      "featured": true,
+      "venue": "AAAI 2026"
+    },
+    {
+      "id": "news020",
+      "date": "2025-08-01",
+      "title": "3D-Aware Vision-Language Models Paper Accepted",
+      "content": "The paper \"<strong>3D-Aware Vision-Language Models Fine-Tuning with Geometric Distillation</strong>\" is accepted to <strong>EMNLP 2025 Findings</strong>.",
+      "category": "publication",
+      "featured": false,
+      "venue": "EMNLP 2025 Findings"
+    },
+    {
+      "id": "news019",
+      "date": "2025-06-01",
+      "title": "IOT Paper Selected for Oral Presentation",
+      "content": "The paper \"<strong>I0T: Embedding Standardization Method Towards Zero Modality Gap</strong>\" has been selected as oral presentation in <strong>ACL 2025</strong>!",
+      "category": "publication",
+      "featured": true,
+      "venue": "ACL 2025"
+    },
+    {
+      "id": "news018",
+      "date": "2025-05-01",
+      "title": "Paper Accepted at ACL 2025",
+      "content": "We have a paper accepted in <strong>ACL 2025</strong>.",
+      "category": "publication",
+      "featured": false,
+      "venue": "ACL 2025"
+    },
+    {
+      "id": "news017",
+      "date": "2025-02-01",
+      "title": "3 Papers Accepted to CVPR 2025",
+      "content": "<strong>3 papers accepted to CVPR 2025</strong>.",
+      "category": "publication",
+      "featured": true,
+      "venue": "CVPR 2025"
+    },
+    {
+      "id": "news016",
+      "date": "2025-01-15",
+      "title": "2 Papers Accepted to ICLR 2025",
+      "content": "<strong>2 papers accepted to ICLR 2025</strong>.",
+      "category": "publication",
+      "featured": true,
+      "venue": "ICLR 2025"
+    },
+    {
+      "id": "news015",
+      "date": "2025-01-10",
+      "title": "Label-Augmented Dataset Distillation Oral at WACV 2025",
+      "content": "The paper \"<strong>Label-Augmented Dataset Distillation</strong>\" has been selected as oral presentation in <strong>WACV 2025</strong>.",
+      "category": "publication",
+      "featured": true,
+      "venue": "WACV 2025"
+    },
+    {
+      "id": "news014",
+      "date": "2025-01-05",
+      "title": "Image Hallucination Paper Oral at AAAI 2025",
+      "content": "The paper \"<strong>Evaluating Image Hallucination in Text-to-Image Generation with Question-Answering</strong>\" has been selected as oral presentation in <strong>AAAI 2025</strong>.",
+      "category": "publication",
+      "featured": true,
+      "venue": "AAAI 2025"
+    },
+    {
+      "id": "news013",
+      "date": "2024-12-01",
+      "title": "AAAI 2025 Paper Accepted",
+      "content": "The paper \"<strong>Evaluating Image Hallucination in Text-to-Image Generation with Question-Answering</strong>\" is accepted to <strong>AAAI 2025</strong>.",
+      "category": "publication",
+      "featured": false,
+      "venue": "AAAI 2025"
+    },
+    {
+      "id": "news012",
+      "date": "2024-09-01",
+      "title": "NeurIPS 2024 Paper Accepted",
+      "content": "The paper \"<strong>Understanding Multi-Granularity for Open-Vocabulary Part Segmentation</strong>\" is accepted to <strong>NeurIPS 2024</strong>.",
+      "category": "publication",
+      "featured": false,
+      "venue": "NeurIPS 2024"
+    },
+    {
+      "id": "news011",
+      "date": "2024-08-15",
+      "title": "WACV 2025 Paper Accepted",
+      "content": "The paper \"<strong>Label-Augmented Dataset Distillation</strong>\" is accepted to <strong>WACV 2025</strong>.",
+      "category": "publication",
+      "featured": false,
+      "venue": "WACV 2025"
+    },
+    {
+      "id": "news010",
+      "date": "2024-08-10",
+      "title": "ECCV 2024 Oral Presentation",
+      "content": "The paper \"<strong>Rethinking Data Augmentation for Robust LiDAR Semantic Segmentation in Adverse Weather</strong>\" has been selected as oral presentation in <strong>ECCV 2024</strong>.",
+      "category": "publication",
+      "featured": true,
+      "venue": "ECCV 2024"
+    },
+    {
+      "id": "news009",
+      "date": "2024-07-15",
+      "title": "Prof. Shim Program Chair of ACCV 2026",
+      "content": "<strong>Prof. Shim will serve as Program Chair of ACCV 2026</strong>.",
+      "category": "award",
+      "featured": true
+    },
+    {
+      "id": "news008",
+      "date": "2024-07-01",
+      "title": "ECCV and IROS 2024 Papers Accepted",
+      "content": "We have <strong>three papers accepted in ECCV 2024 and one paper accepted in IROS 2024</strong>.",
+      "category": "publication",
+      "featured": true,
+      "venue": "ECCV 2024, IROS 2024"
+    },
+    {
+      "id": "news007",
+      "date": "2023-12-01",
+      "title": "AAAI 2024 Paper Accepted",
+      "content": "The paper \"<strong>Weakly Supervised Semantic Segmentation for Driving Scenes</strong>\" is accepted to <strong>Association for the Advancement of Artificial Intelligence (AAAI)</strong>.",
+      "category": "publication",
+      "featured": false,
+      "venue": "AAAI 2024"
+    },
+    {
+      "id": "news006",
+      "date": "2023-04-01",
+      "title": "PAMI Paper Accepted",
+      "content": "The paper \"<strong>Saliency as Pseudo-pixel Supervision for Weakly and Semi-supervised Semantic Segmentation</strong>\" is accepted to <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI, IF=24.31)</strong>.",
+      "category": "publication",
+      "featured": true,
+      "venue": "PAMI"
+    },
+    {
+      "id": "news005",
+      "date": "2023-02-01",
+      "title": "PhD Graduations",
+      "content": "<strong>Youngjun and Kyungjune have granted Ph.D degree and has graduated SIT, Yonsei</strong>.",
+      "category": "lab_update",
+      "featured": false
+    },
+    {
+      "id": "news004",
+      "date": "2022-07-15",
+      "title": "PAMI Paper on Font Generation",
+      "content": "The paper \"<strong>Few-shot Font Generation with Weakly Supervised Localized Representations</strong>\" is accepted to <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI, IF=16.39)</strong>.",
+      "category": "publication",
+      "featured": true,
+      "venue": "PAMI"
+    },
+    {
+      "id": "news003",
+      "date": "2022-07-01",
+      "title": "Lab Moved to KAIST AI",
+      "content": "News. We moved to the <strong>The Kim Jaechul Graduate School of AI at KAIST (KAIST 김재철 AI 대학원)</strong>. If you are interested in joining our lab, you should apply to the graduate program at KAIST AI.",
+      "category": "lab_update",
+      "featured": true
+    },
+    {
+      "id": "news002",
+      "date": "2021-09-01",
+      "title": "Dr. Junsuk Choe Joins Sogang University",
+      "content": "Good news. <strong>Dr. Junsuk Choe starts his new career at Sogang University (Computer Science and Engineering) as a faculty member</strong>. Congratulation!",
+      "category": "lab_update",
+      "featured": true
+    },
+    {
+      "id": "news001",
+      "date": "2020-08-15",
+      "title": "Junsuk Choe PhD Graduation",
+      "content": "Congratulations! <strong>Junsuk Choe has granted Ph.D degree and has graduated SIT, Yonsei</strong>.",
+      "category": "lab_update",
+      "featured": false
+    }
+  ]
+}

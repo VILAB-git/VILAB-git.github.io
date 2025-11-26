@@ -1,0 +1,134 @@
+{
+  "categories": {
+    "lab-life": "Lab Life",
+    "conferences": "Conferences",
+    "workshop": "Workshop"
+  },
+  "gallery_items": [
+    // {
+    //   "title": "KCCV 2025 Workshop",
+    //   "description": "KCCV 2025에서 진행한 워크샵",
+    //   "category": "workshop",
+    //   "date": "2025-08",
+    //   "image": "Workshop_KCCV_2025.jpg",
+    //   "alt_text": "KCCV 2025 Workshop",
+    //   "featured": true,
+    //   "tags": ["kccv", "workshop", "presentation"]
+    // },
+    // {
+    //   "title": "ICLR 2025 Travel",
+    //   "description": "ICLR 2025 학회 포스터/발표",
+    //   "category": "conferences",
+    //   "date": "2025-04",
+    //   "image": "Conference_ICLR_2025.jpg",
+    //   "alt_text": "ICLR 2025",
+    //   "featured": true,
+    //   "tags": ["iclr", "conference", "travel"],
+    //   "venue": "ICLR 2025"
+    // },
+    // {
+    //   "title": "Spring Lab Picnic",
+    //   "description": "교수님과 함께하는 벚꽃 나들이",
+    //   "category": "lab-life",
+    //   "date": "2025-04",
+    //   "image": "LabLife_Autumn_Picnic_2024.jpg",
+    //   "alt_text": "Spring Lab Picnic",
+    //   "featured": false,
+    //   "tags": ["picnic", "lab-life", "outdoor"]
+    // },
+    // {
+    //   "title": "IPIU 2025",
+    //   "description": "국내 학회 IPIU 2025 참가",
+    //   "category": "conferences",
+    //   "date": "2025-02",
+    //   "image": "Conference_IPIU_2025.jpg",
+    //   "alt_text": "IPIU 2025",
+    //   "featured": false,
+    //   "tags": ["ipiu", "conference"]
+    // },
+    // {
+    //   "title": "NeurIPS 2024 Poster",
+    //   "description": "NeurIPS 2024 포스터 발표 (최지호, 이선호)",
+    //   "category": "conferences",
+    //   "date": "2024-12",
+    //   "image": "Conference_Neurlips_2025.jpg",
+    //   "alt_text": "NeurIPS 2024 Poster",
+    //   "featured": false,
+    //   "tags": ["neurips", "poster", "machine-learning"],
+    //   "venue": "NeurIPS 2024"
+    // },
+    // {
+    //   "title": "CVML 연말 회식",
+    //   "description": "한 해를 마무리하는 랩 연말 회식",
+    //   "category": "lab-life",
+    //   "date": "2024-11",
+    //   "image": "LabLife_Winter_Dinner_2024.jpg",
+    //   "alt_text": "Year-end Lab Dinner",
+    //   "featured": false,
+    //   "tags": ["dinner", "lab-life", "celebration"]
+    // },
+    // {
+    //   "title": "Autumn Lab Picnic",
+    //   "description": "가을 피크닉",
+    //   "category": "lab-life",
+    //   "date": "2024-11",
+    //   "image": "LabLife_Fall_Picnic_2024.jpg",
+    //   "alt_text": "Autumn Lab Picnic",
+    //   "featured": false,
+    //   "tags": ["picnic", "lab-life", "autumn"]
+    // },
+    // {
+    //   "title": "IROS 2024 Oral",
+    //   "description": "IROS 2024 발표 (이휘정)",
+    //   "category": "conferences",
+    //   "date": "2024-10",
+    //   "image": "Conference_IROS_2024.jpg",
+    //   "alt_text": "IROS 2024 Oral",
+    //   "featured": false,
+    //   "tags": ["iros", "oral", "robotics"],
+    //   "venue": "IROS 2024"
+    // },
+    // {
+    //   "title": "ECCV 2024 Oral",
+    //   "description": "ECCV 2024 발표 (박준성)",
+    //   "category": "conferences",
+    //   "date": "2024-09",
+    //   "image": "Conference_ECCV_2024.png",
+    //   "alt_text": "ECCV 2024 Oral",
+    //   "featured": false,
+    //   "tags": ["eccv", "oral", "computer-vision"],
+    //   "venue": "ECCV 2024"
+    // },
+    // {
+    //   "title": "ECCV 2024 Poster",
+    //   "description": "ECCV 2024 포스터 발표 (유효곤)",
+    //   "category": "conferences",
+    //   "date": "2024-09",
+    //   "image": "Conference_ECCV_2024_Hyo.jpg",
+    //   "alt_text": "ECCV 2024 Poster",
+    //   "featured": false,
+    //   "tags": ["eccv", "poster", "computer-vision"],
+    //   "venue": "ECCV 2024"
+    // },
+    // {
+    //   "title": "CVML 졸업 기념 회식",
+    //   "description": "박사 졸업 축하 회식",
+    //   "category": "lab-life",
+    //   "date": "2024-08",
+    //   "image": "LabLife_Fall_Graduation_2024.png",
+    //   "alt_text": "Graduation Celebration",
+    //   "featured": false,
+    //   "tags": ["graduation", "celebration", "lab-life"]
+    // },
+    // {
+    //   "title": "7월 워크샵 세미나",
+    //   "description": "귀추적 추론 프레임워크 워크샵 세미나",
+    //   "category": "workshop",
+    //   "date": "2024-07",
+    //   "image": "Workshop_Summer_2024.jpg",
+    //   "alt_text": "Summer Workshop Seminar",
+    //   "featured": false,
+    //   "tags": ["workshop", "seminar", "summer"]
+    // }
+  ]
+}

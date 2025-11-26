@@ -1,0 +1,147 @@
+{
+  "categories": {
+    "generative-ai": "Generative AI",
+    "computer-vision": "Computer Vision",
+    "machine-learning": "Machine Learning",
+    "medical-imaging": "Medical Imaging",
+    "multimodal": "Multi-Modal Learning",
+    "robotics": "Robotics",
+    "trustworthy-ai": "Trustworthy AI"
+  },
+  "status": {
+    "ongoing": "Ongoing",
+    "completed": "Completed",
+    "planned": "Planned"
+  },
+  "projects": [
+    {
+      "title": "Content-based visual rich document generation",
+      "category": "generative-ai",
+      "status": "ongoing",
+      "description": "TBD.",
+      "funding": "Samsung Research",
+      "duration": "2025.08 - 2026.08",
+      "image": "samsung_research.png",
+      "links": {}
+    },
+    {
+      "title": "Development of self-evolving AI bias detection-correction-explain platform based on international multidisciplinary governance",
+      "category": "trustworthy-ai",
+      "status": "ongoing",
+      "description": "TBD.",
+      "funding": "Institute for Information & communication Technology Planning & evaluation (IITP)",
+      "duration": "2025.04 - 2028.12",
+      "image": "bias.png",
+      "links": {}
+    },
+    {
+      "title": "Development of an air quality prediction model using artificial intelligence",
+      "category": "trustworthy-ai",
+      "status": "ongoing",
+      "description": "TBD.",
+      "funding": "National Institute of Environmental Research (NIER)",
+      "duration": "2023 - 2027",
+      "image": "finedust.png",
+      "links": {}
+    },
+    {
+      "title": "Development of Open-Vocabulary Image Segmentation Method",
+      "category": "computer-vision",
+      "status": "completed",
+      "description": "Research on open-vocabulary image segmentation methods that generalize to unseen categories using large-scale vision-language models.",
+      "funding": "Samsung DS",
+      "duration": "2024",
+      "links": {}
+    },
+    {
+      "title": "Development of High Performance/High Efficiency/High Reliability in Image Segmentation Algorithm",
+      "category": "computer-vision",
+      "status": "completed",
+      "description": "Development of robust and efficient image segmentation algorithms with improved accuracy, speed, and reliability for industrial applications.",
+      "funding": "SFA",
+      "duration": "2023",
+      "links": {}
+    },
+    {
+      "title": "3D Aware Vision Language Model",
+      "category": "multimodal",
+      "status": "completed",
+      "description": "Design of a 3D-aware vision-language model that jointly reasons about images, text, and 3D structure.",
+      "funding": "Samsung SR",
+      "duration": "2024",
+      "links": {}
+    },
+    {
+      "title": "Low-shot Learning for Image Generative Models",
+      "category": "generative-ai",
+      "status": "completed",
+      "description": "Low-shot learning techniques for image generative models to adapt to new concepts with limited examples.",
+      "funding": "Naver AI",
+      "duration": "2023-2024",
+      "links": {}
+    },
+    {
+      "title": "Photorealistic Enhancement of Virtual Character",
+      "category": "computer-vision",
+      "status": "completed",
+      "description": "Photorealistic rendering and enhancement of virtual characters for games and interactive media.",
+      "funding": "NCSOFT",
+      "duration": "2022",
+      "links": {}
+    },
+    {
+      "title": "Developing a Generalized Feature Extractor for Handling Both Real and Synthetic Faces",
+      "category": "computer-vision",
+      "status": "completed",
+      "description": "Development of a generalized facial feature extractor robust to both real and synthetic (CG) faces.",
+      "funding": "NCSOFT",
+      "duration": "2021",
+      "links": {}
+    },
+    {
+      "title": "Deep Learning based Face Normalization",
+      "category": "computer-vision",
+      "status": "completed",
+      "description": "Deep learning based face normalization for robust recognition under varying pose and illumination.",
+      "funding": "NCSOFT",
+      "duration": "2020",
+      "links": {}
+    },
+    {
+      "title": "Few-shot Font Generation",
+      "category": "generative-ai",
+      "status": "completed",
+      "description": "Few-shot learning methods for generating new fonts from a small number of character examples.",
+      "funding": "Naver",
+      "duration": "2020",
+      "links": {}
+    },
+    {
+      "title": "Structured Light based Depth Sensor",
+      "category": "computer-vision",
+      "status": "completed",
+      "description": "Design and calibration of a structured-light based depth sensing system.",
+      "funding": "Samsung Electronics",
+      "duration": "2017",
+      "links": {}
+    },
+    {
+      "title": "Image Processing for Face Recognition",
+      "category": "computer-vision",
+      "status": "completed",
+      "description": "Image processing techniques for robust face recognition in practical environments.",
+      "funding": "KT",
+      "duration": "2015",
+      "links": {}
+    },
+    {
+      "title": "Consultant for Software Development",
+      "category": "machine-learning",
+      "status": "completed",
+      "description": "Consulting for software development, including algorithm design and system implementation.",
+      "funding": "Sambon Electronics",
+      "duration": "2015",
+      "links": {}
+    }
+  ]
+}

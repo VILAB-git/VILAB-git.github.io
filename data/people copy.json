@@ -1,0 +1,346 @@
+{
+  "categories": {
+    "postdoc": "Postdocs",
+    "phd": "PhD Students",
+    "masters": "Masters Students",
+    "undergraduate": "Undergraduate Students",
+    "intern": "Interns",
+    "visiting": "Visiting Researchers"
+  },
+  "positions": {
+    "current": "Current Members",
+    "alumni": "Alumni"
+  },
+  "current": [
+    {
+      "name": "Seongjong Song",
+      "email": "bell@yonsei.ac.kr",
+      "category": "phd",
+      "image": "SeongjongSong.png",
+      "researchInterests": ["Image restoration"]
+    },
+    {
+      "name": "Kunhee Kim",
+      "email": "kunhee.kim@kaist.ac.kr",
+      "category": "phd",
+      "image": "KunheeKim.JPG",
+      "researchInterests": ["Generative models"],
+      "website": "https://kunheek.github.io"
+    },
+    {
+      "name": "NaHyeon Park",
+      "email": "julia19@kaist.ac.kr",
+      "category": "phd",
+      "image": "NahyeonPark.jpg",
+      "researchInterests": ["Generative models"],
+      "website": "https://nahyeonkaty.github.io"
+    },
+    {
+      "name": "Na Min An",
+      "email": "naminan@kaist.ac.kr",
+      "category": "phd",
+      "image": "NaminAn.png",
+      "researchInterests": ["Generative models"],
+      "website": "https://namin-an.github.io/"
+    },
+    {
+      "name": "Junsung Park",
+      "email": "jshackist@kaist.ac.kr",
+      "category": "phd",
+      "image": "JunsungPark.png",
+      "researchInterests": ["Autonomous Driving & Navigation"],
+      "website": "https://engineerjpark.github.io/"
+    },
+    {
+      "name": "Jiho Choi",
+      "email": "jihochoi@kaist.ac.kr",
+      "category": "phd",
+      "image": "JihoChoi.jpg",
+      "researchInterests": ["Open-Vocabulary", "Part segmentation"],
+      "website":"http://jihochoi.github.io/"
+    },
+    {
+      "name": "Seojeong Park",
+      "email": "seojeong.park@kaist.ac.kr",
+      "category": "phd",
+      "image": "SeojeongPark.jpg",
+      "researchInterests": ["Multimodal"]
+    },
+    {
+      "name": "Hojun Choi",
+      "email": "hchoi256@kaist.ac.kr",
+      "category": "masters",
+      "image": "HojunChoi.jpg",
+      "researchInterests": ["Open-Vocabulary", "Object Detection"]
+    },
+    {
+      "name": "Junyong Kang",
+      "email": "jykang@kaist.ac.kr",
+      "category": "phd",
+      "image": "JunyongKang.jpg",
+      "researchInterests": ["Representation learning", "Explainable AI"]
+    },
+    {
+      "name": "Jiwook Kim",
+      "email": "tom919@kaist.ac.kr",
+      "category": "masters",
+      "image": "JiwookKim.jpg",
+      "researchInterests": ["High-dimensional Vision", "Vision Foundation Model", "World Model"],
+      "website": "https://jw-kim.netlify.app/"
+    },
+    {
+      "name": "Seonho Lee",
+      "email": "seonho.lee@kaist.ac.kr",
+      "category": "masters",
+      "image": "SeonhoLee.jpg",
+      "researchInterests": ["Computer Vision", "Machine Learning"],
+      "website": "https://glanceyes.github.io/"
+    },
+    {
+      "name": "Jaeyo Shin",
+      "email": "jaeyo_shin@kaist.ac.kr",
+      "category": "masters",
+      "image": "JaeyoShin.jpg",
+      "researchInterests": ["3D Understanding", "Generative Models"]
+    },
+    {
+      "name": "Inha Kang",
+      "email": "rkswlsj13@kaist.ac.kr",
+      "category": "phd",
+      "image": "InhaKang.jpg",
+      "researchInterests": ["Vision Language Models", "Multimodal"]
+    },
+    {
+      "name": "Wonjeong Ryu",
+      "email": "petac@kaist.ac.kr",
+      "category": "phd",
+      "image": "WongjungRyu.jpg",
+      "researchInterests": ["Computer Vision", "RAS"]
+    },
+    {
+      "name": "Soyeon Yoon",
+      "email": "thoyeony@kaist.ac.kr",
+      "category": "phd",
+      "image": "SoyeonYoon.jpg",
+      "researchInterests": ["3D Deformation", "3D Generation"]
+    },
+    {
+      "name": "Seungjun Yu",
+      "email": "seungjunyu@kaist.ac.kr",
+      "category": "phd",
+      "image": "SeungjunYu.jpg",
+      "researchInterests": ["Multimodal", "Autonomous Driving"]
+    },
+    {
+      "name": "Jinwoo Lee",
+      "email": "bestgenius10@kaist.ac.kr",
+      "category": "masters",
+      "image": "JinwooLee.jpg",
+      "researchInterests": ["3D Computer Vision"]
+    },
+    {
+      "name": "Eunki Kim",
+      "email": "eunkikim@kaist.ac.kr",
+      "category": "masters",
+      "image": "EunkiKim.jpg",
+      "researchInterests": ["Multimodal", "Reasoning", "Alignment Training"]
+    },
+    {
+      "name": "Suin Lee",
+      "email": "suinlee@kaist.ac.kr",
+      "category": "intern",
+      "image": "SuinLee.jpg",
+      "researchInterests": ["3D Computer Vision", "3D Generative Models"],
+      "website": "https://adios42.github.io/"
+    },
+    {
+      "name": "Raehyuk Jung",
+      "email": "",
+      "category": "intern",
+      "image": "RaehyukJung.jpg",
+      "researchInterests": ["Computer Vision", "Machine Learning"]
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Minjoon Kim",
+      "email": "",
+      "category": "masters",
+      "title": "Masters",
+      "nextPosition": "Seoul National University",
+      "image": "minjoon_kim.jpg",
+      "graduationDate": "2015-12"
+    },
+    {
+      "name": "Joohyun Park",
+      "email": "pwangjoo@naver.com",
+      "category": "masters",
+      "title": "Masters",
+      "nextPosition": "MedGo CTO",
+      "image": "joohyun_park.jpg",
+      "graduationDate": "2019-12"
+    },
+    {
+      "name": "Armagan Elibol",
+      "email": "aelibol@gmail.com",
+      "category": "postdoc",
+      "title": "Postdoc",
+      "nextPosition": "Japan Advanced Institute of Science and Technology",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2016-01"
+    },
+    {
+      "name": "Sukmyung Lee",
+      "email": "skmng390.lee@gmail.com",
+      "category": "postdoc",
+      "title": "Postdoc",
+      "nextPosition": "TBD",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2016-12"
+    },
+    {
+      "name": "Duhyeon Bang",
+      "email": "duhyeonbang@yonsei.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Vision AI Labs, T3K, SK telecom",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2020-02"
+    },
+    {
+      "name": "Junsuk Choe",
+      "email": "junsukchoe@yonsei.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Assistant Professor at Sogang University",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2020-08"
+    },
+    {
+      "name": "Song Park",
+      "email": "song.park@navercorp.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "NAVER AI Lab",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2022-02"
+    },
+    {
+      "name": "Chanyeong Shin",
+      "email": "cyshin@yonsei.ac.kr",
+      "category": "masters",
+      "title": "Masters",
+      "nextPosition": "TBD",
+      "image": "chanyeong_shin.jpg",
+      "graduationDate": "2022-02"
+    },
+    {
+      "name": "Kyungjune Baek",
+      "email": "kyungjune23@gmail.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Assistant Professor at Sejong University",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2023-02"
+    },
+    {
+      "name": "Youngjun Ko",
+      "email": "youngjun.ko@yonsei.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "SAMSUNG MEDISON",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2023-02"
+    },
+    {
+      "name": "Seungho Lee",
+      "email": "seungholee@yonsei.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Samsung Advanced Institute of Technology",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2024-08"
+    },
+    {
+      "name": "Seoungyoon Kang",
+      "email": "sy.kang@yonsei.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Samsung Global Research",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2024-08"
+    },
+    {
+      "name": "Minhyun Lee",
+      "email": "lmh315@yonsei.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Samsung Advanced Institute of Technology",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2024-08"
+    },
+    {
+      "name": "Dongseob Kim",
+      "email": "kou.k@yonsei.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Samsung Electronics MX",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2024-08"
+    },
+    {
+      "name": "Kyungmin Kim",
+      "email": "kyungmin.kim@yonsei.ac.kr",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "TBD",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2025-02"
+    },
+    {
+      "name": "Hwijeong Lee",
+      "email": "hjlee0612@kaist.ac.kr",
+      "category": "masters",
+      "title": "Masters",
+      "nextPosition": "TBD",
+      "image": "hwijeong_lee.jpg",
+      "graduationDate": "2025-02"
+    },
+    {
+      "name": "Hyogon Ryu",
+      "email": "hyogon.ryu@kaist.ac.kr",
+      "category": "masters",
+      "title": "Masters",
+      "nextPosition": "KRAFTON AI",
+      "image": "hyogon_ryu.jpg",
+      "graduationDate": "2025-02"
+    },
+    {
+      "name": "Yunji Jung",
+      "email": "jungyj0105@kaist.ac.kr",
+      "category": "masters",
+      "title": "Masters",
+      "nextPosition": "Riiid",
+      "image": "yunji_jung.jpg",
+      "graduationDate": "2025-08"
+    },
+    {
+      "name": "Youngsun Lim",
+      "email": "youngsun_ai@kaist.ac.kr",
+      "category": "masters",
+      "title": "Masters",
+      "nextPosition": "PhD student at Boston University",
+      "image": "student-placeholder.svg",
+      "graduationDate": "2025-08"
+    },
+    {
+      "name": "Seohyun Lim",
+      "email": "seohyunlim@kaist.ac.kr",
+      "category": "masters",
+      "title": "Masters",
+      "nextPosition": "FASOO",
+      "image": "seohyun_lim.jpg",
+      "graduationDate": "2025-08"
+    }
+  ]
+}
