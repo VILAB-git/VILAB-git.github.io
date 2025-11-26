@@ -1,4 +1,4 @@
-# KAIST CVML Lab Website
+# KAIST Visual Intelligence Lab Website
 
 Internal guide for managing the lab website.
 
@@ -7,7 +7,7 @@ Internal guide for managing the lab website.
 To test the website locally:
 ```bash
 # Navigate to the project folder
-cd kaist-cvml.github.io
+cd kaist-vilab.github.io
 
 # Start local server
 python3 -m http.server 8000

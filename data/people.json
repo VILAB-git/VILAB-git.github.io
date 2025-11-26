@@ -273,6 +273,91 @@
     }
   ],
   "alumni": [
-    
+    {
+      "name": "Seongyong Ahn",
+      "email": "seongyong.ahn@gmail.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "ADD",
+      "graduationDate": "2025-02"
+    },
+    {
+      "name": "Taewoo Kim",
+      "email": "an625148@gmail.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Qualcomm",
+      "graduationDate": "2025-02",
+      "website": "https://intelpro.github.io/"
+    },
+    {
+      "name": "Sung-Hoon Yoon",
+      "email": "ysh941109@gmail.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "DGIST",
+      "graduationDate": "2025-02"
+    },
+    {
+      "name": "Daehee Park",
+      "email": "bag2824@gmail.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "DGIST",
+      "graduationDate": "2025-02",
+      "website": "https://sites.google.com/view/dhpark/"
+    },
+    {
+      "name": "Hyeokjun Kweon",
+      "email": "0327june@gmail.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Chung-Ang University",
+      "graduationDate": "2025-02",
+      "website": "https://sangrockeg.github.io/"
+    },
+    {
+      "name": "Taeyeop Lee",
+      "email": "taeyeop.trevor@gmail.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "KAIST(Post-doc)",
+      "graduationDate": "2025-02",
+      "website": "https://sites.google.com/view/taeyeop-lee/"
+    },
+    {
+      "name": "Inkyu Shin",
+      "email": "dlsrbgg33@gmail.com",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "TikTok",
+      "graduationDate": "2024-02",
+      "website": "https://dlsrbgg33.github.io/"
+    },
+    {
+      "name": "Pranjay Shyam",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "Faurecia Irystec",
+      "graduationDate": "2022-08"
+    },
+    {
+      "name": "Lin Wang",
+      "email": "linwang@ust.hk",
+      "category": "phd",
+      "title": "PhD",
+      "nextPosition": "NTU-Singapore",
+      "graduationDate": "2021-08",
+      "website": "https://vlislab22.github.io/vlislab/people.html"
+    },
+
+    {
+      "name": "Youngjin Oh",
+      "email": "970529dudwls@gmail.com",
+      "category": "ms",
+      "title": "Masters",
+      "nextPosition": "",
+      "graduationDate": "2025-02"
+    }
   ]
 }

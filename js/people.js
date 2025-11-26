@@ -94,6 +94,9 @@ class PeoplePage {
     if (person.googleScholar) {
       links.push(`<a href="${person.googleScholar}" target="_blank" class="person-link">Google Scholar</a>`);
     }
+    if (person.linkedin) {
+      links.push(`<a href="${person.linkedin}" target="_blank" class="person-link">LinkedIn</a>`);
+    }
 
     return `
       <div class="person-card">
@@ -121,6 +124,17 @@ class PeoplePage {
       ? new Date(person.graduationDate).getFullYear()
       : '';
 
+    const links = [];
+    if (person.website) {
+      links.push(`<a href="${person.website}" target="_blank" class="person-link">Website</a>`);
+    }
+    if (person.googleScholar) {
+      links.push(`<a href="${person.googleScholar}" target="_blank" class="person-link">Google Scholar</a>`);
+    }
+    if (person.linkedin) {
+      links.push(`<a href="${person.linkedin}" target="_blank" class="person-link">LinkedIn</a>`);
+    }
+
     return `
       <div class="person-card alumni-card">
         <div class="person-info">
@@ -132,6 +146,7 @@ class PeoplePage {
           ${graduationYear ? `<p class="graduation-info">
             <strong>Graduated:</strong> ${this.formatGraduationDate(person.graduationDate)}
           </p>` : ''}
+          ${links.length > 0 ? `<div class="person-links">${links.join('')}</div>` : ''}
         </div>
       </div>
     `;
