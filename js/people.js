@@ -137,9 +137,9 @@ class PeoplePage {
 
   getPlaceholderImage(category) {
     if (category === 'faculty') {
-      return '../assets/logos/faculty-placeholder.svg';
+      return '../assets/images/people/faculty-placeholder.svg';
     }
-    return '../assets/logos/student-placeholder.svg';
+    return '../assets/images/people/student-placeholder.svg';
   }
 
   formatGraduationDate(dateString) {
