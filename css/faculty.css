@@ -389,14 +389,23 @@
     margin-left: 0;
   }
 
+  /* Professional & Public Service 모바일 레이아웃 */
   .public-service-item {
-    flex-direction: column;
-    align-items: flex-start;
+    display: block;          /* flex 대신 block */
+    margin-bottom: 10px;
+  }
+
+  .public-service-name {
+    display: block;          /* 한 줄 전체 차지 */
+    margin-bottom: 2px;
   }
 
   .public-service-period {
+    display: block;          /* 아래 줄로 내려오게 */
+    white-space: normal;     /* 줄바꿈 허용 */
     margin-left: 0;
     margin-top: 2px;
+    text-align: left;        /* 오른쪽 정렬이 싫으면 왼쪽 정렬 */
   }
 
   .academic-org-item {
