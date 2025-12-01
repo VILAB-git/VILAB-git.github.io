@@ -5,6 +5,19 @@
   },
   "gallery_items": [
     {
+      "title": "ICCV 2025",
+      "description": "ICCV 2025 학회 참석",
+      "category": "conferences",
+      "date": "2025-10",
+      "image_dir": "ICCV25",
+      "image_count": 14,
+      "alt_text": "ICCV 2025",
+      "featured": true,
+      "tags": ["iccv", "conference"],
+      "venue": "ICCV 2025",
+      "location": "Hawaii, USA"
+    },
+    {
       "title": "CVPR 2025",
       "description": "CVPR 2025 학회 참석",
       "category": "conferences",
