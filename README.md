@@ -561,7 +561,7 @@ Used when the **lab's work appears in external media** (IEEE Spectrum, news arti
 
 ---
 
-## Adding Gallery Items
+## Adding Gallery
 ### Edit `data/gallery.json`:
 ```json
 {
@@ -589,6 +589,7 @@ Add images to newly made directory.
   - Image file should be `jpg` file.
 
 
+---
 ---
 
 ## 🖼️ Adding Images
