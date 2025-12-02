@@ -58,6 +58,8 @@ git commit -a -m "Commit Messages"
 git push
 ```
 
+---
+
 ## 📁 File Structure
 
 ```
@@ -111,6 +113,7 @@ git push
 - Always test locally before pushing changes
 - Keep image files small (< 1MB) for fast loading
 
+---
 
 ## ✏️ How to Update Content
 
@@ -153,6 +156,8 @@ add more information about people
 ```
 
 add name to `members-alumni` list
+
+---
 
 ## Modify Faculty Information
 Edit `data/faculty.json`:
@@ -278,6 +283,8 @@ Each entry under `International` and `Domestic` foolows this format:
   }
   ```
 
+---
+
 ## Add Research
 ### Edit `data/research.json`
 ```json
@@ -305,6 +312,8 @@ Each entry under `International` and `Domestic` foolows this format:
 
 Add image/video files to `assets/images/research/` if needed
 
+---
+
 ## Add Publication
 ### Edit `data/publications.json`
 ```json
@@ -324,6 +333,8 @@ Add image/video files to `assets/images/research/` if needed
 }
 ```
 
+---
+
 ## Add Projects
 ### Edit `data/projects.json`
 ```json
@@ -339,6 +350,8 @@ Add image/video files to `assets/images/research/` if needed
   "links": {}
 }
 ```
+
+---
 
 ## Adding News
 ### Edit `data/news.json`:
@@ -544,6 +557,8 @@ Used when the **lab's work appears in external media** (IEEE Spectrum, news arti
 }
 ```
 
+---
+
 ## Adding Gallery Items
 ### Edit `data/gallery.json`:
 ```json
@@ -572,7 +587,7 @@ Add images to newly made directory.
   - Image file should be `jpg` file.
 
 
-
+---
 
 ## 🖼️ Adding Images
 
