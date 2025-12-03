@@ -102,11 +102,14 @@ class PeoplePage {
     if (person.website) {
       links.push(`<a href="${person.website}" target="_blank" class="person-link">Website</a>`);
     }
-    if (person.googleScholar) {
-      links.push(`<a href="${person.googleScholar}" target="_blank" class="person-link">Google Scholar</a>`);
+    if (person.googlescholor) {
+      links.push(`<a href="${person.googlescholor}" target="_blank" class="person-link">Google Scholar</a>`);
     }
     if (person.linkedin) {
       links.push(`<a href="${person.linkedin}" target="_blank" class="person-link">LinkedIn</a>`);
+    }
+    if (person.github) {
+      links.push(`<a href="${person.github}" target="_blank" class="person-link">Github</a>`);
     }
 
     return `

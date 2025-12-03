@@ -122,7 +122,10 @@
       "role": "2025 Lab Leader (랩장)",
       "image": "JihunKim.jpg",
       "researchInterests": ["Semantic Segmentation", "Domain Adaptation", "Point Cloud", "Foundation Model"],
-      "website": "https://jihun1998.github.io/"
+      "website": "https://jihun1998.github.io/",
+      "googlescholor": "https://scholar.google.com/citations?user=8UVicysAAAAJ&hl=en",
+      "linkedin": "https://www.linkedin.com/in/jihun1998/",
+      "github": "https://github.com/jihun1998"
     },
     {
       "name": "Byeongin Joung",
@@ -330,7 +333,8 @@
       "category": "ms",
       "major_ms": "Division of Future Vehicle",
       "image": "HeejunPark.jpg",
-      "researchInterests": ["TBD"]
+      "researchInterests": ["3D Computer Vision"],
+      "website": "https://parkie0517.github.io/"
     },
     {
       "name": "Daehyun We",
