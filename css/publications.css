@@ -54,6 +54,10 @@
   white-space: nowrap;
 }
 
+.filter-group-status.hidden {
+  display: none;
+}
+
 .filter-btn {
   padding: 8px 16px;
   border: 1px solid #ddd;
@@ -139,10 +143,10 @@
   margin-bottom: 6px;
 }
 
-.publication-patent-id {
+.publication-patent-meta {
+  margin-top: 4px;
   font-size: 0.9em;
-  color: #666;
-  margin-bottom: 8px;
+  color: #555;
 }
 
 .publication-venue {
@@ -195,6 +199,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 

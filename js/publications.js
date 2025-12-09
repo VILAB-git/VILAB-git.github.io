@@ -14,6 +14,33 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   const TOP_CV = ['CVPR', 'ECCV', 'ICCV'];
 
+  // ---- Patent helpers ----
+  function getYearFromDateStr(dateStr) {
+    if (!dateStr) return null;
+    // "2024.03.05" / "2013.10.30" 등에서 연도 4자리 추출
+    const match = String(dateStr).match(/(\d{4})/);
+    return match ? parseInt(match[1], 10) : null;
+  }
+
+  function getPatentYear(pub) {
+    // registration_date 우선, 없으면 application_date 사용
+    const regYear = getYearFromDateStr(pub.registration_date);
+    if (regYear) return regYear;
+    const appYear = getYearFromDateStr(pub.application_date);
+    return appYear || null;
+  }
+
+  function enrichPublicationsWithPatentYear(publications) {
+    publications.forEach((pub) => {
+      if (pub.type === 'patent') {
+        const y = getPatentYear(pub);
+        if (y) {
+          pub.year = y; // 기존 year 필드가 있더라도 여기서 덮어씀
+        }
+      }
+    });
+  }
+
   function getYearGroup(year) {
     if (year >= 2026) return '2026';
     if (year === 2025) return '2025';
@@ -42,6 +69,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     try {
       // Load publications data
       allPublications = await window.dataManager.getPublications();
+
+      // 특허 year 정보 주입
+      enrichPublicationsWithPatentYear(allPublications);
 
       // Create filter buttons
       await createFilterButtons();
@@ -113,6 +143,14 @@ document.addEventListener('DOMContentLoaded', async function () {
         <button class="filter-btn" data-filter="venue" data-value="Other Conferences">Other Conferences</button>
         <button class="filter-btn" data-filter="venue" data-value="Journals">Journals</button>
         <button class="filter-btn" data-filter="venue" data-value="Patents">Patents</button>
+      </div>
+      <!-- Status Filter group visualized when Patents selected -->
+      <div class="filter-group filter-group-status hidden">
+        <label>Filter by Status:</label>
+        <button class="filter-btn active" data-filter="status" data-value="all">All</button>
+        <button class="filter-btn" data-filter="status" data-value="active">Active</button>
+        <button class="filter-btn" data-filter="status" data-value="expired">Expired</button>
+        <button class="filter-btn" data-filter="status" data-value="application">Application</button>
       </div>
     `;
   }
@@ -219,8 +257,46 @@ document.addEventListener('DOMContentLoaded', async function () {
   function createPublicationHTML(pub) {
     const isPatent = pub.type === 'patent';
   
-    // venue + year (patent: Only venue or add year)
-    const venueText = `${pub.venue} ${pub.year ? pub.year : ''}`.trim();
+    // venue + year 텍스트 (year가 없으면 venue만)
+    const yearText = pub.year ? ` ${pub.year}` : '';
+    const venueText = `${pub.venue}${yearText}`;
+
+    // 특허용 메타 정보 (출원/등록/상태)
+    let patentMetaHTML = '';
+    if (isPatent) {
+      const hasApp = pub.application_no || pub.application_date;
+      const hasReg = pub.registration_no || pub.registration_date;
+
+      if (hasReg) {
+        patentMetaHTML += `
+          <p class="publication-patent-meta">
+            Registration (등록): 
+            ${pub.country ? `<strong>${pub.country}</strong>, ` : ''}
+            ${pub.registration_no ? `<strong>${pub.registration_no}</strong>` : ''}
+            ${pub.registration_date ? ` (${pub.registration_date})` : ''}
+          </p>
+        `;
+      }
+
+      if (hasApp) {
+        patentMetaHTML += `
+          <p class="publication-patent-meta">
+            Application (출원): 
+            ${pub.country ? `<strong>${pub.country}</strong>, ` : ''}
+            ${pub.application_no ? `<strong>${pub.application_no}</strong>` : ''}
+            ${pub.application_date ? ` (${pub.application_date})` : ''}
+          </p>
+        `;
+      }
+
+      if (pub.status) {
+        patentMetaHTML += `
+          <p class="publication-patent-meta">
+            Status: <strong>${pub.status}</strong>
+          </p>
+        `;
+      }
+    }
     
     return `
       <div class="publication-item ${pub.featured ? 'featured' : ''}" 
@@ -236,23 +312,24 @@ document.addEventListener('DOMContentLoaded', async function () {
           </h3>
   
           <!-- Authors -->
-          <p class="publication-authors">${pub.authors.join(', ')}</p>
+          ${pub.authors && pub.authors.length ? `
+            <p class="publication-authors">${pub.authors.join(', ')}</p>
+          ` : ''}
 
-          <! -- Authors (Korean) -->
-          ${pub.authors_kor ? `<p class="publication-authors-kor">${pub.authors_kor.join(', ')}</p>` : ''}
-
-          <!-- Patent ID -->
-          ${isPatent && pub.patent_id ? 
-            `<p class="publication-patent-id">Patent ID: <strong>${pub.patent_id}</strong></p>` 
-           : ''}
+          ${pub.authors_kor && pub.authors_kor.length ? `
+            <p class="publication-authors-kor">${pub.authors_kor.join(', ')}</p>
+          ` : ''}
   
           <!-- Venue -->
           <p class="publication-venue">
             <strong>${venueText}</strong>
           </p>
+
+          <!-- 특허일 때만 application/registration/status 표시 -->
+          ${patentMetaHTML}
   
           <!-- Abstract -->
-          ${pub.abstract ? `<p class="publication-description">${pub.abstract}</p>` : ''}
+          ${pub.abstract && !isPatent ? `<p class="publication-description">${pub.abstract}</p>` : ''}
   
           <!-- Keywords -->
           ${pub.keywords ? `
@@ -300,6 +377,21 @@ document.addEventListener('DOMContentLoaded', async function () {
     filterGroup.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
     e.target.classList.add('active');
 
+    if (filterType === 'venue') {
+    const statusGroup = filterContainer.querySelector('.filter-group-status');
+    if (statusGroup) {
+      if (filterValue === 'Patents') {
+        statusGroup.classList.remove('hidden');
+      } else {
+        // 다른 venue 선택 시 status 필터 리셋 + 숨김
+        statusGroup.classList.add('hidden');
+        const allStatusBtn = statusGroup.querySelector('[data-filter="status"][data-value="all"]');
+        statusGroup.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        if (allStatusBtn) allStatusBtn.classList.add('active');
+      }
+    }
+  }
+
     // Apply filter
     applyFilters();
   }
@@ -314,7 +406,8 @@ document.addEventListener('DOMContentLoaded', async function () {
   async function applyFilters() {
     const activeFilters = {
       year: getActiveFilterValue('year'),
-      venue: getActiveFilterValue('venue')
+      venue: getActiveFilterValue('venue'),
+      status: getActiveFilterValue('status')
       // category: getActiveFilterValue('category'),
       // type: getActiveFilterValue('type')
     };
@@ -361,6 +454,22 @@ document.addEventListener('DOMContentLoaded', async function () {
       } 
     }
 
+    // --- Status 필터 (Patents용) ---
+    if (activeFilters.status !== 'all') {
+      const statusVal = activeFilters.status.toLowerCase();
+      filteredPublications = filteredPublications.filter(pub => {
+        if (pub.type !== 'patent') return false;
+        const s = (pub.status || '').toLowerCase();
+
+        if (statusVal === 'application') {
+          // 🔹 Application 버튼일 때: application + withdrawal 모두 포함
+          return s === 'application' || s === 'withdrawal';
+        }
+
+        return s === statusVal; // active, expired 등은 그대로 매칭
+      });
+    }
+
     // // Apply category filter
     // if (activeFilters.category !== 'all') {
     //   filteredPublications = filteredPublications.filter(pub => pub.category === activeFilters.category);
@@ -378,11 +487,12 @@ document.addEventListener('DOMContentLoaded', async function () {
       if (activeFilters.year !== 'all') {
         filteredPublications = filteredPublications.filter(pub => pub.year.toString() === activeFilters.year);
       }
+
       if (activeFilters.venue !== 'all') {
         const v = activeFilters.venue;
   
         if (['CVPR', 'ICCV', 'ECCV'].includes(v)) {
-          filteredPublications = filteredPublicications.filter(pub => pub.venue === v);
+          filteredPublications = filteredPublications.filter(pub => pub.venue === v);
         } else if (v === 'Journals') {
           filteredPublications = filteredPublications.filter(pub => pub.type === 'journal');
         } else if (v === 'Patents') { 
@@ -392,6 +502,21 @@ document.addEventListener('DOMContentLoaded', async function () {
             pub => pub.type === 'conference' && !TOP_CV.includes(pub.venue)
           );
         }
+      }
+
+      // Status
+      if (activeFilters.status !== 'all') {
+        const statusVal = activeFilters.status.toLowerCase();
+        filteredPublications = filteredPublications.filter(pub => {
+          if (pub.type !== 'patent') return false;
+          const s = (pub.status || '').toLowerCase();
+
+          if (statusVal === 'application') {
+            return s === 'application' || s === 'withdrawal';
+          }
+
+          return s === statusVal;
+        });
       }
       // if (activeFilters.category !== 'all') {
       //   filteredPublications = filteredPublications.filter(pub => pub.category === activeFilters.category);
