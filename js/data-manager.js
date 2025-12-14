@@ -234,6 +234,7 @@ class DataManager {
       pub.title.toLowerCase().includes(searchTerm) ||
       pub.authors.some(author => author.toLowerCase().includes(searchTerm)) ||
       pub.venue.toLowerCase().includes(searchTerm) ||
+      (pub.presentation && pub.presentation.toLowerCase().includes(searchTerm)) ||
       (pub.keywords && pub.keywords.some(keyword => keyword.toLowerCase().includes(searchTerm))) ||
       (pub.abstract && pub.abstract.toLowerCase().includes(searchTerm))
     );
