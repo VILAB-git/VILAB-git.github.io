@@ -235,20 +235,20 @@
       "personalpage": "https://chohoonhee.github.io/hoonheecho/"
     },
     {
-      "name": "Byeongin Joung",
-      "email": "byeonginjoung@kaist.ac.kr",
-      "category": "phd",
-      "major_phd": "Mechanical Engineering",
-      "image": "ByeonginJoung.jpg",
-      "researchInterests": ["TBD"]
-    },
-    {
       "name": "Jegyeong Cho",
       "email": "j2k0618@kaist.ac.kr",
       "category": "phd",
       "major_phd": "Mechanical Engineering",
       "major_ms": "Mechanical Engineering",
       "image": "JegyeongCho_low.jpg",
+      "researchInterests": ["TBD"]
+    },
+    {
+      "name": "Byeongin Joung",
+      "email": "byeonginjoung@kaist.ac.kr",
+      "category": "phd",
+      "major_phd": "Mechanical Engineering",
+      "image": "ByeonginJoung.jpg",
       "researchInterests": ["TBD"]
     },
     {
