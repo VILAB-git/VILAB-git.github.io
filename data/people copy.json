@@ -115,34 +115,38 @@
       "personalpage": "https://sites.google.com/view/taeyeop-lee"
     },
     {
-      "name": "Yuhwan Jeong",
-      "email": "jeongyh98@kaist.ac.kr",
+      "name": "Jihun Kim",
+      "email": "jihun1998@kaist.ac.kr",
       "category": "phd",
       "major_phd": "Mechanical Engineering",
       "major_ms": "Mechanical Engineering",
-      "role": "2026 Lab Leader (랩장)",
-      "image": "YuhwanJeong.jpg",
-      "researchInterests": ["Optical Flow", "Diffusion Models"]
+      "role": "2025 Lab Leader (랩장)",
+      "image": "JihunKim.jpg",
+      "researchInterests": ["Semantic Segmentation", "Domain Adaptation", "Point Cloud", "Foundation Model"],
+      "personalpage": "https://jihun1998.github.io/",
+      "googlescholar": "https://scholar.google.com/citations?user=8UVicysAAAAJ&hl=en",
+      "linkedin": "https://www.linkedin.com/in/jihun1998/",
+      "github": "https://github.com/jihun1998"
     },
     {
-      "name": "Wooseong Jeong",
-      "email": "stk14570@kaist.ac.kr",
+      "name": "Byeongin Joung",
+      "email": "byeonginjoung@kaist.ac.kr",
       "category": "phd",
       "major_phd": "Mechanical Engineering",
-      "major_ms": "Mechanical Engineering",
-      "role": "2026 Assistant Lab Leader (부랩장)",
-      "image": "WooseongJeong.png",
+      "role": "2025 Assistant Lab Leader (부랩장)",
+      "image": "ByeonginJoung.jpg",
       "researchInterests": ["TBD"]
     },
     {
-      "name": "Jaewoo Jeong",
-      "email": "jeong207@kaist.ac.kr",
+      "name": "Hyun-Kurl Jang",
+      "email": "jhg0001@kaist.ac.kr",
       "category": "phd",
       "major_phd": "Mechanical Engineering",
-      "role": "2026 Assistant Lab Leader (부랩장)",
-      "image": "JaewooJeong.jpg",
-      "researchInterests": ["Human Motion Forecasting", "Trajectory Prediction"],
-      "personalpage": "https://jaewoo97.github.io/"
+      "major_ms": "Mechanical Engineering",
+      "role": "2025 Assistant Lab Leader (부랩장)",
+      "image": "HyunkurlJang.jpg",
+      "researchInterests": ["3D Vision"],
+      "personalpage": "https://blue-531.github.io/"
     },
     {
       "name": "Jaeseok Jeong",
@@ -235,14 +239,6 @@
       "personalpage": "https://chohoonhee.github.io/hoonheecho/"
     },
     {
-      "name": "Byeongin Joung",
-      "email": "byeonginjoung@kaist.ac.kr",
-      "category": "phd",
-      "major_phd": "Mechanical Engineering",
-      "image": "ByeonginJoung.jpg",
-      "researchInterests": ["TBD"]
-    },
-    {
       "name": "Jegyeong Cho",
       "email": "j2k0618@kaist.ac.kr",
       "category": "phd",
@@ -252,27 +248,31 @@
       "researchInterests": ["TBD"]
     },
     {
-      "name": "Hyun-Kurl Jang",
-      "email": "jhg0001@kaist.ac.kr",
+      "name": "Wooseong Jeong",
+      "email": "stk14570@kaist.ac.kr",
       "category": "phd",
       "major_phd": "Mechanical Engineering",
       "major_ms": "Mechanical Engineering",
-      "image": "HyunkurlJang.jpg",
-      "researchInterests": ["3D Vision"],
-      "personalpage": "https://blue-531.github.io/"
+      "image": "WooseongJeong.png",
+      "researchInterests": ["TBD"]
     },
     {
-      "name": "Jihun Kim",
-      "email": "jihun1998@kaist.ac.kr",
+      "name": "Jaewoo Jeong",
+      "email": "jeong207@kaist.ac.kr",
+      "category": "phd",
+      "major_phd": "Mechanical Engineering",
+      "image": "JaewooJeong.jpg",
+      "researchInterests": ["Human Motion Forecasting", "Trajectory Prediction"],
+      "personalpage": "https://jaewoo97.github.io/"
+    },
+    {
+      "name": "Yuhwan Jeong",
+      "email": "jeongyh98@kaist.ac.kr",
       "category": "phd",
       "major_phd": "Mechanical Engineering",
       "major_ms": "Mechanical Engineering",
-      "image": "JihunKim.jpg",
-      "researchInterests": ["Semantic Segmentation", "Domain Adaptation", "Point Cloud", "Foundation Model"],
-      "personalpage": "https://jihun1998.github.io/",
-      "googlescholar": "https://scholar.google.com/citations?user=8UVicysAAAAJ&hl=en",
-      "linkedin": "https://www.linkedin.com/in/jihun1998/",
-      "github": "https://github.com/jihun1998"
+      "image": "YuhwanJeong.jpg",
+      "researchInterests": ["Optical Flow", "Diffusion Models"]
     },
     {
       "name": "Yunseo Yang",
