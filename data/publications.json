@@ -13,7 +13,7 @@
 
 
   "publications": [
-      {
+    {
       "title": "Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework",
       "authors": ["Donghyeong Lee", "Seokwan Roh", "Jaewoo Jeong", "Kuk-Jin Yoon", "Jungchul Lee", "Youngsuk Nam"],
       "venue": "Advanced Science",
