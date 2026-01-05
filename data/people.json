@@ -315,7 +315,9 @@
       "thesis_ms": "Event-based Temporal Stereo Matching via Joint Learning of Optical Flow",
       "thesis_ms_kor": "광학 흐름 동시 학습을 통한 이벤트 기반 시간적 스테레오 정합",
       "image": "JaeyoungKang.jpg",
-      "researchInterests": ["TBD"]
+      "researchInterests": ["Autonomous Driving", "Event-based Vision"],
+      "personalpage": "https://mickeykang16.github.io/",
+      "googlescholar": "https://https://scholar.google.com/citations?user=RMw-zFEAAAAJ&hl=en",
     },
     {
       "name": "Hoyong Kwon",
