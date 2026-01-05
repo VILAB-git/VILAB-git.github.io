@@ -13,6 +13,15 @@
 
 
   "publications": [
+      {
+      "title": "Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework",
+      "authors": ["Donghyeong Lee", "Seokwan Roh", "Jaewoo Jeong", "Kuk-Jin Yoon", "Jungchul Lee", "Youngsuk Nam"],
+      "venue": "Advanced Science",
+      "year": 2025,
+      "type": "journal",
+      "status": "accepted",
+      "keywords": ["Foundation model", "Heat transfer"]
+    },
     {
       "title": "Temporal Stereo Matching from Event Cameras via Joint Learning with Stereoscopic Flow",
       "authors": ["Jae-Young Kang*", "Hoonhee Cho*", "Kuk-Jin Yoon"],
