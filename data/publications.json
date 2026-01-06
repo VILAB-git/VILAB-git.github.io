@@ -14,6 +14,15 @@
 
   "publications": [
     {
+      "title": "Towards Enhanced Representation Learning for Single-Source Domain Generalization in LiDAR Semantic Segmentation",
+      "authors": ["Hyeonseong Kim", "Yoonsu Kang", "Changgyoon Oh", "Kuk-Jin Yoon"],
+      "venue": "TPAMI",
+      "year": 2025,
+      "type": "journal",
+      "status": "accepted",
+      "keywords": ["LiDAR semantic segmentation", "Domain generalization"]
+    },
+    {
       "title": "Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework",
       "authors": ["Donghyeong Lee", "Seokwan Roh", "Jaewoo Jeong", "Kuk-Jin Yoon", "Jungchul Lee", "Youngsuk Nam"],
       "venue": "Advanced Science",
