@@ -1,11 +1,21 @@
 {
   "news": [
     {
+      "id": "2026-iclr",
+      "type": "publication",
+      "date": "2026-01-26",
+      "title": "Papers accepted to ICLR 2026",
+      "summary": "2 papers from VILAB are accepted to ICLR 2026.",
+      "venue": "ICLR 2026",
+      "pub_venue": "ICLR",
+      "pub_year": 2026
+    },
+    {
       "id": "2025-tpami",
       "type": "publication",
       "date": "2025-12-05",
-      "title": "Papers accepted to TPAMI 2025",
-      "summary": "2 papers from VILAB is accepted to TPAMI 2025.",
+      "title": "Papers published to TPAMI 2025",
+      "summary": "2 papers from VILAB are published to TPAMI 2025.",
       "venue": "TPAMI 2025",
       "pub_venue": "TPAMI",
       "pub_year": 2025

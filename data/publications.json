@@ -14,6 +14,24 @@
 
   "publications": [
     {
+      "title": "Improving Black-Box Geenerative Attacks via Generator Semantic Consistency",
+      "authors": ["Jongoh Jeong", "Hunmin Yang", "Jaeseok Jeong", "Kuk-Jin Yoon"],
+      "venue": "ICLR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Adversarial Attack", "Generative Models"]
+    },
+    {
+      "title": "ReSplat: Degradation-agnostic Feed-forward Gaussian Splatting via Self-guided Residual Diffusion",
+      "authors": ["Youngho Yoon", "Kuk-Jin Yoon"],
+      "venue": "ICLR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Gaussian Splatting", "Feed-forward Gaussian Splatting", "Diffusion Models"]
+    },
+    {
       "title": "Towards Enhanced Representation Learning for Single-Source Domain Generalization in LiDAR Semantic Segmentation",
       "authors": ["Hyeonseong Kim", "Yoonsu Kang", "Changgyoon Oh", "Kuk-Jin Yoon"],
       "venue": "TPAMI",
