@@ -14,6 +14,96 @@
 
   "publications": [
     {
+    "title": "Global Information Thresholding for Sufficient and Necessary Circuits",
+    "authors": ["Jegyeong Cho", "Kuk-Jin Yoon"],
+    "venue": "CVPR",
+    "year": 2026,
+    "type": "conference",
+    "status": "accepted",
+    "keywords": ["Model Interpretability", "Circuit Discovery", "Information Theory"]
+    },
+    {
+      "title": "Test-Time Training for LiDAR Semantic Segmentation under Corruption via Geometric Inlier Discrimination",
+      "authors": ["Hyeonseong Kim*", "Hyun-Kurl Jang*", "Kuk-Jin Yoon"],
+      "venue": "CVPR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Test-Time Training", "LiDAR Semantic Segmentation"]
+    },
+    {
+      "title": "Event6D: Event-based Novel Object 6D Pose Tracking",
+      "authors": ["Jae-Young Kang*", "Hoonhee Cho*", "Taeyeop Lee*", "Minjun Kang", "Bowen Wen", "Youngho Kim", "Kuk-Jin Yoon"],
+      "venue": "CVPR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["6D Pose Tracking", "Event Camera"]
+    },
+    {
+      "title": "ExPose: Reinforcing Video Generation Models for Extreme Pose Estimation",
+      "authors": ["Youngho Yoon", "Wonjune Cho", "Hyunho Ha", "Sujung Kim", "Kuk-Jin Yoon"],
+      "venue": "CVPR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Video Generative Models", "Reinforcement Learning", "Pose Estimation"]
+    },
+    {
+      "title": "Preference-Aligned LoRA Merging: Preserving Subspace Coverage and Addressing Directional Anisotropy",
+      "authors": ["Wooseong Jeong*", "Wonyoung Lee*", "Kuk-Jin Yoon"],
+      "venue": "CVPR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["LoRA Merging", "Parameter-Efficient Fine-Tuning", "Preference Alignment"]
+    },
+    {
+      "title": "Bootstrapping Video Semantic Segmentation Model via Distillation-assisted Test-Time Adaptation",
+      "authors": ["Jihun Kim*", "Hoyong Kwon*", "Hyeokjun Kweon†", "Kuk-Jin Yoon†"],
+      "venue": "CVPR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Video Semantic Segmentation", "Test-Time Adaptation", "Segment Anything Models 2"]
+    },
+    {
+      "title": "DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions with Stereo Event-RGB-Thermal Cameras, 4D Radar, and Dual-LiDAR",
+      "authors": ["Hoonhee Cho*", "Jae-Young Kang*", "Yuhwan Jeong*", "Yunseo Yang", "Wonyoung Lee", "Youngho Kim", "Kuk-Jin Yoon"],
+      "venue": "CVPR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Multi-modal Vision Dataset", "Multi-modal Perception", "Autonomous Driving", "Sensor Fusion"]
+    },
+    {
+      "title": "Event-based Motion Deblurring with Unpaired Data",
+      "authors": ["Hoonhee Cho*", "Yuhwan Jeong*", "Kuk-Jin Yoon"],
+      "venue": "CVPR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Motion Deblurring", "Unpaired Learning", "Event Camera"]
+    },
+    {
+      "title": "Label-Free Cross-Task LoRA Merging with Null-Space Compression",
+      "authors": ["Wonyoung Lee*", "Wooseong Jeong*", "Kuk-Jin Yoon"],
+      "venue": "CVPR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["LoRA Merging", "Label-Free Learning", "Null-Space Compression"]
+    },
+    {
+      "title": "Multimodal Distribution Matching for Vision-Language Dataset Distillation",
+      "authors": ["Jongoh Jeong*", "Hoyong Kwon*", "Minseok Kim*", "Kuk-Jin Yoon"],
+      "venue": "CVPR",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Dataset Distillation", "Multimodal Learning", "Vision-Language Models", "Distribution Matching"]
+    },
+    {
       "title": "Improving Black-Box Generative Attacks via Generator Semantic Consistency",
       "authors": ["Jongoh Jeong", "Hunmin Yang", "Jaeseok Jeong", "Kuk-Jin Yoon"],
       "venue": "ICLR",

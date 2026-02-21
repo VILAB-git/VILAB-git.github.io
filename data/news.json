@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-cvpr",
+      "type": "publication",
+      "date": "2026-02-22",
+      "title": "Papers accepted to CVPR 2026",
+      "summary": "10 main papers from VILAB are accepted to CVPR 2026.",
+      "venue": "CVPR 2026",
+      "pub_venue": "CVPR",
+      "pub_year": 2026
+    },
+    {
       "id": "2026-iclr",
       "type": "publication",
       "date": "2026-01-26",
