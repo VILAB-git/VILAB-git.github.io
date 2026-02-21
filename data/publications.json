@@ -60,7 +60,7 @@
     },
     {
       "title": "Bootstrapping Video Semantic Segmentation Model via Distillation-assisted Test-Time Adaptation",
-      "authors": ["Jihun Kim*", "Hoyong Kwon*", "Hyeokjun Kweon†", "Kuk-Jin Yoon†"],
+      "authors": ["Jihun Kim*", "Hoyong Kwon*", "Hyeokjun Kweon*", "Kuk-Jin Yoon†"],
       "venue": "CVPR",
       "year": 2026,
       "type": "conference",

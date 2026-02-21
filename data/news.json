@@ -11,6 +11,43 @@
       "pub_year": 2026
     },
     {
+      "id": "2026-february-admission",
+      "type": "admission",
+      "date": "2026-02-21",
+      "title": "New students joined VILAB (February 2026)",
+      "summary": "We welcome new Ph.D students to VILAB.",
+      "people": {
+        "ms": [
+        ],
+        "phd": [
+          "Giwon Lee",
+          "Daehyun We"
+        ]
+      },
+      "description": "We are delighted to welcome our new PhD students to the lab and look forward to the fresh perspectives and innovative contributions they will bring to our research community."
+    },
+    {
+      "id": "2026-february-graduation",
+      "type": "graduation",
+      "date": "2026-02-20",
+      "title": "February 2026 Graduation",
+      "summary": "Several members successfully completed their degrees.",
+      "people": {
+        "ms": [
+          "Giwon Lee",
+          "Daehyun We"
+        ],
+        "phd": [
+          "Hunmin Yang",
+          "Yujeong Chae",
+          "Hyeonseong Kim",
+          "Youngho Yoon",
+          "Hoonhee Cho"
+        ]
+      },
+      "description": "Congratulations to our PhD and master's graduates, and we wish them all the best in their future endeavors!"
+    },
+    {
       "id": "2026-iclr",
       "type": "publication",
       "date": "2026-01-26",

@@ -19,11 +19,9 @@
       "Byeongin Joung",
       "Hyun-Kurl Jang",
       "Jaeseok Jeong",
-      "Yujeong Chae",
       "Hyeonseong Kim",
       "Youngho Yoon",
       "Jin-Ho Kim",
-      "Hunmin Yang",
       "Minjun Kang",
       "Jongoh Jeong",
       "Changgyoon Oh",
@@ -51,6 +49,8 @@
       "Kyung-A Kwon"
     ],
     "alumni": [
+      "Hunmin Yang",
+      "Yujeong Chae",
       "Seongyong Ahn",
       "Taewoo Kim",
       "Sung-Hoon Yoon",
@@ -115,6 +115,49 @@
       "personalpage": "https://sites.google.com/view/taeyeop-lee"
     },
     {
+      "name": "Hyeonseong Kim",
+      "email": "brian617@kaist.ac.kr",
+      "image": "HyeonseongKim.jpg",
+      "category": "postdoc",
+      "title": "Ph.D",
+      "major_phd": "Mechanical Engineering",
+      "major_ms": "Mechanical Engineering",
+      "thesis_phd": "Generalization of LiDAR Semantic Segmentation to Diverse Out-of-Distribution Conditions",
+      "thesis_phd_kor": "라이다 의미론적 분할의 다양한 분포 외 조건에 대한 일반화",
+      "nextPosition": "KAIST Postdoc (VILab)",
+      "graduationDate": "2026-02",
+      "researchInterests": ["TBD"]
+    },
+    {
+      "name": "Youngho Yoon",
+      "email": "dudgh1732@kaist.ac.kr",
+      "image": "YounghoYoon.jpg",
+      "category": "postdoc",
+      "title": "Ph.D",
+      "major_phd": "Mechanical Engineering",
+      "major_ms": "Mechanical Engineering",
+      "thesis_phd": "High-Quality Novel View Synthesis by Incorporating Data-driven Priors into Neural Scene Representations",
+      "thesis_phd_kor": "데이터 기반 사전 지식을 반영한 신경 장면 표현을 통한 고품질 가상 시점 합성 연구",
+      "nextPosition": "KAIST Postdoc (VILab)",
+      "graduationDate": "2026-02",
+      "researchInterests": ["Novel View Synthesis", "Neural Radiance Fields"]
+    },
+    {
+      "name": "Hoonhee Cho",
+      "email": "gnsgnsgml@kaist.ac.kr",
+      "image": "HoonheeCho.jpg",
+      "category": "postdoc",
+      "title": "Ph.D",
+      "major_phd": "The Robotics Program",
+      "major_ms": "The Robotics Program",
+      "thesis_phd": "High-temporal-resolution Visual Sensing and Perception with Event Cameras",
+      "thesis_phd_kor": "이벤트 카메라를 활용한 고시간 해상되 시각 센싱 및 인지",
+      "nextPosition": "KAIST Postdoc (VILab)",
+      "graduationDate": "2026-02",
+      "researchInterests": ["Stereo Vision", "Multi-modal sensor"],
+      "personalpage": "https://chohoonhee.github.io/hoonheecho/"
+    },
+    {
       "name": "Yuhwan Jeong",
       "email": "jeongyh98@kaist.ac.kr",
       "category": "phd",
@@ -153,33 +196,7 @@
       "image": "JaeseokJeong_low.jpg",
       "researchInterests": ["3D Vision"]
     },
-    {
-      "name": "Yujeong Chae",
-      "email": "yujeong@kaist.ac.kr",
-      "category": "phd",
-      "major_phd": "Mechanical Engineering",
-      "major_ms": "Mechanical Engineering",
-      "image": "YujeongChae_low.jpg",
-      "researchInterests": ["Multi-modal Vision", "Object Detection"]
-    },
-    {
-      "name": "Hyeonseong Kim",
-      "email": "brian617@kaist.ac.kr",
-      "category": "phd",
-      "major_phd": "Mechanical Engineering",
-      "major_ms": "Mechanical Engineering",
-      "image": "HyeonseongKim.jpg",
-      "researchInterests": ["TBD"]
-    },
-    {
-      "name": "Youngho Yoon",
-      "email": "dudgh1732@kaist.ac.kr",
-      "category": "phd",
-      "major_phd": "Mechanical Engineering",
-      "major_ms": "Mechanical Engineering",
-      "image": "YounghoYoon.jpg",
-      "researchInterests": ["TBD"]
-    },
+    
     {
       "name": "Jin-Ho Kim",
       "email": "jinho99@kaist.ac.kr",
@@ -188,15 +205,7 @@
       "image": "JinhoKim_low.jpg",
       "researchInterests": ["TBD"]
     },
-    {
-      "name": "Hunmin Yang",
-      "email": "hmyang@kaist.ac.kr",
-      "category": "phd",
-      "major_phd": "Mechanical Engineering (Part-time)",
-      "image": "HunminYang_low.jpg",
-      "researchInterests": ["TBD"],
-      "personalpage": "https://hmyang1.github.io/"
-    },
+    
     {
       "name": "Minjun Kang",
       "email": "kmmj2005@kaist.ac.kr",
@@ -224,16 +233,7 @@
       "image": "ChanggyoonOh.jpg",
       "researchInterests": ["Generative Models"]
     },
-    {
-      "name": "Hoonhee Cho",
-      "email": "gnsgnsgml@kaist.ac.kr",
-      "category": "phd",
-      "major_phd": "The Robotics Program",
-      "major_ms": "The Robotics Program",
-      "image": "HoonheeCho.jpg",
-      "researchInterests": ["Stereo Vision", "Multi-modal sensor"],
-      "personalpage": "https://chohoonhee.github.io/hoonheecho/"
-    },
+    
     {
       "name": "Jegyeong Cho",
       "email": "j2k0618@kaist.ac.kr",
@@ -336,15 +336,28 @@
       "orcid": "https://orcid.org/0000-0002-5888-1002",
       "github": "https://github.com/kwonhoyong3"
     },
-    
     {
       "name": "Giwon Lee",
       "email": "dlrldnjs@kaist.ac.kr",
-      "category": "ms",
+      "category": "phd",
+      "major_phd": "Mechanical Engineering",
       "major_ms": "Mechanical Engineering",
+      "thesis_ms": "Multi-Domain Integration in Autonomous Driving via Model Merging",
+      "thesis_ms_kor": "모델 병합을 이용한 다중 도메인 정보 통합 기반 자율주행 모델 학습 방법론",
       "image": "GiwonLee.jpg",
       "researchInterests": ["TBD"],
       "personalpage": "https://giwonlee00.github.io/"
+    },
+    {
+      "name": "Daehyun We",
+      "email": "greathyun@kaist.ac.kr",
+      "category": "phd",
+      "major_phd": "The Robotics Program",
+      "major_ms": "Kim Jaechul Graduate School of AI",
+      "thesis_ms": "Editing Motion and Appearance of 4D Scenes from Monocular Video via Semantically Anchored Gaussians",
+      "thesis_ms_kor": "의미론적으로 정합된 가우시안을 통한 단안 비디오 기반 4차원 장면의 동작 및 외형 편집",
+      "image": "DaehyunWe.jpg",
+      "researchInterests": ["TBD"]
     },
     {
       "name": "Heejun Park",
@@ -354,14 +367,6 @@
       "image": "HeejunPark.jpg",
       "researchInterests": ["3D Computer Vision"],
       "personalpage": "https://parkie0517.github.io/"
-    },
-    {
-      "name": "Daehyun We",
-      "email": "greathyun@kaist.ac.kr",
-      "category": "ms",
-      "major_ms": "Kim Jaechul Graduate School of AI",
-      "image": "DaehyunWe.jpg",
-      "researchInterests": ["TBD"]
     },
     {
       "name": "Seonkyu Song",
@@ -434,6 +439,32 @@
       "image": "Kyung-AKwon.jpg"
     },
 
+    {
+      "name": "Hunmin Yang",
+      "email": "hmyang@kaist.ac.kr",
+      "category": "phd",
+      "major_phd": "Mechanical Engineering (Part-time)",
+      "image": "HunminYang_low.jpg",
+      "researchInterests": ["Adversarial Attack and Defence"],
+      "thesis_phd": "Generative Model-based Transferable Attacks on Deep Vision Models",
+      "thesis_phd_kor": "비전 딥러닝 모델에 대한 생성모델 기반 전이가능 적대적 공격 연구",
+      "nextPosition": "ADD",
+      "graduationDate": "2026-02",
+      "personalpage": "https://hmyang1.github.io/"
+    },
+    {
+      "name": "Yujeong Chae",
+      "email": "yujeong@kaist.ac.kr",
+      "category": "phd",
+      "major_phd": "Mechanical Engineering",
+      "major_ms": "Mechanical Engineering",
+      "image": "YujeongChae_low.jpg",
+      "researchInterests": ["Multi-modal Vision", "Object Detection"],
+      "thesis_phd": "Robust 3D Object Detection in Various Weather Conditions Using 4D Radar and LiDAR",
+      "thesis_phd_kor": "4차원 레이더와 라이다를 활용한 다양한 기상 조건에서의 강건한 3차원 객체 검출",
+      "nextPosition": "NVIDIA Korea",
+      "graduationDate": "2026-02"
+    },
     {
       "name": "Seongyong Ahn",
       "image": "SeongyongAhn.jpg",
