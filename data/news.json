@@ -58,6 +58,36 @@
       "pub_year": 2026
     },
     {
+      "id": "2025-december-kaist-ai-college-service",
+      "type": "service",
+      "date": "2025-12-17",
+      "title": "Professor Kuk-Jin Yoon Appointed as Interim Dean of KAIST College of AI",
+      "summary": "Professor Kuk-Jin Yoon appointed as Interim Dean of KAIST College of AI.",
+      "description": "We are pleased to announce that professor <strong>Kuk-Jin Yoon</strong> has been appointed as the <strong>Interim Dean of the KAIST College of AI</strong>, a pivotal role in leading KAIST's mission to shape the future of artificial intelligence through sustainable research and world-class education.<br><br>The <strong>KAIST College of AI</strong> serves as a comprehensive academic hub, providing an integrated environment that spans the entire technical spectrum—from core algorithms and systems to interdisciplinary \"AI for Science\" applications. Moving beyond transient trends, the College is dedicated to fostering long-term societal value and educating responsible leaders who can navigate the profound impact of AI on science and humanity.<br><br>For more details, please visit the official website, welcome message, and related news:<br>",
+      "links": [
+        {
+          "label": "KAIST College of AI Official Website",
+          "url": "https://aicollege.kaist.ac.kr/"
+        },
+        {
+          "label": "Prof. Kuk-Jin Yoon's Welcome Message",
+          "url": "https://aicollege.kaist.ac.kr/#/intro"
+        },
+        {
+          "label": "Related News Article 1",
+          "url": "https://www.sedaily.com/article/14157675"
+        },
+        {
+          "label": "Related News Article 2",
+          "url": "https://www.khan.co.kr/article/202512111957001"
+        },
+        {
+          "label": "Related News Video 1",
+          "url": "https://news.ebs.co.kr/ebsnews/allView/60673261/N"
+        }
+      ]
+    },
+    {
       "id": "2025-tpami",
       "type": "publication",
       "date": "2025-12-05",
