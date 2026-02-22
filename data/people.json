@@ -46,6 +46,7 @@
       "Wonyoung Lee",
       "Youngho Kim",
       "Hajoon Park",
+      "Jinhyeok Ju",
       "Kyung-A Kwon"
     ],
     "alumni": [
@@ -431,6 +432,15 @@
       "school": "KAIST",
       "major": "Mechanical Engineering",
       "image": "HajoonPark.jpg",
+      "researchInterests": ["TBD"]
+    },
+    {
+      "name": "Jinhyeok Ju",
+      "email": "02jerry@kaist.ac.kr",
+      "category": "intern",
+      "school": "KAIST",
+      "major": "Mechanical Engineering",
+      "image": "JinhyeokJu.jpg",
       "researchInterests": ["TBD"]
     },
     {
