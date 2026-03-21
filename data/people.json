@@ -166,7 +166,8 @@
       "major_ms": "Mechanical Engineering",
       "role": "2026 Lab Leader (랩장)",
       "image": "YuhwanJeong.jpg",
-      "researchInterests": ["Optical Flow", "Diffusion Models"]
+      "researchInterests": ["Optical Flow", "Diffusion Models"],
+      "personalpage": "https://jeongyh98.github.io/"
     },
     {
       "name": "Wooseong Jeong",
