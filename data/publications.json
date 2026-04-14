@@ -38,7 +38,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["6D Pose Tracking", "Event Camera"]
+      "keywords": ["6D Pose Tracking", "Event Camera"],
+      "project_url": "https://chohoonhee.github.io/Event6D/",
+      "arxiv_url": "https://arxiv.org/abs/2603.28045"
     },
     {
       "title": "ExPose: Reinforcing Video Generation Models for Extreme Pose Estimation",
@@ -56,7 +58,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["LoRA Merging", "Parameter-Efficient Fine-Tuning", "Preference Alignment"]
+      "keywords": ["LoRA Merging", "Parameter-Efficient Fine-Tuning", "Preference Alignment"],
+      "arxiv_url": "https://arxiv.org/abs/2603.26299",
+      "code_url2": "https://github.com/wooseong97/TARA-Merge"
     },
     {
       "title": "Bootstrapping Video Semantic Segmentation Model via Distillation-assisted Test-Time Adaptation",
@@ -65,7 +69,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Video Semantic Segmentation", "Test-Time Adaptation", "Segment Anything Models 2"]
+      "keywords": ["Video Semantic Segmentation", "Test-Time Adaptation", "Segment Anything Models 2"],
+      "arxiv_url": "https://arxiv.org/abs/2604.10950",
+      "code_url2": "https://github.com/jihun1998/DiTTA"
     },
     {
       "title": "DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions with Stereo Event-RGB-Thermal Cameras, 4D Radar, and Dual-LiDAR",
@@ -74,7 +80,10 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Multi-modal Vision Dataset", "Multi-modal Perception", "Autonomous Driving", "Sensor Fusion"]
+      "keywords": ["Multi-modal Vision Dataset", "Multi-modal Perception", "Autonomous Driving", "Sensor Fusion"],
+      "project_url": "https://jeongyh98.github.io/dsert-roll/",
+      "arxiv_url": "https://arxiv.org/abs/2604.03685",
+      "code_url": "https://github.com/jeongyh98/DSERT-RoLL-Dataset"
     },
     {
       "title": "Event-based Motion Deblurring with Unpaired Data",
@@ -83,6 +92,7 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
+      "presentation": "Highlight",
       "keywords": ["Motion Deblurring", "Unpaired Learning", "Event Camera"]
     },
     {
@@ -92,7 +102,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["LoRA Merging", "Label-Free Learning", "Null-Space Compression"]
+      "keywords": ["LoRA Merging", "Label-Free Learning", "Null-Space Compression"],
+      "arxiv_url": "https://arxiv.org/abs/2603.26317",
+      "code_url2": "https://github.com/wonyoung01/nsc_merging"
     },
     {
       "title": "Multimodal Distribution Matching for Vision-Language Dataset Distillation",
@@ -110,7 +122,11 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Adversarial Attack", "Generative Models"]
+      "keywords": ["Adversarial Attack", "Generative Models"],
+      "project_url": "https://andyj1.github.io/scga/",
+      "pdf_url": "https://openreview.net/forum?id=ibXhUapwcz",
+      "arxiv_url": "https://arxiv.org/pdf/2506.18248",
+      "code_url": "https://github.com/andyj1/SCGA"
     },
     {
       "title": "ReSplat: Degradation-agnostic Feed-forward Gaussian Splatting via Self-guided Residual Diffusion",
@@ -119,7 +135,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Gaussian Splatting", "Feed-forward Gaussian Splatting", "Diffusion Models"]
+      "keywords": ["Gaussian Splatting", "Feed-forward Gaussian Splatting", "Diffusion Models"],
+      "pdf_url": "https://openreview.net/forum?id=461VpgnLsi",
+      "code_url2": "https://github.com/yh-yoon/ReSplat"
     },
     {
       "title": "Towards Enhanced Representation Learning for Single-Source Domain Generalization in LiDAR Semantic Segmentation",
@@ -128,7 +146,8 @@
       "year": 2025,
       "type": "journal",
       "status": "accepted",
-      "keywords": ["LiDAR semantic segmentation", "Domain generalization"]
+      "keywords": ["LiDAR semantic segmentation", "Domain generalization"],
+      "pdf_url": "https://ieeexplore.ieee.org/document/11355705"
     },
     {
       "title": "Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework",
@@ -137,7 +156,8 @@
       "year": 2025,
       "type": "journal",
       "status": "accepted",
-      "keywords": ["Foundation model", "Heat transfer"]
+      "keywords": ["Foundation model", "Heat transfer"],
+      "pdf_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202521372"
     },
     {
       "title": "Temporal Stereo Matching from Event Cameras via Joint Learning with Stereoscopic Flow",
@@ -146,7 +166,8 @@
       "year": 2025,
       "type": "journal",
       "status": "accepted",
-      "keywords": ["Stereo Matching", "Event Cameras"]
+      "keywords": ["Stereo Matching", "Event Cameras"],
+      "pdf_url": "https://ieeexplore.ieee.org/document/11303958"
     },
     {
       "title": "Gated Temporal Fusion Transformers for Robust Multi-Object Tracking",
@@ -155,7 +176,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Multi-Object Tracking", "Transformers"]
+      "keywords": ["Multi-Object Tracking", "Transformers"],
+      "pdf_url": "https://openaccess.thecvf.com/content/WACV2026/papers/Kim_Gated_Temporal_Fusion_Transformers_for_Robust_Multi-Object_Tracking_WACV_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/WACV2026/supplemental/Kim_Gated_Temporal_Fusion_WACV_2026_supplemental.pdf"
     },
     {
       "title": "Generalized Category Discovery for LiDAR Semantic Segmentation",
@@ -164,7 +187,10 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Category Discovery", "LiDAR Segmentation"]
+      "keywords": ["Category Discovery", "LiDAR Segmentation"],
+      "pdf_url": "https://openaccess.thecvf.com/content/WACV2026/papers/Kim_Generalized_Category_Discovery_for_LiDAR_Semantic_Segmentation_WACV_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/WACV2026/supplemental/Kim_Generalized_Category_Discovery_WACV_2026_supplemental.pdf",
+      "code_url": "https://github.com/Minseokkim-0124/Generalized-Category-Discovery-for-LiDAR-Semantic-Segmentation"
     },
     {
       "title": "DOODLE: Diffusion-based Out-of-Distribution Learning for Open-set LiDAR Semantic Segmentation",
@@ -173,7 +199,10 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Diffusion Models", "LiDAR Segmentation"]
+      "keywords": ["Diffusion Models", "LiDAR Segmentation"],
+      "pdf_url": "https://openaccess.thecvf.com/content/WACV2026/papers/Oh_DOODLE_Diffusion-based_Out-of-Distribution_Learning_for_Open-set_LiDAR_Semantic_Segmentation_WACV_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/WACV2026/supplemental/Oh_DOODLE_Diffusion-based_Out-of-Distribution_WACV_2026_supplemental.pdf",
+      "code_url2": "https://github.com/chang9711/DOODLE"
     },
     {
       "title": "VR-Drive: Viewpoint-Robust End-to-End Driving with Feed-Forward 3D Gaussian Splatting",
@@ -185,7 +214,7 @@
       "keywords": ["End-to-End Driving", "3D Gaussian Splatting"],
       "pdf_url": "https://arxiv.org/pdf/2510.23205",
       "arxiv_url": "https://arxiv.org/abs/2510.23205",
-      "code_url2": "https://github.com/mickeykang16/VR-Drive",
+      "code_url": "https://github.com/mickeykang16/VR-Drive",
       "project_url": "https://vrdriveneurips.github.io/"
     },
     {
