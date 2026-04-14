@@ -240,7 +240,7 @@
       "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Kim_DC-TTA_Divide-and-Conquer_Framework_for_Test-Time_Adaptation_of_Interactive_Segmentation_ICCV_2025_paper.pdf",
       "supp_url": "https://openaccess.thecvf.com/content/ICCV2025/supplemental/Kim_DC-TTA_Divide-and-Conquer_Framework_ICCV_2025_supplemental.zip",
       "arxiv_url": "https://arxiv.org/abs/2506.23104",
-      "code_url2": "https://github.com/jihun1998/DCTTA"
+      "code_url": "https://github.com/jihun1998/DCTTA"
     },
     {
       "title": "Interaction-Merged Motion Planning: Effectively Leveraging Diverse Motion Datasets for Robust Planning",
@@ -316,7 +316,7 @@
       "keywords": ["Domain Adaptation", "Human Pose Estimation", "Event Cameras"],
       "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Kim_From_Sharp_to_Blur_Unsupervised_Domain_Adaptation_for_2D_Human_ICCV_2025_paper.pdf",
       "arxiv_url": "https://arxiv.org/abs/2507.22438",
-      "code_url2": "https://github.com/kmax2001/EvSharp2Blur"
+      "code_url": "https://github.com/kmax2001/EvSharp2Blur"
     },
     {
       "title": "Learning Large Motion Estimation from Intermediate Representations with a High-Resolution Optical Flow Dataset Featuring Long-Range Dynamic Motion",
