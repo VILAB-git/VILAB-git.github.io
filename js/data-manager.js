@@ -312,11 +312,38 @@ class DataManager {
   // Get alumni
   async getAlumni(options = {}) {
     const data = await this.loadData('people');
+    const newsData = await this.loadData('news');
     const allPeople = data.peoples || [];
     const members = data.members || {};
     const alumniNames = members.alumni || [];
+    const currentNames = members.current || [];
 
     let alumni = allPeople.filter(person => alumniNames.includes(person.name));
+
+    // Build M.S. graduation date map from graduation news events
+    const msGraduationDates = {};
+    for (const item of (newsData.news || [])) {
+      if (item.type !== 'graduation') continue;
+      const msList = (item.people && item.people.ms) || [];
+      for (const name of msList) {
+        if (!msGraduationDates[name] || msGraduationDates[name] < item.date) {
+          msGraduationDates[name] = item.date;
+        }
+      }
+    }
+
+    // Current members who completed M.S. at VILab also appear as M.S. alumni
+    const msAlumniFromCurrent = allPeople
+      .filter(p => currentNames.includes(p.name) && msGraduationDates[p.name])
+      .map(p => ({
+        ...p,
+        category: 'ms',
+        title: 'Masters',
+        graduationDate: msGraduationDates[p.name],
+        nextPosition: 'Continued to Ph.D. at VILab',
+      }));
+
+    alumni = [...alumni, ...msAlumniFromCurrent];
 
     if (options.category) {
       alumni = alumni.filter(person => person.category === options.category);
