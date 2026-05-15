@@ -5,6 +5,45 @@
   },
   "gallery_items": [
     {
+      "title": "2026 Teacher's Day",
+      "description": "2026년 스승의날",
+      "category": "lab-life",
+      "date": "2026-05",
+      "image_dir": "26_teachers_day",
+      "image_count": 2,
+      "alt_text": "2026 Teacher's Day",
+      "featured": true,
+      "tags": ["lab", "teachers day", "celebration"],
+      "venue": "Teacher's Day 2026",
+      "location": "Daejeon, Korea"
+    },
+    {
+      "title": "ICLR 2026",
+      "description": "ICLR 2026 학회 참석",
+      "category": "conferences",
+      "date": "2026-04",
+      "image_dir": "ICLR26",
+      "image_count": 4,
+      "alt_text": "ICLR 2026",
+      "featured": true,
+      "tags": ["iclr", "conference"],
+      "venue": "ICLR 2026",
+      "location": "Rio de Janeiro, Brazil"
+    },
+    {
+      "title": "2026 Graduate Ceremony",
+      "description": "2026년 졸업식 행사",
+      "category": "lab-life",
+      "date": "2026-02",
+      "image_dir": "26_graduate_ceremony",
+      "image_count": 6,
+      "alt_text": "2026 Graduate Ceremony",
+      "featured": true,
+      "tags": ["graduation", "ceremony"],
+      "venue": "Graduate Ceremony 2026",
+      "location": "Daejeon, Korea"
+    },
+    {
       "title": "ICCV 2025",
       "description": "ICCV 2025 학회 참석",
       "category": "conferences",
