@@ -205,6 +205,11 @@ class PeoplePage {
       ? new Date(person.graduationDate).getFullYear()
       : '';
 
+    // Fall back to category when an explicit title is missing.
+    const primaryDegree = person.title
+      || (person.category === 'phd' ? 'Ph.D'
+        : person.category === 'ms' ? 'Masters' : '');
+
     const links = [];
 
     // Personal Page (globe)
@@ -276,12 +281,15 @@ class PeoplePage {
       <div class="person-card alumni-card">
         <div class="person-info">
           <h3 class="person-name">${person.name}</h3>
-          <p class="person-title">${person.title}</p>
+          <p class="person-title">${primaryDegree}</p>
           <p class="next-position">
             <strong>Next:</strong> ${person.nextPosition}
           </p>
           ${graduationYear ? `<p class="graduation-info">
             <strong>Graduated:</strong> ${this.formatGraduationDate(person.graduationDate)}
+          </p>` : ''}
+          ${person.msGraduationDate ? `<p class="graduation-info">
+            <strong>M.S. Graduated:</strong> ${this.formatGraduationDate(person.msGraduationDate)}
           </p>` : ''}
           ${links.length > 0 ? `<div class="person-links">${links.join('')}</div>` : ''}
         </div>

@@ -1,0 +1,75 @@
+==============================================================
+VILAB Graduation Records — Cross-check Reference
+==============================================================
+Last updated : 2026-06-10
+Compiled by  : Giwon Lee (from degree theses)
+Purpose      : Manual cross-check source for data/news.json
+               graduation events (ms / phd lists).
+Note         : "February" entries graduate in the spring term,
+               "August" entries in the fall term.
+Status       : data/news.json reconciled to match this list
+               on 2026-06-10 (see correction log at bottom).
+==============================================================
+
+[ M.S. (석사학위) ]
+Yeonkun Lee        2020 February   (repo name: Yeon-Kun Lee)
+Sung-Hoon Yoon     2020 February
+Sung-Hyun Park     2020 August
+Jongseob Yun       2020 August
+Jaeseok Jeong      2020 August
+Hee-Chan Jung      2020 August
+Kwon-Young Ryu     2021 February
+Won-June Cho       2021 February
+Yujeong Chae       2021 February
+Kyeong-Seob Song   2021 February
+Jung-Won Lee       2021 February
+Taewoo Kim         2021 February
+Changgyoon Oh      2022 February
+Kang-Il Lee        2022 February
+Hoonhee Cho        2022 February
+Yoonsu Kang        2023 February
+Wooseong Jeong     2023 February
+Jihun Kim          2023 February
+Jeong-Min Lee      2023 February
+Jegyeong Cho       2023 February
+In-Chul Chung      2023 August
+Yunseo Yang        2024 February
+Yuhwan Jeong       2024 February
+Hoyong Kwon        2025 February
+Minseok Kim        2025 February
+Youngjin Oh        2025 February
+Jae-Young Kang     2025 February
+Daehyun We         2026 February
+Giwon Lee          2026 February
+
+[ Ph.D (박사학위) ]
+Lin Wang           2021 August
+Pranjay Shyam      2022 August
+Inkyu Shin         2024 February
+Seongyong Ahn      2025 February
+Sung-Hoon Yoon     2025 February
+Taewoo Kim         2025 February
+Hyeokjun Kweon     2025 February
+Daehee Park        2025 February
+Taeyeop Lee        2025 February
+Hyeonseong Kim     2026 February
+Hunmin Yang        2026 February
+Youngho Yoon       2026 February
+Yujeong Chae       2026 February
+Hoonhee Cho        2026 February
+
+==============================================================
+Correction log — applied to data/news.json on 2026-06-10
+(this reference list = authoritative, based on theses)
+--------------------------------------------------------------
+- Jegyeong Cho  M.S. : 2022 Feb -> 2023 Feb   [fixed]
+- Taewoo Kim    M.S. : 2020 Feb -> 2021 Feb   [fixed]
+- Yeon-Kun Lee  M.S. : removed duplicate 2018 Feb entry,
+                       kept 2020 Feb only       [fixed]
+- Changgyoon Oh M.S. : 2022 Feb (confirmed, no change)
+- Yunseo Yang / Yuhwan Jeong M.S. 2024 Feb : confirmed, kept
+
+Pre-2020 alumni intentionally left untouched (out of scope):
+  Chang-Ryeol Lee, Han-Mu Park, Hyeok-Jae Choi, Jae-Han Park,
+  Jeong-Kyun Lee, Jeong-Yun Na, Yeong-Jun Cho
+==============================================================
