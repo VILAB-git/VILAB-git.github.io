@@ -334,15 +334,17 @@ class DataManager {
 
     // Members who earned an M.S. at VILab in addition to a higher degree
     // get a SEPARATE M.S. alumni card, fully separated from their Ph.D card.
+    // M.S. graduation date comes from the graduation news, or from an explicit
+    // `msGraduationDate` field (used for older grads not in the news feed).
     // Skip those whose own entry is already the M.S. (no duplication).
     const msAlumni = allPeople
-      .filter(p => msGraduationDates[p.name]
+      .filter(p => (msGraduationDates[p.name] || p.msGraduationDate)
         && p.category !== 'ms' && p.title !== 'Masters')
       .map(p => ({
         ...p,
         category: 'ms',
         title: 'Masters',
-        graduationDate: msGraduationDates[p.name],
+        graduationDate: msGraduationDates[p.name] || p.msGraduationDate,
         nextPosition: 'Continued to Ph.D. at VILab',
       }));
 

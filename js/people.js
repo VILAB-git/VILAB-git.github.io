@@ -59,16 +59,28 @@ class PeoplePage {
       return;
     }
 
-    // Display all alumni in one section without grouping by category
-    let html = `
+    // Split alumni into Ph.D. and M.S. graduates (dual-degree people appear in
+    // both). `this.alumni` is already sorted by graduation date (newest first).
+    const isMS = person =>
+      person.category === 'ms' || person.title === 'Masters';
+    const phdAlumni = this.alumni.filter(person => !isMS(person));
+    const msAlumni = this.alumni.filter(isMS);
+
+    const section = (title, list) =>
+      list.length === 0
+        ? ''
+        : `
       <div class="people-category">
+        <h2 class="category-title">${title} <span class="alumni-count">(${list.length})</span></h2>
         <div class="people-grid">
-          ${this.alumni.map(person => this.createAlumniCard(person)).join('')}
+          ${list.map(person => this.createAlumniCard(person)).join('')}
         </div>
       </div>
     `;
 
-    container.innerHTML = html;
+    container.innerHTML =
+      section('Ph.D. Graduates', phdAlumni) +
+      section('M.S. Graduates', msAlumni);
   }
 
   groupPeopleByCategory(people) {

@@ -601,7 +601,8 @@
       "category": "phd",
       "title": "Ph.D",
       "nextPosition": "SLAMcore in UK",
-      "graduationDate": "2019-08"
+      "graduationDate": "2019-08",
+      "msGraduationDate": "2013-02"
     },
     {
       "name": "Yeong-Jun Cho",
@@ -612,6 +613,7 @@
       "major_phd": "Electrical Engineering and Computer Science",
       "nextPosition": "Chonnam University",
       "graduationDate": "2018-08",
+      "msGraduationDate": "2014-02",
       "personalpage": "https://sites.google.com/view/cvl-jnu/member/professor?authuser=0"
     },
     {
@@ -628,7 +630,8 @@
       "category": "phd",
       "title": "Ph.D",
       "nextPosition": "Korea Electronics Technology Institute (KETI)",
-      "graduationDate": "2017-02"
+      "graduationDate": "2017-02",
+      "msGraduationDate": "2011-08"
     },
     {
       "name": "Yong-Ho Shin",
@@ -636,7 +639,8 @@
       "category": "phd",
       "title": "Ph.D",
       "nextPosition": "Qualcomm Korea",
-      "graduationDate": "2017-02"
+      "graduationDate": "2017-02",
+      "msGraduationDate": "2011-02"
     },
     {
       "name": "Seung-Hwan Bae",
