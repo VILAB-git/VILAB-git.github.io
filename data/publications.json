@@ -123,12 +123,12 @@
     },
     {
       "title": "Rank-Aware Hyperbolic Alignment for Vision-Language Dataset Distillation",
-      "authors": ["Jongoh Jeong", "Sunkyung Lee", "Kuk-Jin Yoon"],
+      "authors": ["Jongoh Jeong", "Sun-Kyung Lee", "Kuk-Jin Yoon"],
       "venue": "ECCV",
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Dataset Distillation", "Multi-Modal"]
+      "keywords": ["Vision-Language", "Dataset Distillation", "Hyperbolic Geometry"]
     },
     {
     "title": "Global Information Thresholding for Sufficient and Necessary Circuits",
