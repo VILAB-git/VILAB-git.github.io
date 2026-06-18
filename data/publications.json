@@ -69,7 +69,7 @@
     },
     {
       "title": "Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training",
-      "authors": ["Taewon Seo*", "Seonae Jeon*", "Giwon Lee*", "Kuk-Jin Yoon", "Daehee Park"],
+      "authors": ["Taewon Seo*", "Seonae Jeon*", "Giwon Lee*", "Kuk-Jin Yoon†", "Daehee Park†"],
       "venue": "ECCV",
       "year": 2026,
       "type": "conference",
