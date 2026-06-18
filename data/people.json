@@ -85,7 +85,6 @@
       "Kyeong-Seob Song",
       "Jung-Won Lee",
       "Hee-Chan Jung",
-      "Jong-Seob Yoon",
       "Sung-Hyun Park",
       "Yeon-Kun Lee",
       "Jeong-Yun Na",
@@ -765,14 +764,6 @@
       "category": "ms",
       "title": "Masters",
       "nextPosition": "Avikus",
-      "graduationDate": "2020-08"
-    },
-    {
-      "name": "Jong-Seob Yoon",
-      "email": "",
-      "category": "ms",
-      "title": "Masters",
-      "nextPosition": "NaverLabs",
       "graduationDate": "2020-08"
     },
     {
