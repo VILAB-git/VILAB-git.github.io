@@ -14,6 +14,123 @@
 
   "publications": [
     {
+      "title": "VIPS: Vehicle-Infrastructure Cooperative Planning Benchmark via Pseudo-Simulation",
+      "authors": ["Hoonhee Cho*", "Jae-Young Kang*", "Giwon Lee*", "Hyemin Yang*", "Heejun Park*", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Autonomous Driving", "Benchmark", "Vehicle-to-Everything"]
+    },
+    {
+      "title": "HSDF-Lane: Height-Aligned Signed Distance Field with Semantic Lane Prior for 3D Lane Detection",
+      "authors": ["Jiyong Boo", "Byeongin Joung", "Hyemin Yang", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Autonomous Driving", "3D Lane Detection", "Height Map Estimation"]
+    },
+    {
+      "title": "GoStop: Reinforcement Learning for Adaptive Temporal Aggregation in Event-Based Feature Tracking",
+      "authors": ["Youngho Kim*", "Hoonhee Cho*", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Event Camera", "Reinforcement Learning", "Feature Tracking"]
+    },
+    {
+      "title": "RAF: Reliability-Aware Fusion of Camera, LiDAR, and 4D RADAR for Robust 3D Object Detection in Adverse Weather",
+      "authors": ["Heejun Park", "Jaeseok Jeong", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Reliability-Aware Fusion", "3D Object Detection", "Adverse Weather", "Multi-Sensor Fusion", "4D RADAR"]
+    },
+    {
+      "title": "MotionEditGS: Editing Motion and Appearance of 4D Scenes from Monocular Video via Semantically Anchored Gaussians",
+      "authors": ["Daehyun We", "Youngho Yoon", "Jiyong Boo", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["4D Scene Editing", "Video Editing", "Gaussian Splatting"]
+    },
+    {
+      "title": "Distill Once, Adapt Life-Long: Exploring Dataset Distillation for Continual Test-Time Adaptation",
+      "authors": ["Hyun-Kurl Jang*", "Jihun Kim*", "Hyeokjun Kweon*", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Dataset Distillation", "Continual Test-Time Adaptation"]
+    },
+    {
+      "title": "Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training",
+      "authors": ["Taewon Seo*", "Seonae Jeon*", "Giwon Lee*", "Kuk-Jin Yoon", "Daehee Park"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Autonomous Driving", "Model Merging"]
+    },
+    {
+      "title": "Ego-human Motion Prediction with 3D-aware LLM",
+      "authors": ["Yujin Bae*", "Jaewoo Jeong*", "Hyeonseong Kim*", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Egocentric Vision", "Human Motion Forecasting", "Multi-modal Large Language Models"]
+    },
+    {
+      "title": "FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model",
+      "authors": ["Yuhwan Jeong*", "Hyeonseong Kim*", "Daehyun We*", "Seonkyu Song*", "Jinnyeong Yang*", "Hyun-Kurl Jang", "Youngho Yoon", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Multi-view Generation", "Autonomous Driving"]
+    },
+    {
+      "title": "GeoNVS: Geometry Grounded Video Diffusion for Novel View Synthesis",
+      "authors": ["Minjun Kang", "Inkyu Shin", "Taeyeop Lee", "Myungchul Kim", "In So Kweon", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Novel View Synthesis", "Image and Video Generation"]
+    },
+    {
+      "title": "PriSplat: Propagating Reliable Multi-view Information for Distractor-Free 3DGS",
+      "authors": ["Yunseo Yang*", "Youngho Yoon*", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Multi-view Harmonization", "Distractor-Free", "3D Gaussian Splatting"]
+    },
+    {
+      "title": "DINOde: Continuous Vision-Text Alignment for Open-Vocabulary Semantic Segmentation",
+      "authors": ["Sung-Hoon Yoon*", "Hoyong Kwon*", "Changgyoon Oh*", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Open-Vocabulary Semantic Segmentation"]
+    },
+    {
+      "title": "Rank-Aware Hyperbolic Alignment for Vision-Language Dataset Distillation",
+      "authors": ["Jongoh Jeong", "Sunkyung Lee", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Dataset Distillation", "Multi-Modal"]
+    },
+    {
     "title": "Global Information Thresholding for Sufficient and Necessary Circuits",
     "authors": ["Jegyeong Cho", "Kuk-Jin Yoon"],
     "venue": "CVPR",
