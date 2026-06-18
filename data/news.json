@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-eccv",
+      "type": "publication",
+      "date": "2026-06-18",
+      "title": "Papers accepted to ECCV 2026",
+      "summary": "13 papers from VILAB are accepted to ECCV 2026.",
+      "venue": "ECCV 2026",
+      "pub_venue": "ECCV",
+      "pub_year": 2026
+    },
+    {
       "id": "2026-cvpr",
       "type": "publication",
       "date": "2026-02-22",
