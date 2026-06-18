@@ -288,9 +288,6 @@ class PeoplePage {
           ${graduationYear ? `<p class="graduation-info">
             <strong>Graduated:</strong> ${this.formatGraduationDate(person.graduationDate)}
           </p>` : ''}
-          ${person.msGraduationDate ? `<p class="graduation-info">
-            <strong>M.S. Graduated:</strong> ${this.formatGraduationDate(person.msGraduationDate)}
-          </p>` : ''}
           ${links.length > 0 ? `<div class="person-links">${links.join('')}</div>` : ''}
         </div>
       </div>

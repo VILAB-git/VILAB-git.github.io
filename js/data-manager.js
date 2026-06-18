@@ -332,23 +332,12 @@ class DataManager {
       }
     }
 
-    // Alumni who earned both M.S. and a higher degree at VILab:
-    // attach the M.S. graduation date so both degrees show on one card.
-    // Skip those whose primary card is already the M.S. (no duplication).
-    alumni = alumni.map(person => {
-      const msDate = msGraduationDates[person.name];
-      const isMSPrimary = person.category === 'ms' || person.title === 'Masters';
-      if (msDate && !isMSPrimary) {
-        return { ...person, msGraduationDate: msDate };
-      }
-      return person;
-    });
-
-    // Current members who completed M.S. at VILab also appear as M.S. alumni.
-    // Skip those already in the alumni list — they show both degrees on one card.
-    const msAlumniFromCurrent = allPeople
-      .filter(p => currentNames.includes(p.name) && msGraduationDates[p.name]
-        && !alumniNames.includes(p.name))
+    // Members who earned an M.S. at VILab in addition to a higher degree
+    // get a SEPARATE M.S. alumni card, fully separated from their Ph.D card.
+    // Skip those whose own entry is already the M.S. (no duplication).
+    const msAlumni = allPeople
+      .filter(p => msGraduationDates[p.name]
+        && p.category !== 'ms' && p.title !== 'Masters')
       .map(p => ({
         ...p,
         category: 'ms',
@@ -357,7 +346,7 @@ class DataManager {
         nextPosition: 'Continued to Ph.D. at VILab',
       }));
 
-    alumni = [...alumni, ...msAlumniFromCurrent];
+    alumni = [...alumni, ...msAlumni];
 
     if (options.category) {
       alumni = alumni.filter(person => person.category === options.category);
