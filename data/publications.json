@@ -24,6 +24,26 @@
       "keywords": ["Autonomous Driving", "Benchmark", "Vehicle-to-Everything"]
     },
     {
+      "title": "PriSplat: Propagating Reliable Multi-view Information for Distractor-Free 3DGS",
+      "authors": ["Yunseo Yang*", "Youngho Yoon*", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "presentation": "Oral",
+      "keywords": ["Multi-view Harmonization", "Distractor-Free", "3D Gaussian Splatting"]
+    },
+    {
+      "title": "GeoNVS: Geometry Grounded Video Diffusion for Novel View Synthesis",
+      "authors": ["Minjun Kang", "Inkyu Shin", "Taeyeop Lee", "Myungchul Kim", "In So Kweon", "Kuk-Jin Yoon"],
+      "venue": "ECCV",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "presentation": "Oral",
+      "keywords": ["Novel View Synthesis", "Image and Video Generation"]
+    },
+    {
       "title": "HSDF-Lane: Height-Aligned Signed Distance Field with Semantic Lane Prior for 3D Lane Detection",
       "authors": ["Jiyong Boo", "Byeongin Joung", "Hyemin Yang", "Kuk-Jin Yoon"],
       "venue": "ECCV",
@@ -94,26 +114,6 @@
       "type": "conference",
       "status": "accepted",
       "keywords": ["Multi-view Generation", "Autonomous Driving"]
-    },
-    {
-      "title": "GeoNVS: Geometry Grounded Video Diffusion for Novel View Synthesis",
-      "authors": ["Minjun Kang", "Inkyu Shin", "Taeyeop Lee", "Myungchul Kim", "In So Kweon", "Kuk-Jin Yoon"],
-      "venue": "ECCV",
-      "year": 2026,
-      "type": "conference",
-      "status": "accepted",
-      "presentation": "Oral",
-      "keywords": ["Novel View Synthesis", "Image and Video Generation"]
-    },
-    {
-      "title": "PriSplat: Propagating Reliable Multi-view Information for Distractor-Free 3DGS",
-      "authors": ["Yunseo Yang*", "Youngho Yoon*", "Kuk-Jin Yoon"],
-      "venue": "ECCV",
-      "year": 2026,
-      "type": "conference",
-      "status": "accepted",
-      "presentation": "Oral",
-      "keywords": ["Multi-view Harmonization", "Distractor-Free", "3D Gaussian Splatting"]
     },
     {
       "title": "DINOde: Continuous Vision-Text Alignment for Open-Vocabulary Semantic Segmentation",
