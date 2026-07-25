@@ -20,6 +20,7 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
+      "presentation": "Oral",
       "keywords": ["Autonomous Driving", "Benchmark", "Vehicle-to-Everything"]
     },
     {
@@ -101,6 +102,7 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
+      "presentation": "Oral",
       "keywords": ["Novel View Synthesis", "Image and Video Generation"]
     },
     {
@@ -110,6 +112,7 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
+      "presentation": "Oral",
       "keywords": ["Multi-view Harmonization", "Distractor-Free", "3D Gaussian Splatting"]
     },
     {
