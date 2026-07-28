@@ -134,6 +134,16 @@
       "keywords": ["Vision-Language", "Dataset Distillation", "Hyperbolic Geometry"]
     },
     {
+    "title": "Stabilizing Multi-Task Latent Spaces: Recursive Refinement With Coordinators in Partially Labeled Learning",
+    "authors": ["Wooseong Jeong", "Jegyeong Cho", "Youngho Yoon", "Jaeyoung Lee", "Kuk-Jin Yoon"],
+    "venue": "IEEE Access",
+    "year": 2026,
+    "type": "journal",
+    "status": "accepted",
+    "keywords": ["Multi-Task Learning"],
+    "pdf_url": "https://ieeexplore.ieee.org/document/11395970"
+    },
+    {
     "title": "Global Information Thresholding for Sufficient and Necessary Circuits",
     "authors": ["Jegyeong Cho", "Kuk-Jin Yoon"],
     "venue": "CVPR",
@@ -488,6 +498,16 @@
       "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yun_WarpHE4D_Dense_4D_Head_Map_toward_Full_Head_Reconstruction_ICCV_2025_paper.pdf",
       "supp_url": "https://openaccess.thecvf.com/content/ICCV2025/supplemental/Yun_WarpHE4D_Dense_4D_ICCV_2025_supplemental.pdf",
       "code_url2": "https://github.com/jseobyun/WarpHE4D"
+    },
+    {
+      "title": "Neuromorphic olfaction with ultralow-power gas sensors and ovonic threshold switch",
+      "authors": ["Mingu Kang","Joon-Kyuu Han", "Kichul Lee", "Jaeseok Jeong", "Chanyoung Yoo", "Jeong Woo Jeon", "Byongwoo Park", "Wonho Choi", "Junseong Ahn", "Kuk-Jin Yoon", "Cheol Seong Hwang", "Inkyu Park"],
+      "venue": "Science Advances",
+      "year": 2025,
+      "type": "journal",
+      "status": "accepted",
+      "keywords": ["Neuromorphic Olfaction", "Gas Sensors"],
+      "pdf_url": "https://www.science.org/doi/10.1126/sciadv.adv9222"
     },
     {
       "title": "Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning",
