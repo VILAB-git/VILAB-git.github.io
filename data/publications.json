@@ -134,16 +134,6 @@
       "keywords": ["Vision-Language", "Dataset Distillation", "Hyperbolic Geometry"]
     },
     {
-    "title": "Stabilizing Multi-Task Latent Spaces: Recursive Refinement With Coordinators in Partially Labeled Learning",
-    "authors": ["Wooseong Jeong", "Jegyeong Cho", "Youngho Yoon", "Jaeyoung Lee", "Kuk-Jin Yoon"],
-    "venue": "IEEE Access",
-    "year": 2026,
-    "type": "journal",
-    "status": "accepted",
-    "keywords": ["Multi-Task Learning"],
-    "pdf_url": "https://ieeexplore.ieee.org/document/11395970"
-    },
-    {
     "title": "Global Information Thresholding for Sufficient and Necessary Circuits",
     "authors": ["Jegyeong Cho", "Kuk-Jin Yoon"],
     "venue": "CVPR",
@@ -298,6 +288,16 @@
       "status": "accepted",
       "keywords": ["Foundation model", "Heat transfer"],
       "pdf_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202521372"
+    },
+    {
+    "title": "Stabilizing Multi-Task Latent Spaces: Recursive Refinement With Coordinators in Partially Labeled Learning",
+    "authors": ["Wooseong Jeong", "Jegyeong Cho", "Youngho Yoon", "Jaeyoung Lee", "Kuk-Jin Yoon"],
+    "venue": "IEEE Access",
+    "year": 2026,
+    "type": "journal",
+    "status": "accepted",
+    "keywords": ["Multi-Task Learning"],
+    "pdf_url": "https://ieeexplore.ieee.org/document/11395970"
     },
     {
       "title": "Gated Temporal Fusion Transformers for Robust Multi-Object Tracking",
