@@ -270,34 +270,34 @@
       "code_url2": "https://github.com/yh-yoon/ReSplat"
     },
     {
-      "title": "Towards Enhanced Representation Learning for Single-Source Domain Generalization in LiDAR Semantic Segmentation",
+      "title": "Toward Enhanced Representation Learning for Single-Source Domain Generalization in LiDAR Semantic Segmentation",
       "authors": ["Hyeonseong Kim", "Yoonsu Kang", "Changgyoon Oh", "Kuk-Jin Yoon"],
       "venue": "TPAMI",
-      "year": 2025,
+      "year": 2026,
       "type": "journal",
       "status": "accepted",
       "keywords": ["LiDAR semantic segmentation", "Domain generalization"],
       "pdf_url": "https://ieeexplore.ieee.org/document/11355705"
     },
     {
-      "title": "Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework",
-      "authors": ["Donghyeong Lee", "Seokwan Roh", "Jaewoo Jeong", "Kuk-Jin Yoon", "Jungchul Lee", "Youngsuk Nam"],
-      "venue": "Advanced Science",
-      "year": 2025,
-      "type": "journal",
-      "status": "accepted",
-      "keywords": ["Foundation model", "Heat transfer"],
-      "pdf_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202521372"
-    },
-    {
       "title": "Temporal Stereo Matching from Event Cameras via Joint Learning with Stereoscopic Flow",
       "authors": ["Jae-Young Kang*", "Hoonhee Cho*", "Kuk-Jin Yoon"],
       "venue": "TPAMI",
-      "year": 2025,
+      "year": 2026,
       "type": "journal",
       "status": "accepted",
       "keywords": ["Stereo Matching", "Event Cameras"],
       "pdf_url": "https://ieeexplore.ieee.org/document/11303958"
+    },
+    {
+      "title": "Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework",
+      "authors": ["Donghyeong Lee", "Seokwan Roh", "Jaewoo Jeong", "Kuk-Jin Yoon", "Jungchul Lee", "Youngsuk Nam"],
+      "venue": "Advanced Science",
+      "year": 2026,
+      "type": "journal",
+      "status": "accepted",
+      "keywords": ["Foundation model", "Heat transfer"],
+      "pdf_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202521372"
     },
     {
       "title": "Gated Temporal Fusion Transformers for Robust Multi-Object Tracking",
