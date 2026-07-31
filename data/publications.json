@@ -260,6 +260,16 @@
       "code_url2": "https://github.com/yh-yoon/ReSplat"
     },
     {
+      "title": "A machine learning framework for predicting and modulating condition-dependent protein phase separation",
+      "authors": ["Jangwon Bae†", "Minjun Kang", "Donghyuk Lee", "Kuk-Jin Yoon†", "Yongwon Jung†"],
+      "venue": "Nature Communications",
+      "year": 2026,
+      "type": "journal",
+      "status": "published",
+      "keywords": ["Protein Phase Separation", "Protein Language Model", "Machine Learning"],
+      "pdf_url": "https://www.nature.com/articles/s41467-026-76248-2"
+    },
+    {
       "title": "Toward Enhanced Representation Learning for Single-Source Domain Generalization in LiDAR Semantic Segmentation",
       "authors": ["Hyeonseong Kim", "Yoonsu Kang", "Changgyoon Oh", "Kuk-Jin Yoon"],
       "venue": "TPAMI",
