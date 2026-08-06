@@ -21,7 +21,8 @@
       "type": "conference",
       "status": "accepted",
       "presentation": "Oral",
-      "keywords": ["Autonomous Driving", "Benchmark", "Vehicle-to-Everything"]
+      "keywords": ["Autonomous Driving", "Benchmark", "Vehicle-to-Everything"],
+      "project_url": "https://vips2026.github.io/"
     },
     {
       "title": "PriSplat: Propagating Reliable Multi-view Information for Distractor-Free 3DGS",
@@ -41,7 +42,9 @@
       "type": "conference",
       "status": "accepted",
       "presentation": "Oral",
-      "keywords": ["Novel View Synthesis", "Image and Video Generation"]
+      "keywords": ["Novel View Synthesis", "Image and Video Generation"],
+      "arxiv_url": "https://arxiv.org/abs/2603.14965",
+      "project_url": "https://sites.google.com/view/minjun-kang/geonvs-eccv26"
     },
     {
       "title": "HSDF-Lane: Height-Aligned Signed Distance Field with Semantic Lane Prior for 3D Lane Detection",
@@ -50,7 +53,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Autonomous Driving", "3D Lane Detection", "Height Map Estimation"]
+      "keywords": ["Autonomous Driving", "3D Lane Detection", "Height Map Estimation"],
+      "arxiv_url": "https://arxiv.org/abs/2606.31172",
+      "code_url": "https://github.com/JiyongBoo/HSDF-Lane"
     },
     {
       "title": "GoStop: Reinforcement Learning for Adaptive Temporal Aggregation in Event-Based Feature Tracking",
@@ -59,7 +64,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Event Camera", "Reinforcement Learning", "Feature Tracking"]
+      "keywords": ["Event Camera", "Reinforcement Learning", "Feature Tracking"],
+      "arxiv_url": "https://arxiv.org/abs/2607.15699",
+      "code_url": "https://github.com/kmax2001/GoSTOP"
     },
     {
       "title": "RAF: Reliability-Aware Fusion of Camera, LiDAR, and 4D RADAR for Robust 3D Object Detection in Adverse Weather",
@@ -68,7 +75,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Reliability-Aware Fusion", "3D Object Detection", "Adverse Weather", "Multi-Sensor Fusion", "4D RADAR"]
+      "keywords": ["Reliability-Aware Fusion", "3D Object Detection", "Adverse Weather", "Multi-Sensor Fusion", "4D RADAR"],
+      "arxiv_url": "https://arxiv.org/abs/2607.04587",
+      "code_url": "https://github.com/parkie0517/RAF"
     },
     {
       "title": "MotionEditGS: Editing Motion and Appearance of 4D Scenes from Monocular Video via Semantically Anchored Gaussians",
@@ -86,7 +95,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Transfer Learning", "Test-Time Adaptation", "Dataset Distillation"]
+      "keywords": ["Transfer Learning", "Test-Time Adaptation", "Dataset Distillation"],
+      "arxiv_url": "https://arxiv.org/abs/2606.20196",
+      "code_url": "https://github.com/blue-531/DOALL"
     },
     {
       "title": "Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training",
@@ -95,7 +106,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Autonomous Driving", "Model Merging"]
+      "keywords": ["Autonomous Driving", "Model Merging"],
+      "arxiv_url": "https://arxiv.org/abs/2607.19971",
+      "project_url": "https://dpt2026.github.io/"
     },
     {
       "title": "Ego-human Motion Prediction with 3D-aware LLM",
@@ -104,7 +117,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Egocentric Vision", "Human Motion Forecasting", "Multi-modal Large Language Models"]
+      "keywords": ["Egocentric Vision", "Human Motion Forecasting", "Multi-modal Large Language Models"],
+      "arxiv_url": "https://arxiv.org/abs/2607.07001",
+      "project_url": "https://jaewoo97.github.io/Ego3DLM/"
     },
     {
       "title": "FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model",
@@ -113,7 +128,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Multi-view Generation", "Autonomous Driving"]
+      "keywords": ["Multi-view Generation", "Autonomous Driving"],
+      "arxiv_url": "https://arxiv.org/abs/2606.20110",
+      "project_url": "https://frozendriveeccv.github.io/"
     },
     {
       "title": "DINOde: Continuous Vision-Text Alignment for Open-Vocabulary Semantic Segmentation",
@@ -122,7 +139,8 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Open-Vocabulary Semantic Segmentation"]
+      "keywords": ["Open-Vocabulary Semantic Segmentation"],
+      "arxiv_url": "https://arxiv.org/abs/2607.21371"
     },
     {
       "title": "Rank-Aware Hyperbolic Alignment for Vision-Language Dataset Distillation",
@@ -131,7 +149,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Vision-Language", "Dataset Distillation", "Hyperbolic Geometry"]
+      "keywords": ["Vision-Language", "Dataset Distillation", "Hyperbolic Geometry"],
+      "arxiv_url": "https://arxiv.org/abs/2606.29464",
+      "project_url": "https://andyj1.github.io/raha/"
     },
     {
     "title": "Global Information Thresholding for Sufficient and Necessary Circuits",
@@ -140,7 +160,8 @@
     "year": 2026,
     "type": "conference",
     "status": "accepted",
-    "keywords": ["Model Interpretability", "Circuit Discovery", "Information Theory"]
+    "keywords": ["Model Interpretability", "Circuit Discovery", "Information Theory"],
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Cho_Global_Information_Thresholding_for_Sufficient_and_Necessary_Circuits_CVPR_2026_paper.pdf"
     },
     {
       "title": "Test-Time Training for LiDAR Semantic Segmentation under Corruption via Geometric Inlier Discrimination",
@@ -149,7 +170,10 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Test-Time Training", "LiDAR Semantic Segmentation"]
+      "keywords": ["Test-Time Training", "LiDAR Semantic Segmentation"],
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_Test-Time_Training_for_LiDAR_Semantic_Segmentation_under_Corruption_via_Geometric_CVPR_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Kim_Test-Time_Training_for_CVPR_2026_supplemental.pdf",
+      "code_url": "https://github.com/hskim617/GeoID"
     },
     {
       "title": "Event6D: Event-based Novel Object 6D Pose Tracking",
@@ -160,7 +184,9 @@
       "status": "accepted",
       "keywords": ["6D Pose Tracking", "Event Camera"],
       "project_url": "https://chohoonhee.github.io/Event6D/",
-      "arxiv_url": "https://arxiv.org/abs/2603.28045"
+      "arxiv_url": "https://arxiv.org/abs/2603.28045",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kang_Event6D_Event-based_Novel_Object_6D_Pose_Tracking_CVPR_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Kang_Event6D_Event-based_Novel_CVPR_2026_supplemental.zip"
     },
     {
       "title": "ExPose: Reinforcing Video Generation Models for Extreme Pose Estimation",
@@ -169,7 +195,11 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Video Generative Models", "Reinforcement Learning", "Pose Estimation"]
+      "keywords": ["Video Generative Models", "Reinforcement Learning", "Pose Estimation"],
+      "project_url": "https://yh-yoon.github.io/expose-project-page/",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yoon_ExPose_Reinforcing_Video_Generation_Models_for_Extreme_Pose_Estimation_CVPR_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Yoon_ExPose_Reinforcing_Video_CVPR_2026_supplemental.pdf",
+      "code_url": "https://github.com/yh-yoon/ExPose"
     },
     {
       "title": "Preference-Aligned LoRA Merging: Preserving Subspace Coverage and Addressing Directional Anisotropy",
@@ -180,7 +210,9 @@
       "status": "accepted",
       "keywords": ["LoRA Merging", "Parameter-Efficient Fine-Tuning", "Preference Alignment"],
       "arxiv_url": "https://arxiv.org/abs/2603.26299",
-      "code_url2": "https://github.com/wooseong97/TARA-Merge"
+      "code_url": "https://github.com/wooseong97/TARA-Merge",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jeong_Preference-Aligned_LoRA_Merging_Preserving_Subspace_Coverage_and_Addressing_Directional_Anisotropy_CVPR_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Jeong_Preference-Aligned_LoRA_Merging_CVPR_2026_supplemental.pdf"
     },
     {
       "title": "Bootstrapping Video Semantic Segmentation Model via Distillation-assisted Test-Time Adaptation",
@@ -191,6 +223,8 @@
       "status": "accepted",
       "keywords": ["Video Semantic Segmentation", "Test-Time Adaptation", "Segment Anything Models 2"],
       "arxiv_url": "https://arxiv.org/abs/2604.10950",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Kim_Bootstrapping_Video_Semantic_CVPR_2026_supplemental.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Kim_Bootstrapping_Video_Semantic_CVPR_2026_supplemental.pdf",
       "code_url2": "https://github.com/jihun1998/DiTTA"
     },
     {
@@ -203,6 +237,8 @@
       "keywords": ["Multi-modal Vision Dataset", "Multi-modal Perception", "Autonomous Driving", "Sensor Fusion"],
       "project_url": "https://jeongyh98.github.io/dsert-roll/",
       "arxiv_url": "https://arxiv.org/abs/2604.03685",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Cho_DSERT-RoLL_Robust_Multi-Modal_Perception_for_Diverse_Driving_Conditions_with_Stereo_CVPR_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Cho_DSERT-RoLL_Robust_Multi-Modal_CVPR_2026_supplemental.pdf",
       "code_url": "https://github.com/jeongyh98/DSERT-RoLL-Dataset"
     },
     {
@@ -213,7 +249,10 @@
       "type": "conference",
       "status": "accepted",
       "presentation": "Highlight",
-      "keywords": ["Motion Deblurring", "Unpaired Learning", "Event Camera"]
+      "keywords": ["Motion Deblurring", "Unpaired Learning", "Event Camera"],
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Cho_Event-based_Motion_Deblurring_with_Unpaired_Data_CVPR_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Cho_Event-based_Motion_Deblurring_CVPR_2026_supplemental.pdf",
+      "code_url": "https://github.com/Chohoonhee/EMP"
     },
     {
       "title": "Label-Free Cross-Task LoRA Merging with Null-Space Compression",
@@ -224,7 +263,9 @@
       "status": "accepted",
       "keywords": ["LoRA Merging", "Label-Free Learning", "Null-Space Compression"],
       "arxiv_url": "https://arxiv.org/abs/2603.26317",
-      "code_url2": "https://github.com/wonyoung01/nsc_merging"
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lee_Label-Free_Cross-Task_LoRA_Merging_with_Null-Space_Compression_CVPR_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Lee_Label-Free_Cross-Task_LoRA_CVPR_2026_supplemental.pdf",
+      "code_url": "https://github.com/wonyoung01/nsc_merging"
     },
     {
       "title": "Multimodal Distribution Matching for Vision-Language Dataset Distillation",
@@ -233,7 +274,12 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Dataset Distillation", "Multimodal Learning", "Vision-Language Models", "Distribution Matching"]
+      "keywords": ["Dataset Distillation", "Multimodal Learning", "Vision-Language Models", "Distribution Matching"],
+      "arxiv_url": "https://arxiv.org/abs/2605.23482",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jeong_Multimodal_Distribution_Matching_for_Vision-Language_Dataset_Distillation_CVPR_2026_paper.pdf",
+      "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Jeong_Multimodal_Distribution_Matching_CVPR_2026_supplemental.pdf",
+      "project_url": "https://andyj1.github.io/mdm/",
+      "code_url": "https://github.com/andyj1/mdm"
     },
     {
       "title": "Improving Black-Box Generative Attacks via Generator Semantic Consistency",
