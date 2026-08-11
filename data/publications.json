@@ -223,7 +223,7 @@
       "status": "accepted",
       "keywords": ["Video Semantic Segmentation", "Test-Time Adaptation", "Segment Anything Models 2"],
       "arxiv_url": "https://arxiv.org/abs/2604.10950",
-      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Kim_Bootstrapping_Video_Semantic_CVPR_2026_supplemental.pdf",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_Bootstrapping_Video_Semantic_Segmentation_Model_via_Distillation-assisted_Test-Time_Adaptation_CVPR_2026_paper.pdf",
       "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Kim_Bootstrapping_Video_Semantic_CVPR_2026_supplemental.pdf",
       "code_url2": "https://github.com/jihun1998/DiTTA"
     },
