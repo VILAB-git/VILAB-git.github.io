@@ -140,7 +140,8 @@
       "type": "conference",
       "status": "accepted",
       "keywords": ["Open-Vocabulary Semantic Segmentation"],
-      "arxiv_url": "https://arxiv.org/abs/2607.21371"
+      "arxiv_url": "https://arxiv.org/abs/2607.21371",
+      "code_url": "https://github.com/yoon307/DINOde"
     },
     {
       "title": "Rank-Aware Hyperbolic Alignment for Vision-Language Dataset Distillation",
@@ -225,7 +226,7 @@
       "arxiv_url": "https://arxiv.org/abs/2604.10950",
       "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kim_Bootstrapping_Video_Semantic_Segmentation_Model_via_Distillation-assisted_Test-Time_Adaptation_CVPR_2026_paper.pdf",
       "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Kim_Bootstrapping_Video_Semantic_CVPR_2026_supplemental.pdf",
-      "code_url2": "https://github.com/jihun1998/DiTTA"
+      "code_url": "https://github.com/jihun1998/DiTTA"
     },
     {
       "title": "DSERT-RoLL: Robust Multi-Modal Perception for Diverse Driving Conditions with Stereo Event-RGB-Thermal Cameras, 4D Radar, and Dual-LiDAR",
