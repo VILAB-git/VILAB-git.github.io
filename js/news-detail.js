@@ -153,7 +153,21 @@ document.addEventListener('DOMContentLoaded', async function () {
       const y = Number(pub.year);
       const venueMatch = !venueKey ? true : v === venueKey || v.includes(venueKey);
       const yearMatch = Number.isNaN(yearNum) ? true : y === yearNum;
-      return venueMatch && yearMatch;
+      const mainMatch = venueMatch && yearMatch;
+
+      // 동시 accept / workshop 단독 논문: workshop 소속 학회로도 매칭
+      const ws = pub.workshop;
+      let workshopMatch = false;
+      if (ws) {
+        const wsVenue = ws.venue || '';
+        const wsVenueMatch = !venueKey
+          ? true
+          : wsVenue === venueKey || wsVenue.includes(venueKey);
+        const wsYearMatch = Number.isNaN(yearNum) ? true : Number(ws.year) === yearNum;
+        workshopMatch = wsVenueMatch && wsYearMatch;
+      }
+
+      return mainMatch || workshopMatch;
     });
 
     const pubsSection = document.getElementById('news-publications');
@@ -169,30 +183,76 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     // ✅ paper / workshop 개수 계산
-    const isWorkshopPublication = (pub) =>
-      (pub.venue || '').toLowerCase().includes('workshop');
+    //  - workshop 논문: workshop 필드가 있거나 venue에 'workshop' 포함
+    //  - workshop 단독: type === 'workshop' 또는 venue에 'workshop' 포함
+    //    (구형: venue "CVPR Workshop" + type "conference", 신형: type "workshop")
+    //  - 본 학회 논문(numMain): workshop 단독이 아닌 것 (동시 accept은 본지로 포함)
+    const isWorkshopOnly = (pub) =>
+      pub.type === 'workshop' || (pub.venue || '').toLowerCase().includes('workshop');
+    const hasWorkshop = (pub) =>
+      !!pub.workshop || (pub.venue || '').toLowerCase().includes('workshop');
 
-    const numWorkshop = matched.filter(isWorkshopPublication).length;
-    const numMain = matched.length - numWorkshop;
+    const numWorkshop = matched.filter(hasWorkshop).length;
+    const numMain = matched.filter((pub) => !isWorkshopOnly(pub)).length;
+
+    // 발표형태 카운트(본지 기준) + workshop oral(별도 집계)
+    const mainPapers = matched.filter((pub) => !isWorkshopOnly(pub));
+    const countPresentation = (label) =>
+      mainPapers.filter(
+        (p) => (p.presentation || '').trim().toLowerCase() === label
+      ).length;
+    const numOral = countPresentation('oral');
+    const numSpotlight = countPresentation('spotlight');
+    const numHighlight = countPresentation('highlight');
+    const numWorkshopOral = matched.filter(
+      (p) => hasWorkshop(p) &&
+        ((p.workshop && (p.workshop.presentation || '').trim().toLowerCase() === 'oral') ||
+         (p.presentation || '').trim().toLowerCase() === 'oral')
+    ).length;
 
     const baseVenueLabel = venueLabel || `${venueKey} ${yearNum || ''}`;
 
     function buildSummarySentence() {
       const paperWord = (n) => `paper${n > 1 ? 's' : ''}`;
-      const workshopWord = (n) =>
-        `workshop paper${n > 1 ? 's' : ''}`;
+      const workshopWord = (n) => `workshop paper${n > 1 ? 's' : ''}`;
 
+      // 1) 기본 문장 (본지 + workshop 편수)
+      let base;
       if (numMain > 0 && numWorkshop > 0) {
-        return `${numMain} ${paperWord(numMain)} and ${numWorkshop} ${workshopWord(numWorkshop)} from VILAB have been accepted to ${baseVenueLabel}.`;
-      } else if (numMain > 1) { // multiple main papers
-        return `${numMain} ${paperWord(numMain)} from VILAB have been accepted to ${baseVenueLabel}.`;
-      } else if (numMain === 1) { // single main paper
-        return `${numMain} ${paperWord(numMain)} from VILAB has been accepted to ${baseVenueLabel}.`;
-      } else if (numWorkshop > 1) { // multiple workshops
-        return `${numWorkshop} ${workshopWord(numWorkshop)} from VILAB have been accepted to ${baseVenueLabel}.`;
-      } else { // single workshop
-        return `${numWorkshop} ${workshopWord(numWorkshop)} from VILAB has been accepted to ${baseVenueLabel}.`;
+        base = `${numMain} main ${paperWord(numMain)} and ${numWorkshop} ${workshopWord(numWorkshop)} from VILAB have been accepted to ${baseVenueLabel}`;
+      } else if (numMain > 1) {
+        base = `${numMain} ${paperWord(numMain)} from VILAB have been accepted to ${baseVenueLabel}`;
+      } else if (numMain === 1) {
+        base = `${numMain} ${paperWord(numMain)} from VILAB has been accepted to ${baseVenueLabel}`;
+      } else if (numWorkshop > 1) {
+        base = `${numWorkshop} ${workshopWord(numWorkshop)} from VILAB have been accepted to ${baseVenueLabel}`;
+      } else {
+        base = `${numWorkshop} ${workshopWord(numWorkshop)} from VILAB has been accepted to ${baseVenueLabel}`;
       }
+
+      // 2) 본지 발표형태 목록 (oral / spotlight / highlight)
+      const honor = (n, word) => `${n} ${word}${n > 1 ? 's' : ''}`;
+      const mainHonors = [];
+      if (numOral > 0) mainHonors.push(honor(numOral, 'oral presentation'));
+      if (numSpotlight > 0) mainHonors.push(honor(numSpotlight, 'spotlight'));
+      if (numHighlight > 0) mainHonors.push(honor(numHighlight, 'highlight'));
+
+      const joinList = (arr) =>
+        arr.length <= 1
+          ? arr.join('')
+          : `${arr.slice(0, -1).join(', ')} and ${arr[arr.length - 1]}`;
+
+      let honorSegment = '';
+      const atMain = numWorkshop > 0 ? ' at the main conference' : '';
+      if (mainHonors.length && numWorkshopOral > 0) {
+        honorSegment = `, including ${joinList(mainHonors)}${atMain}, along with ${honor(numWorkshopOral, 'workshop oral presentation')}`;
+      } else if (mainHonors.length) {
+        honorSegment = `, including ${joinList(mainHonors)}${atMain}`;
+      } else if (numWorkshopOral > 0) {
+        honorSegment = `, including ${honor(numWorkshopOral, 'workshop oral presentation')}`;
+      }
+
+      return `${base}${honorSegment}.`;
     }
 
     const listHtml = matched.map(createNewsPublicationHTML).join('');
@@ -213,14 +273,33 @@ document.addEventListener('DOMContentLoaded', async function () {
       ? ` ${pub.presentation.charAt(0).toUpperCase() + pub.presentation.slice(1)}`
       : '';
 
+    // Workshop 정보 (동시 accept / workshop 단독)
+    let workshopHtml = '';
+    if (pub.workshop) {
+      const ws = pub.workshop;
+      const isWorkshopOnly = pub.type === 'workshop';
+      const wsVenueYear = `${ws.venue || ''} ${ws.year || pub.year || ''} Workshop`.trim();
+      const label = isWorkshopOnly ? 'Workshop' : 'Also at Workshop';
+      const wsPresentation = ws.presentation
+        ? ` <span class="presentation-tag"><strong>${ws.presentation}</strong></span>`
+        : '';
+      workshopHtml = `
+        <p class="news-publication-workshop">
+          <span class="workshop-tag">${label}</span>
+          ${ws.name}${wsVenueYear ? ` &middot; ${wsVenueYear}` : ''}${wsPresentation}
+        </p>
+      `;
+    }
+
     return `
       <article class="news-publication-item">
         <h3 class="news-publication-title">${pub.title}</h3>
         <p class="news-publication-authors">${pub.authors.join(', ')}</p>
         <p class="news-publication-venue">
           <strong>${pub.venue} ${pub.year}</strong>
-          <span class="presentation-tag"><strong>${presentation}</strong></span>
+          ${presentation ? `<span class="presentation-tag"><strong>${presentation}</strong></span>` : ''}
         </p>
+        ${workshopHtml}
         ${
           pub.keywords
             ? `<div class="news-publication-keywords">

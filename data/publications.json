@@ -59,7 +59,7 @@
     },
     {
       "title": "GoStop: Reinforcement Learning for Adaptive Temporal Aggregation in Event-Based Feature Tracking",
-      "authors": ["Youngho Kim*", "Hoonhee Cho*", "Kuk-Jin Yoon"],
+      "authors": ["Youngho Kim*", "Hoonhee Cho*", "Jae-Young Kang", "Kuk-Jin Yoon"],
       "venue": "ECCV",
       "year": 2026,
       "type": "conference",
@@ -151,8 +151,43 @@
       "type": "conference",
       "status": "accepted",
       "keywords": ["Vision-Language", "Dataset Distillation", "Hyperbolic Geometry"],
+      "workshop": {
+        "name": "Second Workshop on Curated Data for Efficient Learning",
+        "venue": "ECCV",
+        "year": 2026
+      },
       "arxiv_url": "https://arxiv.org/abs/2606.29464",
       "project_url": "https://andyj1.github.io/raha/"
+    },
+    {
+      "title": "Bootstrapping a 4D LiDAR Annotation Tool from Video Foundation Models",
+      "authors": ["Jihun Kim*", "Hyun-Kurl Jang*", "Hyemin Yang*", "Jinnyeong Yang*", "Hyeokjun Kweon*", "Kuk-Jin Yoon"],
+      "venue": "ECCV Workshop",
+      "year": 2026,
+      "type": "workshop",
+      "status": "accepted",
+      "keywords": ["4D LiDAR", "Autonomous Driving", "Auto-Labeling", "Video Foundation Models"],
+      "workshop": {
+        "name": "Second Workshop on Curated Data for Efficient Learning",
+        "venue": "ECCV",
+        "year": 2026,
+        "presentation": "Oral"
+      }
+    },
+    {
+      "title": "Reuse Before You Retrieve: Diagnosing Headroom and Complementarity for Test-Time Augmentation of Embodied Multimodal Policies",
+      "authors": ["Yuhwan Jeong", "Kuk-Jin Yoon"],
+      "venue": "ECCV Workshop",
+      "year": 2026,
+      "type": "workshop",
+      "status": "accepted",
+      "keywords": ["Vision-Language-Action Model", "VLA", "Embodied AI", "Retrieval-Augmented Generation", "RAG"],
+      "workshop": {
+        "name": "Workshop on Embodied Multimodal Reasoning in Physical Environments",
+        "venue": "ECCV",
+        "year": 2026
+      },
+      "arxiv_url": "https://arxiv.org/abs/2608.17484"
     },
     {
     "title": "Global Information Thresholding for Sufficient and Necessary Circuits",
@@ -276,6 +311,11 @@
       "type": "conference",
       "status": "accepted",
       "keywords": ["Dataset Distillation", "Multimodal Learning", "Vision-Language Models", "Distribution Matching"],
+      "workshop": {
+        "name": "Workshop on Emerging Directions in Data for Multimodal Foundation Models",
+        "venue": "CVPR",
+        "year": 2026
+      },
       "arxiv_url": "https://arxiv.org/abs/2605.23482",
       "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jeong_Multimodal_Distribution_Matching_for_Vision-Language_Dataset_Distillation_CVPR_2026_paper.pdf",
       "supp_url": "https://openaccess.thecvf.com/content/CVPR2026/supplemental/Jeong_Multimodal_Distribution_Matching_CVPR_2026_supplemental.pdf",
@@ -636,7 +676,12 @@
       "type": "conference",
       "status": "accepted",
       "keywords": ["Adversarial Robustness", "Generative Models"],
-      "pdf_url": "https://generative-vision.github.io/workshop-CVPR-25/papers/57.pdf"
+      "pdf_url": "https://generative-vision.github.io/workshop-CVPR-25/papers/57.pdf",
+      "workshop": {
+        "name": "3rd Workshop on Generative Models for Computer Vision",
+        "venue": "CVPR",
+        "year": 2025
+      }
     },
     {
       "title": "Selective Task Group Updates for Multi-Task Optimization",
@@ -1098,7 +1143,8 @@
       "year": 2023,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Video Panoptic Segmentation", "Online Inference"]
+      "keywords": ["Video Panoptic Segmentation", "Online Inference"],
+      "arxiv_url": "https://arxiv.org/abs/2304.04694"
     },
     {
       "title": "One-Shot Neural Fields for 3D Object Understanding",

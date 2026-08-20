@@ -302,6 +302,25 @@
   font-weight: 600;
 }
 
+/* Workshop 정보 (동시 accept / workshop 단독) */
+.news-publication-workshop {
+  font-size: 13px;
+  color: #555;
+  margin: -4px 0 10px;
+  line-height: 1.4;
+}
+
+.workshop-tag {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 2px 8px;
+  background-color: #eef3ff;
+  color: #3b5bdb;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 /* Keywords (publications.css 스타일과 맞춤) */
 .news-publication-keywords {
   display: flex;

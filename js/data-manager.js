@@ -236,6 +236,7 @@ class DataManager {
       pub.venue.toLowerCase().includes(searchTerm) ||
       (pub.presentation && pub.presentation.toLowerCase().includes(searchTerm)) ||
       (pub.keywords && pub.keywords.some(keyword => keyword.toLowerCase().includes(searchTerm))) ||
+      (pub.workshop && pub.workshop.name && pub.workshop.name.toLowerCase().includes(searchTerm)) ||
       (pub.abstract && pub.abstract.toLowerCase().includes(searchTerm))
     );
   }

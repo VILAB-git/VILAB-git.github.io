@@ -253,10 +253,28 @@ document.addEventListener('DOMContentLoaded', async function () {
   //   `;
   // }
 
+  // Build workshop info line (dual accept or workshop-only)
+  function buildWorkshopHTML(pub) {
+    if (!pub.workshop) return '';
+    const ws = pub.workshop;
+    const isWorkshopOnly = pub.type === 'workshop';
+    const wsVenueYear = `${ws.venue || ''} ${ws.year || pub.year || ''} Workshop`.trim();
+    const label = isWorkshopOnly ? 'Workshop' : 'Also at Workshop';
+    const presentation = ws.presentation
+      ? ` <span class="presentation-tag"><strong>${ws.presentation}</strong></span>`
+      : '';
+    return `
+      <p class="publication-workshop">
+        <span class="workshop-tag">${label}</span>
+        ${ws.name}${wsVenueYear ? ` &middot; ${wsVenueYear}` : ''}${presentation}
+      </p>
+    `;
+  }
+
   // Create HTML for a single publication (patent)
   function createPublicationHTML(pub) {
     const isPatent = pub.type === 'patent';
-  
+
     // venue + year 텍스트 (year가 없으면 venue만)
     const yearText = pub.year ? ` ${pub.year}` : '';
     const venueText = `${pub.venue}${yearText}`;
@@ -325,6 +343,9 @@ document.addEventListener('DOMContentLoaded', async function () {
             <strong>${venueText}</strong>
             ${pub.presentation ? `<span class="presentation-tag"><strong>${pub.presentation}</strong></span>` : ''}
           </p>
+
+          <!-- Workshop (dual accept or workshop-only) -->
+          ${buildWorkshopHTML(pub)}
 
           <!-- 특허일 때만 application/registration/status 표시 -->
           ${patentMetaHTML}
