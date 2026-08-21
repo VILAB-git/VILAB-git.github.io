@@ -673,7 +673,7 @@
       "authors": ["Jongoh Jeong", "Hunmin Yang", "Kuk-Jin Yoon"],
       "venue": "CVPR Workshop",
       "year": 2025,
-      "type": "conference",
+      "type": "workshop",
       "status": "accepted",
       "keywords": ["Adversarial Robustness", "Generative Models"],
       "pdf_url": "https://generative-vision.github.io/workshop-CVPR-25/papers/57.pdf",
@@ -1141,9 +1141,13 @@
       "authors": ["Inkyu Shin", "Dahun Kim", "Qihang Yu", "Jun Xie", "Hong-Seok Kim", "Bradley Green", "In So Kweon", "Kuk-Jin Yoon", "Liang-Chieh Chen"],
       "venue": "CVPR Workshop",
       "year": 2023,
-      "type": "conference",
+      "type": "workshop",
       "status": "accepted",
       "keywords": ["Video Panoptic Segmentation", "Online Inference"],
+      "workshop": {
+        "venue": "CVPR",
+        "year": 2023
+      },
       "arxiv_url": "https://arxiv.org/abs/2304.04694"
     },
     {
@@ -1151,9 +1155,13 @@
       "authors": ["Valts Blukis", "Taeyeop Lee", "Jonathan Tremblay", "Bowen Wen", "In So Kweon", "Kuk-Jin Yoon", "Dieter Fox", "Stan Birchfield"],
       "venue": "CVPR Workshop",
       "year": 2023,
-      "type": "conference",
+      "type": "workshop",
       "status": "accepted",
       "keywords": ["Neural Fields", "3D Object Understanding"],
+      "workshop": {
+        "venue": "CVPR",
+        "year": 2023
+      },
       "pdf_url": "https://arxiv.org/pdf/2210.12126",
       "arxiv_url": "https://arxiv.org/abs/2210.12126",
       "project_url": "https://nerfgrasp.github.io/"
@@ -1575,11 +1583,16 @@
     {
       "title": "Evaluating Region Modification based Data Augmentation Techniques for Low Level Vision Tasks",
       "authors": ["Pranjay Shyam", "Sandeep Singh Sengar", "Kuk-Jin Yoon", "Kyung-Soo Kim"],
-      "venue": "IJCAI Workshop on AI for Autonomous Driving",
+      "venue": "IJCAI Workshop",
       "year": 2021,
-      "type": "conference",
+      "type": "workshop",
       "status": "accepted",
       "keywords": ["Data Augmentation", "Low-Level Vision"],
+      "workshop": {
+        "name": "Workshop on AI for Autonomous Driving",
+        "venue": "IJCAI",
+        "year": 2021
+      },
       "pdf_url": "https://koasas.kaist.ac.kr/handle/10203/289431",
       "arxiv_url": "https://arxiv.org/abs/2103.05889"
     },
@@ -1962,9 +1975,13 @@
       "authors": ["Yeong-Jun Cho", "Jae-Han Park", "Su-A Kim", "Kyuyeang Lee", "Kuk-Jin Yoon"],
       "venue": "ICCV Workshop",
       "year": 2017,
-      "type": "conference",
+      "type": "workshop",
       "status": "accepted",
-      "keywords": ["Person Re-identification", "Camera Network Topology"]
+      "keywords": ["Person Re-identification", "Camera Network Topology"],
+      "workshop": {
+        "venue": "ICCV",
+        "year": 2017
+      }
     },
     {
       "title": "Joint Layout Estimation and Global Multi-View Registration for Indoor Reconstruction",

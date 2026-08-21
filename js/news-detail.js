@@ -182,15 +182,12 @@ document.addEventListener('DOMContentLoaded', async function () {
       return;
     }
 
-    // ✅ paper / workshop 개수 계산
-    //  - workshop 논문: workshop 필드가 있거나 venue에 'workshop' 포함
-    //  - workshop 단독: type === 'workshop' 또는 venue에 'workshop' 포함
-    //    (구형: venue "CVPR Workshop" + type "conference", 신형: type "workshop")
+    // ✅ paper / workshop 개수 계산 (신형 계약)
+    //  - workshop 단독(numWorkshop 대상): type === 'workshop'
+    //  - workshop 관여(동시 accept 포함): workshop 객체 보유(!!pub.workshop)
     //  - 본 학회 논문(numMain): workshop 단독이 아닌 것 (동시 accept은 본지로 포함)
-    const isWorkshopOnly = (pub) =>
-      pub.type === 'workshop' || (pub.venue || '').toLowerCase().includes('workshop');
-    const hasWorkshop = (pub) =>
-      !!pub.workshop || (pub.venue || '').toLowerCase().includes('workshop');
+    const isWorkshopOnly = (pub) => pub.type === 'workshop';
+    const hasWorkshop = (pub) => !!pub.workshop;
 
     const numWorkshop = matched.filter(hasWorkshop).length;
     const numMain = matched.filter((pub) => !isWorkshopOnly(pub)).length;
@@ -205,9 +202,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     const numSpotlight = countPresentation('spotlight');
     const numHighlight = countPresentation('highlight');
     const numWorkshopOral = matched.filter(
-      (p) => hasWorkshop(p) &&
-        ((p.workshop && (p.workshop.presentation || '').trim().toLowerCase() === 'oral') ||
-         (p.presentation || '').trim().toLowerCase() === 'oral')
+      (p) =>
+        hasWorkshop(p) &&
+        (p.workshop.presentation || '').trim().toLowerCase() === 'oral'
     ).length;
 
     const baseVenueLabel = venueLabel || `${venueKey} ${yearNum || ''}`;
@@ -283,10 +280,12 @@ document.addEventListener('DOMContentLoaded', async function () {
       const wsPresentation = ws.presentation
         ? ` <span class="presentation-tag"><strong>${ws.presentation}</strong></span>`
         : '';
+      // ws.name이 없으면 "{venue} {year} Workshop"만 표기
+      const wsText = [ws.name, wsVenueYear].filter(Boolean).join(' &middot; ');
       workshopHtml = `
         <p class="news-publication-workshop">
           <span class="workshop-tag">${label}</span>
-          ${ws.name}${wsVenueYear ? ` &middot; ${wsVenueYear}` : ''}${wsPresentation}
+          ${wsText}${wsPresentation}
         </p>
       `;
     }

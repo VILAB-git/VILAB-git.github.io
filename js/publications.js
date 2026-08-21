@@ -263,10 +263,12 @@ document.addEventListener('DOMContentLoaded', async function () {
     const presentation = ws.presentation
       ? ` <span class="presentation-tag"><strong>${ws.presentation}</strong></span>`
       : '';
+    // ws.name이 없으면 "{venue} {year} Workshop"만 표기
+    const wsText = [ws.name, wsVenueYear].filter(Boolean).join(' &middot; ');
     return `
       <p class="publication-workshop">
         <span class="workshop-tag">${label}</span>
-        ${ws.name}${wsVenueYear ? ` &middot; ${wsVenueYear}` : ''}${presentation}
+        ${wsText}${presentation}
       </p>
     `;
   }
