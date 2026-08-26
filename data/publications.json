@@ -14,6 +14,17 @@
 
   "publications": [
     {
+      "title": "Encoder-Level Temporal Fusion Transformers for Robust Multi-Object Tracking",
+      "authors": ["Jinho Kim", "Kuk-Jin Yoon"],
+      "venue": "IEEE Access",
+      "year": 2026,
+      "type": "journal",
+      "status": "accepted",
+      "keywords": ["Object Tracking", "Multi-object Tracking", "Temporal Fusion", "Temporal Memory"],
+      "pdf_url": "https://ieeexplore.ieee.org/document/11664394",
+      "memo": "Print ISSN: 2169-3536 / Online ISSN: 2169-3536 / Digital Object Identifier: 10.1109/ACCESS.2026.3726723"
+    },
+    {
       "title": "VIPS: Vehicle-Infrastructure Cooperative Planning Benchmark via Pseudo-Simulation",
       "authors": ["Hoonhee Cho*", "Jae-Young Kang*", "Giwon Lee*", "Hyemin Yang*", "Heejun Park*", "Kuk-Jin Yoon"],
       "venue": "ECCV",
