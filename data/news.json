@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "id": "2026-august-graduation",
+      "type": "graduation",
+      "date": "2026-08-22",
+      "title": "August 2026 Graduation",
+      "summary": "Heejun Park successfully completed his Master's degree.",
+      "people": {
+        "ms": [
+          "Heejun Park"
+        ],
+        "phd": []
+      },
+      "description": "Congratulations to our master's graduate, and we wish him all the best in his future endeavors!"
+    },
+    {
       "id": "2026-eccv",
       "type": "publication",
       "date": "2026-06-18",

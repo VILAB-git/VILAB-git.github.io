@@ -14,7 +14,6 @@
   },
   "members": {
     "current": [
-      "Taeyeop Lee",
       "Jihun Kim",
       "Byeongin Joung",
       "Hyun-Kurl Jang",
@@ -36,7 +35,6 @@
       "Jae-Young Kang",
       "Hoyong Kwon",
       "Giwon Lee",
-      "Heejun Park",
       "Daehyun We",
       "Seonkyu Song",
       "Yujin Bae",
@@ -50,6 +48,7 @@
       "Kyung-A Kwon"
     ],
     "alumni": [
+      "Heejun Park",
       "Hunmin Yang",
       "Yujeong Chae",
       "Youngho Yoon",
@@ -112,7 +111,7 @@
       "title": "Ph.D",
       "major_phd": "The Robotics Program",
       "thesis_phd": "6D Object Pose Estimation for Robot Manipulation",
-      "nextPosition": "KAIST Postdoc (VILab)",
+      "nextPosition": "KIST",
       "graduationDate": "2025-02",
       "researchInterests": ["Physical AI"],
       "personalpage": "https://sites.google.com/view/taeyeop-lee"
@@ -371,8 +370,12 @@
       "name": "Heejun Park",
       "email": "parkhee.ticket@kaist.ac.kr",
       "category": "ms",
+      "title": "Masters",
       "major_ms": "Division of Future Vehicle",
       "image": "HeejunPark.jpg",
+      "thesis_ms": "",
+      "nextPosition": "",
+      "graduationDate": "2026-08",
       "researchInterests": ["3D Computer Vision"],
       "personalpage": "https://parkie0517.github.io/"
     },
