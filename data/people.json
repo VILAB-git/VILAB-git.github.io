@@ -111,8 +111,13 @@
       "title": "Ph.D",
       "major_phd": "The Robotics Program",
       "thesis_phd": "6D Object Pose Estimation for Robot Manipulation",
-      "nextPosition": "KIST",
+      "nextPosition": "KAIST Postdoc (VILab)",
       "graduationDate": "2025-02",
+      "postdoc": {
+        "start": "2025-03",
+        "end": "2026-08",
+        "nextPosition": "KIST"
+      },
       "researchInterests": ["Physical AI"],
       "personalpage": "https://sites.google.com/view/taeyeop-lee"
     },

@@ -349,7 +349,22 @@ class DataManager {
         nextPosition: 'Continued to Ph.D. at VILab',
       }));
 
-    alumni = [...alumni, ...msAlumni];
+    // Members who did a postdoc at VILab after their degree get a SEPARATE
+    // postdoc alumni card (their Ph.D card is kept as-is). Driven by an
+    // explicit `postdoc: { start, end, nextPosition }` field.
+    const postdocAlumni = allPeople
+      .filter(p => p.postdoc && p.postdoc.end && !currentNames.includes(p.name))
+      .map(p => ({
+        ...p,
+        category: 'postdoc',
+        title: 'Postdoc',
+        isPostdocAlumni: true,
+        postdocStart: p.postdoc.start || '',
+        graduationDate: p.postdoc.end,
+        nextPosition: p.postdoc.nextPosition || '',
+      }));
+
+    alumni = [...alumni, ...msAlumni, ...postdocAlumni];
 
     if (options.category) {
       alumni = alumni.filter(person => person.category === options.category);

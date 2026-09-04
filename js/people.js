@@ -59,12 +59,14 @@ class PeoplePage {
       return;
     }
 
-    // Split alumni into Ph.D. and M.S. graduates (dual-degree people appear in
-    // both). `this.alumni` is already sorted by graduation date (newest first).
+    // Split alumni into Postdoc, Ph.D. and M.S. graduates (people with multiple
+    // roles appear in each). `this.alumni` is already sorted by date (newest first).
+    const isPostdoc = person => !!person.isPostdocAlumni;
     const isMS = person =>
       person.category === 'ms' || person.title === 'Masters';
-    const phdAlumni = this.alumni.filter(person => !isMS(person));
-    const msAlumni = this.alumni.filter(isMS);
+    const postdocAlumni = this.alumni.filter(isPostdoc);
+    const phdAlumni = this.alumni.filter(person => !isPostdoc(person) && !isMS(person));
+    const msAlumni = this.alumni.filter(person => !isPostdoc(person) && isMS(person));
 
     const section = (title, list) =>
       list.length === 0
@@ -79,6 +81,7 @@ class PeoplePage {
     `;
 
     container.innerHTML =
+      section('Postdoc Alumni', postdocAlumni) +
       section('Ph.D. Graduates', phdAlumni) +
       section('M.S. Graduates', msAlumni);
   }
@@ -299,7 +302,9 @@ class PeoplePage {
           <p class="next-position">
             <strong>Next:</strong> ${person.nextPosition}
           </p>
-          ${graduationYear ? `<p class="graduation-info">
+          ${person.isPostdocAlumni && graduationYear ? `<p class="graduation-info">
+            <strong>Period:</strong> ${person.postdocStart ? `${this.formatGraduationDate(person.postdocStart)} – ` : ''}${this.formatGraduationDate(person.graduationDate)}
+          </p>` : graduationYear ? `<p class="graduation-info">
             <strong>Graduated:</strong> ${this.formatGraduationDate(person.graduationDate)}
           </p>` : ''}
           ${links.length > 0 ? `<div class="person-links">${links.join('')}</div>` : ''}
