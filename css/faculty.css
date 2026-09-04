@@ -70,6 +70,12 @@
   text-decoration: underline;
 }
 
+.faculty-office {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #666;
+}
+
 .faculty-intro-block {
   flex: 1;
 }

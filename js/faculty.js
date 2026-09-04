@@ -39,6 +39,11 @@ class FacultyPage {
             <p class="faculty-email">
                 <a href="mailto:${data.email}">${data.email}</a>
             </p>
+            ${
+                data.office
+                ? `<p class="faculty-office">Office: ${data.office}</p>`
+                : ""
+            }
             </div>
 
             <div class="faculty-intro-block">
