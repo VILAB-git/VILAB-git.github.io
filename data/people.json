@@ -43,6 +43,7 @@
       "Hyemin Yang",
       "Wonyoung Lee",
       "Youngho Kim",
+      "Yeoeun Kim",
       "Hajoon Park",
       "Jinhyeok Ju",
       "Kyung-A Kwon"
@@ -439,6 +440,13 @@
       "category": "ms",
       "major_ms": "Mechanical Engineering",
       "image": "YounghoKim.jpg",
+      "researchInterests": ["TBD"]
+    },
+    {
+      "name": "Yeoeun Kim",
+      "email": "",
+      "category": "ms",
+      "major_ms": "",
       "researchInterests": ["TBD"]
     },
     {

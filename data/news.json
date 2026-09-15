@@ -1,6 +1,19 @@
 {
   "news": [
     {
+      "id": "2026-august-admission",
+      "type": "admission",
+      "date": "2026-08-28",
+      "title": "New students joined VILAB (August 2026)",
+      "summary": "We welcome a new MS student to VILAB.",
+      "people": {
+        "ms": [
+          "Yeoeun Kim"
+        ]
+      },
+      "description": "We are delighted to welcome our new MS student to the lab and look forward to the fresh perspectives and innovative contributions they will bring to our research community."
+    },
+    {
       "id": "2026-august-graduation",
       "type": "graduation",
       "date": "2026-08-22",
