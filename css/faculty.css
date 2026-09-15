@@ -85,6 +85,7 @@
   line-height: 1.7;
   color: #333;
   margin-bottom: 15px;
+  white-space: pre-line;
 }
 
 .faculty-links {
