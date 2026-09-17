@@ -122,9 +122,9 @@ span.completed {
 }
 
 .project-link:hover {
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
-  border-color: #FFC109;
+  border-color: var(--brand);
 }
 
 /* Collaboration section */
@@ -152,7 +152,7 @@ span.completed {
   background: #fff;
   padding: 20px;
   border-radius: 6px;
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
 }
 
 .collaboration-item h4 {

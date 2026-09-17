@@ -49,7 +49,7 @@
 }
 
 .contact-item a {
-  color: #FFC109;
+  color: var(--brand);
   text-decoration: none;
 }
 

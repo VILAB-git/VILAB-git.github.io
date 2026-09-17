@@ -48,8 +48,8 @@
 }
 
 .position-status.limited {
-  background: #fff3e0;
-  color: #f57c00;
+  background: var(--brand-100);
+  color: var(--brand-mid);
 }
 
 .position-status.not-available {
@@ -95,7 +95,7 @@
 .position-requirements li:before,
 .position-benefits li:before {
   content: "•";
-  color: #FFC109;
+  color: var(--brand);
   position: absolute;
   left: 0;
   font-weight: bold;
@@ -121,7 +121,7 @@
 .step-number {
   width: 40px;
   height: 40px;
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
   border-radius: 50%;
   display: flex;
@@ -158,7 +158,7 @@
   background: #f9f9f9;
   padding: 20px;
   border-radius: 8px;
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
 }
 
 .requirement-item h4 {
@@ -206,7 +206,7 @@
 }
 
 .contact-link {
-  color: #FFC109;
+  color: var(--brand);
   text-decoration: none;
   font-weight: 500;
 }
@@ -238,7 +238,7 @@
   background: #fff;
   padding: 20px;
   border-radius: 6px;
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
 }
 
 .faq-question {
@@ -259,7 +259,7 @@
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
-  border-left: 4px solid #007bff;
+  border-left: 4px solid var(--brand-mid);
 }
 
 .intro-section h2 {
@@ -275,8 +275,8 @@
 }
 
 .important-notes {
-  background: #fff3cd;
-  border: 1px solid #ffeaa7;
+  background: var(--brand-100);
+  border: 1px solid var(--brand-300);
   border-radius: 8px;
   padding: 1.5rem;
   margin: 1.5rem 0;
@@ -294,20 +294,20 @@
 }
 
 .important-notes .note-number {
-  color: #856404;
+  color: var(--brand-text);
   font-weight: 600;
   font-size: 1rem;
   flex-shrink: 0;
 }
 
 .important-notes .note-text {
-  color: #856404;
+  color: var(--brand-text);
   line-height: 1.5;
   font-size: 1rem;
 }
 
 .important-notes h4 {
-  color: #856404;
+  color: var(--brand-text);
   margin-bottom: 1rem;
   font-size: 1.2rem;
   display: flex;
@@ -325,14 +325,14 @@
 }
 
 .important-notes li {
-  color: #856404;
+  color: var(--brand-text);
   margin-bottom: 0.5rem;
   line-height: 1.5;
 }
 
 .application-requirement-highlight {
   background: #fff;
-  border: 2px solid #FFC109;
+  border: 2px solid var(--brand);
   border-radius: 10px;
   padding: 2rem;
   margin: 2rem 0;
@@ -347,12 +347,12 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: #FFC109;
+  background: var(--brand);
   border-radius: 8px 8px 0 0;
 }
 
 .application-requirement-highlight h3 {
-  color: #FFC109;
+  color: var(--brand);
   margin-bottom: 1rem;
   font-size: 1.4rem;
 }
@@ -412,7 +412,7 @@
 
 .form-button-large {
   display: inline-block;
-  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  background: linear-gradient(135deg, var(--brand-mid) 0%, var(--brand-dark) 100%);
   color: white;
   padding: 1.2rem 3rem;
   text-decoration: none;
@@ -420,14 +420,14 @@
   font-weight: 700;
   font-size: 1.2rem;
   transition: all 0.3s ease;
-  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.3);
+  box-shadow: 0 6px 20px rgba(0, 67, 151, 0.28);
   border: none;
   cursor: pointer;
 }
 
 .form-button-large:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4);
+  box-shadow: 0 8px 25px rgba(0, 67, 151, 0.38);
   color: white;
   text-decoration: none;
 }

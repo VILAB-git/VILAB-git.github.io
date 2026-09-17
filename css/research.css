@@ -37,7 +37,7 @@
   position: relative;
 }
 
-/* 노란 구분선: 대주제마다 */
+/* 네이비 구분선: 대주제마다 */
 .research-section-title::after {
   content: "";
   position: absolute;
@@ -45,7 +45,7 @@
   bottom: 0;
   width: 80px;
   height: 3px;
-  background-color: #facc15; /* yellow-400 */
+  background-color: var(--brand);
   border-radius: 999px;
 }
 

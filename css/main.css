@@ -1,4 +1,26 @@
 /* Reset and base styles */
+
+/* ---------------------------------------------------------------
+   Brand palette — KAIST VILab navy (logo blue #004397)
+   Canonical copy lives in base.css; duplicated here so pages
+   that load main.css on its own still resolve the tokens.
+   --------------------------------------------------------------- */
+:root {
+  --brand: #004397;             /* primary: logo blue, accents, active states */
+  --brand-dark: #002f6e;        /* hover / pressed on filled brand surfaces */
+  --brand-text: #00337a;        /* brand-colored text on light tints */
+  --brand-mid: #1257a5;         /* links and softer accents */
+  --brand-300: #c2d6ef;         /* tinted borders */
+  --brand-200: #dbe6f6;         /* badge / tag backgrounds */
+  --brand-100: #e7eefa;         /* light tint backgrounds */
+  --brand-50: #f2f6fc;          /* subtle washes, gradients */
+  --brand-ring: rgba(0, 67, 151, 0.14);    /* focus rings */
+  --brand-shadow: rgba(0, 67, 151, 0.18);  /* brand-tinted shadows */
+
+  --slate: #455a64;             /* cool neutral accent (replaces olive/amber) */
+  --slate-100: #eceff1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -47,8 +69,8 @@ body {
 }
 
 .logo-img {
-  width: 165px;
-  height: 70px;
+  height: 68px;
+  width: auto;
 }
 
 /* .logo-text {
@@ -74,8 +96,8 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #333;
-  background-color: #f5f5f5;
+  color: var(--brand);
+  background-color: var(--brand-50);
 }
 
 .nav-toggle {
@@ -185,7 +207,7 @@ body {
 }
 
 .contact-email {
-  color: #FFC109;
+  color: var(--brand);
 }
 
 .hero-title-section {
@@ -208,7 +230,7 @@ body {
 }
 
 .vision-highlight {
-  color: #FFC109;
+  color: var(--brand);
 }
 
 /* Content layout - logo and intro side by side */
@@ -280,7 +302,7 @@ body {
 
 .research-list li:before {
   content: "•";
-  color: #FFC109;
+  color: var(--brand);
   font-weight: bold;
   position: absolute;
   left: 0;
@@ -295,7 +317,7 @@ body {
   background: #f9f9f9;
   padding: 20px;
   border-radius: 8px;
-  border-left: 4px solid #FFC109;
+  border-left: 4px solid var(--brand);
 }
 
 .recognition-text {
@@ -337,7 +359,7 @@ body {
   cursor: pointer;
 }
 
-/* 왼쪽 세로 노란색 포인트 */
+/* 왼쪽 세로 네이비 포인트 */
 .news-item::before {
   content: "";
   position: absolute;
@@ -345,7 +367,7 @@ body {
   top: 10px;
   bottom: 10px;
   width: 4px;
-  background: #FFC109;
+  background: var(--brand);
   border-radius: 0 4px 4px 0;
 }
 
@@ -516,7 +538,7 @@ body {
 
 /* Footer */
 .footer {
-  background: #f8f9fa;
+  background: var(--brand-50);
   color: #666;
   padding: 40px 0 20px;
   border-top: 1px solid #eee;
@@ -643,7 +665,7 @@ body {
 /* Page-specific styles */
 .page-header {
   padding: 40px 0 30px;
-  background: #f8f9fa;
+  background: var(--brand-50);
   border-bottom: 1px solid #eee;
 }
 
@@ -673,7 +695,7 @@ body {
   font-weight: 600;
   color: #333;
   margin-bottom: 30px;
-  border-bottom: 2px solid #FFC109;
+  border-bottom: 2px solid var(--brand);
   padding-bottom: 10px;
 }
 
@@ -717,7 +739,7 @@ body {
 
 .person-title {
   font-size: 14px;
-  color: #FFC109;
+  color: var(--brand);
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -754,18 +776,18 @@ body {
   font-size: 28px;
   font-weight: 600;
   color: #333;
-  border-bottom: 2px solid #FFC109;
+  border-bottom: 2px solid var(--brand);
   padding-bottom: 10px;
 }
 
 /* Faculty Card Specific Styles */
 .faculty-card {
-  border: 2px solid #FFC109;
-  background: linear-gradient(135deg, #fff 0%, #fef9f6 100%);
+  border: 2px solid var(--brand);
+  background: linear-gradient(135deg, #fff 0%, var(--brand-50) 100%);
 }
 
 .faculty-card:hover {
-  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.15);
+  box-shadow: 0 6px 20px var(--brand-shadow);
 }
 
 .faculty-card .person-img {
@@ -773,7 +795,7 @@ body {
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #FFC109;
+  border: 3px solid var(--brand);
 }
 
 .faculty-card .person-name {
@@ -784,7 +806,7 @@ body {
 
 .faculty-card .person-title {
   font-size: 16px;
-  color: #FFC109;
+  color: var(--brand);
   font-weight: 600;
   margin-bottom: 8px;
 }
@@ -797,7 +819,7 @@ body {
 
 .faculty-card .person-email a {
   font-size: 14px;
-  color: #FFC109;
+  color: var(--brand);
   text-decoration: none;
   font-weight: 500;
 }
@@ -811,7 +833,7 @@ body {
 }
 
 .faculty-card .person-link {
-  background: #FFC109;
+  background: var(--brand);
   color: white;
   border: none;
   padding: 8px 12px;
@@ -819,7 +841,7 @@ body {
 }
 
 .faculty-card .person-link:hover {
-  background: #e55a2b;
+  background: var(--brand-dark);
   color: white;
 }
 
@@ -840,8 +862,8 @@ body {
 }
 
 .faculty-card .interest-tag {
-  background: #ffe5dd;
-  color: #FFC109;
+  background: var(--brand-200);
+  color: var(--brand);
 }
 
 .person-year {
@@ -873,13 +895,13 @@ body {
 }
 
 .person-email {
-  color: #007bff;
+  color: var(--brand-mid);
   font-size: 13px;
   margin-bottom: 10px;
 }
 
 .person-email a {
-  color: #007bff;
+  color: var(--brand-mid);
   text-decoration: none;
 }
 
@@ -900,7 +922,7 @@ body {
 }
 
 .alumni-card {
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
   padding: 15px;
   background: #fafafa;
   border-radius: 6px;
@@ -929,7 +951,7 @@ body {
 
 .alumni-card .person-title {
   font-size: 13px;
-  color: #FFC109;
+  color: var(--brand);
   font-weight: 500;
   margin-bottom: 3px;
 }
@@ -940,7 +962,7 @@ body {
 }
 
 .alumni-card .person-email a {
-  color: #007bff;
+  color: var(--brand-mid);
   text-decoration: none;
   font-size: 11px;
 }
@@ -1024,7 +1046,7 @@ body {
 .search-box button,
 .filter-controls button {
   padding: 10px 20px;
-  background-color: #FFC109;
+  background-color: var(--brand);
   color: white;
   border: none;
   border-radius: 6px;
@@ -1035,7 +1057,7 @@ body {
 
 .search-box button:hover,
 .filter-controls button:hover {
-  background-color: #e55a2b;
+  background-color: var(--brand-dark);
 }
 
 .filter-controls {
@@ -1080,7 +1102,7 @@ body {
   padding: 15px;
   background: #f9f9f9;
   border-radius: 6px;
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
 }
 
 .alumni-name {
@@ -1116,9 +1138,9 @@ body {
 
 .filter-btn.active,
 .filter-btn:hover {
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
-  border-color: #FFC109;
+  border-color: var(--brand);
 }
 
 .year-section {
@@ -1130,7 +1152,7 @@ body {
   font-weight: 600;
   color: #333;
   margin-bottom: 25px;
-  border-bottom: 2px solid #FFC109;
+  border-bottom: 2px solid var(--brand);
   padding-bottom: 10px;
 }
 
@@ -1168,7 +1190,7 @@ body {
 
 .publication-venue {
   font-size: 14px;
-  color: #FFC109;
+  color: var(--brand);
   margin-bottom: 12px;
 }
 
@@ -1196,9 +1218,9 @@ body {
 }
 
 .pub-link:hover {
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
-  border-color: #FFC109;
+  border-color: var(--brand);
 }
 
 /* Enhanced Publications Controls */
@@ -1224,9 +1246,9 @@ body {
 
 .search-input:focus {
   outline: none;
-  border-color: #FFC109;
+  border-color: var(--brand);
   background: #fff;
-  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+  box-shadow: 0 0 0 3px var(--brand-ring);
 }
 
 .publication-filters {
@@ -1257,8 +1279,8 @@ body {
 
 /* Enhanced Publication Items */
 .publication-item.featured {
-  border-left: 4px solid #FFC109;
-  background: linear-gradient(135deg, #fff 0%, #fef8f6 100%);
+  border-left: 4px solid var(--brand);
+  background: linear-gradient(135deg, #fff 0%, var(--brand-50) 100%);
 }
 
 .publication-keywords {
@@ -1304,8 +1326,8 @@ body {
 }
 
 .publication-status {
-  background: #fff3e0;
-  color: #b8860b;
+  background: var(--slate-100);
+  color: var(--slate);
 }
 
 .loading-message {
@@ -1340,11 +1362,11 @@ body {
 
 /* News Category Styling */
 .news-item.news-publication {
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
 }
 
 .news-item.news-award {
-  border-left: 3px solid #ffd700;
+  border-left: 3px solid var(--brand-mid);
 }
 
 .news-item.news-collaboration {
@@ -1356,7 +1378,7 @@ body {
 }
 
 .news-featured {
-  background: linear-gradient(135deg, #fff 0%, #fef8f6 100%);
+  background: linear-gradient(135deg, #fff 0%, var(--brand-50) 100%);
 }
 
 .news-category {
@@ -1498,9 +1520,9 @@ span.completed {
 }
 
 .project-link:hover {
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
-  border-color: #FFC109;
+  border-color: var(--brand);
 }
 
 .collaboration-section {
@@ -1527,7 +1549,7 @@ span.completed {
   background: #fff;
   padding: 20px;
   border-radius: 6px;
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
 }
 
 .collaboration-item h4 {
@@ -1549,7 +1571,7 @@ span.completed {
 }
 
 .news-item.news-featured {
-  border-color: #ffc109;
+  border-color: var(--brand);
   box-shadow: 0 4px 12px rgba(0,0,0,0.04);
 }
 
@@ -1565,7 +1587,7 @@ span.completed {
 .news-badge.featured {
   padding: 2px 8px;
   border-radius: 999px;
-  background: #ffc109;
+  background: var(--brand);
   color: #fff;
   font-weight: 600;
   font-size: 11px;
@@ -1882,8 +1904,8 @@ span.completed {
 }
 
 .position-status.limited {
-  background: #fff3e0;
-  color: #f57c00;
+  background: var(--brand-100);
+  color: var(--brand-mid);
 }
 
 .position-status.not-available {
@@ -1929,7 +1951,7 @@ span.completed {
 .position-requirements li:before,
 .position-benefits li:before {
   content: "•";
-  color: #FFC109;
+  color: var(--brand);
   position: absolute;
   left: 0;
   font-weight: bold;
@@ -1954,7 +1976,7 @@ span.completed {
 .step-number {
   width: 40px;
   height: 40px;
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
   border-radius: 50%;
   display: flex;
@@ -1991,7 +2013,7 @@ span.completed {
   background: #f9f9f9;
   padding: 20px;
   border-radius: 8px;
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
 }
 
 .requirement-item h4 {
@@ -2038,7 +2060,7 @@ span.completed {
 }
 
 .contact-link {
-  color: #FFC109;
+  color: var(--brand);
   text-decoration: none;
   font-weight: 500;
 }
@@ -2069,7 +2091,7 @@ span.completed {
   background: #fff;
   padding: 20px;
   border-radius: 6px;
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
 }
 
 .faq-question {
@@ -2159,7 +2181,7 @@ span.completed {
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
-  border-left: 4px solid #007bff;
+  border-left: 4px solid var(--brand-mid);
 }
 
 .intro-section h2 {
@@ -2175,8 +2197,8 @@ span.completed {
 }
 
 .important-notes {
-  background: #fff3cd;
-  border: 1px solid #ffeaa7;
+  background: var(--brand-100);
+  border: 1px solid var(--brand-300);
   border-radius: 8px;
   padding: 1.5rem;
   margin: 1.5rem 0;
@@ -2194,20 +2216,20 @@ span.completed {
 }
 
 .important-notes .note-number {
-  color: #856404;
+  color: var(--brand-text);
   font-weight: 600;
   font-size: 1rem;
   flex-shrink: 0;
 }
 
 .important-notes .note-text {
-  color: #856404;
+  color: var(--brand-text);
   line-height: 1.5;
   font-size: 1rem;
 }
 
 .important-notes h4 {
-  color: #856404;
+  color: var(--brand-text);
   margin-bottom: 1rem;
   font-size: 1.2rem;
   display: flex;
@@ -2225,14 +2247,14 @@ span.completed {
 }
 
 .important-notes li {
-  color: #856404;
+  color: var(--brand-text);
   margin-bottom: 0.5rem;
   line-height: 1.5;
 }
 
 .application-requirement-highlight {
   background: #fff;
-  border: 2px solid #FFC109;
+  border: 2px solid var(--brand);
   border-radius: 10px;
   padding: 2rem;
   margin: 2rem 0;
@@ -2247,12 +2269,12 @@ span.completed {
   left: 0;
   right: 0;
   height: 4px;
-  background: #FFC109;
+  background: var(--brand);
   border-radius: 8px 8px 0 0;
 }
 
 .application-requirement-highlight h3 {
-  color: #FFC109;
+  color: var(--brand);
   margin-bottom: 1rem;
   font-size: 1.4rem;
 }
@@ -2311,7 +2333,7 @@ span.completed {
 
 .form-button-large {
   display: inline-block;
-  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  background: linear-gradient(135deg, var(--brand-mid) 0%, var(--brand-dark) 100%);
   color: white;
   padding: 1.2rem 3rem;
   text-decoration: none;
@@ -2319,14 +2341,14 @@ span.completed {
   font-weight: 700;
   font-size: 1.2rem;
   transition: all 0.3s ease;
-  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.3);
+  box-shadow: 0 6px 20px rgba(0, 67, 151, 0.28);
   border: none;
   cursor: pointer;
 }
 
 .form-button-large:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4);
+  box-shadow: 0 8px 25px rgba(0, 67, 151, 0.38);
   color: white;
   text-decoration: none;
 }
@@ -2342,11 +2364,11 @@ span.completed {
 
 .step:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  border-color: #007bff;
+  border-color: var(--brand-mid);
 }
 
 .step h4 {
-  color: #007bff;
+  color: var(--brand-mid);
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
@@ -2440,7 +2462,7 @@ span.completed {
 }
 
 .contact-item a {
-  color: #FFC109;          /* 링크 색 (필요하면 바꿔도 됨) */
+  color: var(--brand);          /* 링크 색 (필요하면 바꿔도 됨) */
   text-decoration: none;
 }
 

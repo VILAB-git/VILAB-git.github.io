@@ -19,9 +19,9 @@
 
 .gallery-search .search-input:focus {
   outline: none;
-  border-color: #FFC109;
+  border-color: var(--brand);
   background: #fff;
-  box-shadow: 0 0 0 3px rgba(255, 193, 9, 0.15);
+  box-shadow: 0 0 0 3px var(--brand-ring);
 }
 /* Gallery search bar */
 
@@ -48,9 +48,9 @@
 
 .filter-btn.active,
 .filter-btn:hover {
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
-  border-color: #FFC109;
+  border-color: var(--brand);
 }
 /* ---- Gallery filter buttons ---- */
 

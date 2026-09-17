@@ -13,7 +13,7 @@
   font-weight: 600;
   color: #333;
   margin-bottom: 30px;
-  border-bottom: 2px solid #FFC109;
+  border-bottom: 2px solid var(--brand);
   padding-bottom: 10px;
 }
 
@@ -78,7 +78,7 @@
 
 .person-title {
   font-size: 14px;
-  color: #FFC109;
+  color: var(--brand);
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -151,7 +151,7 @@
   font-size: 28px;
   font-weight: 600;
   color: #333;
-  border-bottom: 2px solid #FFC109;
+  border-bottom: 2px solid var(--brand);
   padding-bottom: 10px;
 }
 
@@ -211,7 +211,7 @@
 
 .faculty-card .person-title {
   font-size: 14px;
-  color: #FFC109;
+  color: var(--brand);
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -233,8 +233,8 @@
 }
 
 .faculty-card .interest-tag {
-  background: #ffe5dd;
-  color: #FFC109;
+  background: var(--brand-200);
+  color: var(--brand);
 }
 
 .person-year {
@@ -266,13 +266,13 @@
 }
 
 .person-email {
-  color: #007bff;
+  color: var(--brand-mid);
   font-size: 13px;
   margin-bottom: 10px;
 }
 
 .person-email a {
-  color: #007bff;
+  color: var(--brand-mid);
   text-decoration: none;
 }
 
@@ -294,7 +294,7 @@
 
 /* Alumni cards */
 .alumni-card {
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
   padding: 15px;
   background: #fafafa;
   border-radius: 6px;
@@ -323,7 +323,7 @@
 
 .alumni-card .person-title {
   font-size: 13px;
-  color: #FFC109;
+  color: var(--brand);
   font-weight: 500;
   margin-bottom: 3px;
 }
@@ -334,7 +334,7 @@
 }
 
 .alumni-card .person-email a {
-  color: #007bff;
+  color: var(--brand-mid);
   text-decoration: none;
   font-size: 11px;
 }
@@ -410,7 +410,7 @@
 .search-box button,
 .filter-controls button {
   padding: 10px 20px;
-  background-color: #FFC109;
+  background-color: var(--brand);
   color: white;
   border: none;
   border-radius: 6px;
@@ -421,7 +421,7 @@
 
 .search-box button:hover,
 .filter-controls button:hover {
-  background-color: #e55a2b;
+  background-color: var(--brand-dark);
 }
 
 .filter-controls {
@@ -466,7 +466,7 @@
   padding: 15px;
   background: #f9f9f9;
   border-radius: 6px;
-  border-left: 3px solid #FFC109;
+  border-left: 3px solid var(--brand);
 }
 
 .alumni-name {

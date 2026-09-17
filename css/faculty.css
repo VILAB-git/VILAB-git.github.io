@@ -58,7 +58,7 @@
 .faculty-email {
   margin-top: 4px;
   font-size: 13px;
-  color: #0077cc;
+  color: var(--brand-mid);
 }
 
 .faculty-email a {
@@ -97,15 +97,15 @@
 
 /* .faculty-links a {
   font-size: 14px;
-  color: #0077cc;
+  color: var(--brand-mid);
   text-decoration: none;
-  border: 1px solid #0077cc;
+  border: 1px solid var(--brand-mid);
   border-radius: 4px;
   padding: 6px 10px;
 }
 
 .faculty-links a:hover {
-  background-color: #0077cc;
+  background-color: var(--brand-mid);
   color: #fff;
 } */
 
@@ -157,7 +157,7 @@
   border-bottom: 1px solid #ddd;
   padding-bottom: 5px;
 
-  border-left: 4px solid #FFC109;
+  border-left: 4px solid var(--brand);
   padding-left: 10px;
 
 }
@@ -357,7 +357,7 @@
   color: #333;
   margin-bottom: 10px;
 
-  /* 노란 강조 제거 */
+  /* 브랜드 색 강조 제거 */
   border-left: none !important;
   padding-left: 0 !important;
 

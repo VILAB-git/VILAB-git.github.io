@@ -27,9 +27,9 @@
 
 .search-input:focus {
   outline: none;
-  border-color: #FFC109;
+  border-color: var(--brand);
   background: #fff;
-  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+  box-shadow: 0 0 0 3px var(--brand-ring);
 }
 
 .publication-filters {
@@ -43,8 +43,8 @@
   display: inline-block;
   margin-left: 6px;
   padding: 2px 6px;
-  background-color: #fffed4; 
-  color: #FFC109;            
+  background-color: var(--brand-200); 
+  color: var(--brand);            
   border-radius: 10px;
   /* font-size: 0.75rem; */
   font-size: 14px;
@@ -83,9 +83,9 @@
 
 .filter-btn.active,
 .filter-btn:hover {
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
-  border-color: #FFC109;
+  border-color: var(--brand);
 }
 
 /* Year sections */
@@ -98,7 +98,7 @@
   font-weight: 600;
   color: #333;
   margin-bottom: 25px;
-  border-bottom: 2px solid #FFC109;
+  border-bottom: 2px solid var(--brand);
   padding-bottom: 10px;
 }
 
@@ -122,8 +122,8 @@
 }
 
 .publication-item.featured {
-  border-left: 4px solid #FFC109;
-  background: linear-gradient(135deg, #fff 0%, #fef8f6 100%);
+  border-left: 4px solid var(--brand);
+  background: linear-gradient(135deg, #fff 0%, var(--brand-50) 100%);
 }
 
 .publication-title {
@@ -163,7 +163,7 @@
 
 .publication-venue {
   font-size: 14px;
-  color: #FFC109;
+  color: var(--brand);
   margin-bottom: 12px;
 }
 
@@ -221,8 +221,8 @@
 }
 
 .publication-status {
-  background: #fff3e0;
-  color: #b8860b;
+  background: var(--slate-100);
+  color: var(--slate);
 }
 
 /* Keywords */
@@ -261,9 +261,9 @@
 }
 
 .pub-link:hover {
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
-  border-color: #FFC109;
+  border-color: var(--brand);
 }
 
 /* Publications-specific messages (override base) */

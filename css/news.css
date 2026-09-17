@@ -80,8 +80,8 @@
 }
 
 .news-content .news-type-award {
-  background: #fff3cd;
-  color: #a15c00;
+  background: var(--brand-100);
+  color: var(--brand-text);
 }
 
 .news-content .news-type-career {
@@ -95,8 +95,8 @@
 }
 
 .news-content .news-type-media {
-  background: #f0f4c3;
-  color: #827717;
+  background: var(--slate-100);
+  color: var(--slate);
 }
 
 /* 제목 / 요약 텍스트 */
@@ -204,8 +204,8 @@
 }
 
 .news-type-award {
-  background: #fff3cd;
-  color: #a15c00;
+  background: var(--brand-100);
+  color: var(--brand-text);
 }
 
 .news-type-career {
@@ -219,8 +219,8 @@
 }
 
 .news-type-media {
-  background: #f0f4c3;
-  color: #827717;
+  background: var(--slate-100);
+  color: var(--slate);
 }
 
 .news-detail-summary,
@@ -286,7 +286,7 @@
 
 .news-publication-venue {
   font-size: 14px;
-  color: #FFC109;
+  color: var(--brand);
   margin-bottom: 10px;
 }
 
@@ -294,8 +294,8 @@
   display: inline-block;
   margin-left: 6px;
   padding: 2px 6px;
-  background-color: #fffed4; 
-  color: #FFC109;            
+  background-color: var(--brand-200); 
+  color: var(--brand);            
   border-radius: 10px;
   /* font-size: 0.75rem; */
   font-size: 14px;
@@ -356,9 +356,9 @@
 }
 
 .pub-link:hover {
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
-  border-color: #FFC109;
+  border-color: var(--brand);
 }
 
 /* ===========================
@@ -376,7 +376,7 @@
   font-size: 22px;
   font-weight: 600;
   margin: 40px 0 20px;
-  border-bottom: 2px solid #FFC109;
+  border-bottom: 2px solid var(--brand);
   padding-bottom: 6px;
   color: #333;
 }
@@ -630,8 +630,8 @@
 }
 
 .award-link-chip:hover {
-  background: #ffc109;
-  border-color: #ffc109;
+  background: var(--brand);
+  border-color: var(--brand);
   color: #fff;
 }
 
@@ -725,8 +725,8 @@
 }
 
 .service-link-chip:hover {
-  background: #ffc109;
-  border-color: #ffc109;
+  background: var(--brand);
+  border-color: var(--brand);
   color: #fff;
 }
 
@@ -784,8 +784,8 @@
 }
 
 .media-link-chip:hover {
-  background: #ffc109;
-  border-color: #ffc109;
+  background: var(--brand);
+  border-color: var(--brand);
   color: #fff;
 }
 
@@ -813,9 +813,9 @@
 
 .search-input:focus {
   outline: none;
-  border-color: #FFC109;
+  border-color: var(--brand);
   background: #fff;
-  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+  box-shadow: 0 0 0 3px var(--brand-ring);
 }
 
 .news-filters {
@@ -854,9 +854,9 @@
 /* type별 필터 버튼 색상 (hover / active) */
 .filter-btn.active,
 .filter-btn:hover {
-  background: #FFC109;
+  background: var(--brand);
   color: #fff;
-  border-color: #FFC109;
+  border-color: var(--brand);
 }
 
 .news-filters .filter-btn[data-filter="type"][data-value="publication"]:hover,
@@ -882,8 +882,8 @@
 
 .news-filters .filter-btn[data-filter="type"][data-value="award"]:hover,
 .news-filters .filter-btn[data-filter="type"][data-value="award"].active {
-  background: #fff3cd;
-  color: #a15c00;
+  background: var(--brand-100);
+  color: var(--brand-text);
   border-color: transparent;
 }
 
@@ -903,7 +903,7 @@
 
 .news-filters .filter-btn[data-filter="type"][data-value="media"]:hover,
 .news-filters .filter-btn[data-filter="type"][data-value="media"].active {
-  background: #f0f4c3;
-  color: #827717;
+  background: var(--slate-100);
+  color: var(--slate);
   border-color: transparent;
 }
