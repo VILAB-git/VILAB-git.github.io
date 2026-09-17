@@ -151,7 +151,8 @@
       "thesis_phd_kor": "데이터 기반 사전 지식을 반영한 신경 장면 표현을 통한 고품질 가상 시점 합성 연구",
       "nextPosition": "KAIST Postdoc (VILab)",
       "graduationDate": "2026-02",
-      "researchInterests": ["Novel View Synthesis", "Neural Radiance Fields"]
+      "researchInterests": ["Novel View Synthesis", "Neural Radiance Fields"],
+      "personalpage": "https://yh-yoon.github.io/"
     },
     {
       "name": "Hoonhee Cho",
@@ -381,7 +382,7 @@
       "major_ms": "Division of Future Vehicle",
       "image": "HeejunPark.jpg",
       "thesis_ms": "",
-      "nextPosition": "",
+      "nextPosition": "Hyundai",
       "graduationDate": "2026-08",
       "researchInterests": ["3D Computer Vision"],
       "personalpage": "https://parkie0517.github.io/"
