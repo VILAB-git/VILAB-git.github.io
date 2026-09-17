@@ -201,7 +201,6 @@ class PeoplePage {
         <div class="person-info">
           <h3 class="person-name">${person.name}</h3>
           ${majorText ? `<p class="person-major">${majorText}</p>` : ''}
-          ${person.program ? `<p class="program-info">${person.program}</p>` : ''}
           ${person.email ? `<p class="person-email">${person.email}</p>` : ''}
           ${person.affiliation ? `<p class="person-affiliation">${person.affiliation}</p>` : ''}
           ${person.researchInterests ? `
