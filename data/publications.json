@@ -14,6 +14,33 @@
 
   "publications": [
     {
+      "title": "Preference-Guided Adaptation for Open-Vocabulary Semantic Segmentation via Prompt Disagreement",
+      "authors": ["Hyun-Kurl Jang", "Jihun Kim", "Kuk-Jin Yoon"],
+      "venue": "NeurIPS",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["RLHF", "Semantic Segmentation", "Open-Vocabulary"]
+    },
+    {
+      "title": "SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction",
+      "authors": ["Jaewoo Jeong*", "Seonkyu Song*", "Hyeonwoo Park", "Yujin Bae", "Jegyeong Cho", "Giwon Lee", "Daehee Park", "Kuk-Jin Yoon"],
+      "venue": "NeurIPS",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Trajectory Prediction", "Generative Models"]
+    },
+    {
+      "title": "Triggering Generalist Reasoning via Entropy-Aware Uncertainty for Dual-System Control",
+      "authors": ["Hyemin Yang*", "Wooseong Jeong*", "Giwon Lee*", "Kuk-Jin Yoon"],
+      "venue": "NeurIPS",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Vision-Language-Action Model", "Dual-System"]
+    },
+    {
       "title": "Encoder-Level Temporal Fusion Transformers for Robust Multi-Object Tracking",
       "authors": ["Jinho Kim", "Kuk-Jin Yoon"],
       "venue": "IEEE Access",
