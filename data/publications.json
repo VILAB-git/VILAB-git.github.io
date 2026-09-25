@@ -14,6 +14,15 @@
 
   "publications": [
     {
+      "title": "Triggering Generalist Reasoning via Entropy-Aware Uncertainty for Dual-System Control",
+      "authors": ["Hyemin Yang*", "Wooseong Jeong*", "Giwon Lee*", "Kuk-Jin Yoon"],
+      "venue": "NeurIPS",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "keywords": ["Vision-Language-Action Model", "Dual-System"]
+    },
+    {
       "title": "Preference-Guided Adaptation for Open-Vocabulary Semantic Segmentation via Prompt Disagreement",
       "authors": ["Hyun-Kurl Jang", "Jihun Kim", "Kuk-Jin Yoon"],
       "venue": "NeurIPS",
@@ -30,15 +39,6 @@
       "type": "conference",
       "status": "accepted",
       "keywords": ["Trajectory Prediction", "Generative Models"]
-    },
-    {
-      "title": "Triggering Generalist Reasoning via Entropy-Aware Uncertainty for Dual-System Control",
-      "authors": ["Hyemin Yang*", "Wooseong Jeong*", "Giwon Lee*", "Kuk-Jin Yoon"],
-      "venue": "NeurIPS",
-      "year": 2026,
-      "type": "conference",
-      "status": "accepted",
-      "keywords": ["Vision-Language-Action Model", "Dual-System"]
     },
     {
       "title": "Encoder-Level Temporal Fusion Transformers for Robust Multi-Object Tracking",
