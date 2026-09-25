@@ -14,7 +14,7 @@
 
   "publications": [
     {
-      "title": "Triggering Generalist Reasoning via Entropy-Aware Uncertainty for Dual-System Control",
+      "title": "Triggering Generalist Reasoning via Predictive Uncertainty for Dual-System VLA",
       "authors": ["Hyemin Yang*", "Wooseong Jeong*", "Giwon Lee*", "Kuk-Jin Yoon"],
       "venue": "NeurIPS",
       "year": 2026,
