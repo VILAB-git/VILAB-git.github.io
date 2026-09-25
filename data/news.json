@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": "2026-neurips",
+      "type": "publication",
+      "date": "2026-09-25",
+      "title": "Papers accepted to NeurIPS 2026",
+      "summary": "3 papers from VILAB have been accepted to NeurIPS 2026.",
+      "venue": "NeurIPS 2026",
+      "pub_venue": "NeurIPS",
+      "pub_year": 2026
+    },
+    {
       "id": "2026-august-admission",
       "type": "admission",
       "date": "2026-08-28",
