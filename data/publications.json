@@ -14,6 +14,16 @@
 
   "publications": [
     {
+      "title": "HEAT: Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models",
+      "authors": ["Hoonhee Cho*", "Giwon Lee*", "Jae-Young Kang*", "Hyemin Yang*", "Heejun Park*", "Kuk-Jin Yoon"],
+      "venue": "IEEE Robotics and Automation Letters (RA-L)",
+      "year": 2026,
+      "type": "journal",
+      "status": "accepted",
+      "keywords": ["End-to-End Autonomous Driving", "World Model"],
+      "arxiv_url": "https://arxiv.org/abs/2605.19631"
+    },
+    {
       "title": "Triggering Generalist Reasoning via Predictive Uncertainty for Dual-System VLA",
       "authors": ["Hyemin Yang*", "Wooseong Jeong*", "Giwon Lee*", "Kuk-Jin Yoon"],
       "venue": "NeurIPS",
@@ -39,16 +49,6 @@
       "type": "conference",
       "status": "accepted",
       "keywords": ["Trajectory Prediction", "Generative Models"]
-    },
-    {
-      "title": "HEAT: Heterogeneous End-to-End Autonomous Driving via Trajectory-Guided World Models",
-      "authors": ["Hoonhee Cho*", "Giwon Lee*", "Jae-Young Kang*", "Hyemin Yang*", "Heejun Park*", "Kuk-Jin Yoon"],
-      "venue": "IEEE Robotics and Automation Letters (RA-L)",
-      "year": 2026,
-      "type": "journal",
-      "status": "accepted",
-      "keywords": ["End-to-End Autonomous Driving", "World Model"],
-      "arxiv_url": "https://arxiv.org/abs/2605.19631"
     },
     {
       "title": "Encoder-Level Temporal Fusion Transformers for Robust Multi-Object Tracking",
