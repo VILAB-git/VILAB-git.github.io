@@ -439,13 +439,20 @@ class DataManager {
       projects = projects.filter(project => project.status === options.status);
     }
 
-    // Sort by status priority (ongoing first, then planned, then completed)
+    // Sort by status priority (ongoing first, then planned, then completed).
+    // Ongoing projects are further grouped InnoCore -> national -> industry;
+    // the sort is stable, so JSON order is kept within each group.
     const statusOrder = ['ongoing', 'planned', 'completed'];
-    projects.sort((a, b) => {
-      const aIndex = statusOrder.indexOf(a.status);
-      const bIndex = statusOrder.indexOf(b.status);
-      return aIndex - bIndex;
-    });
+    const typeOrder = ['innocore', 'national', 'industry'];
+    const typeRank = project => {
+      if (project.status !== 'ongoing') return 0;
+      const i = typeOrder.indexOf(project.projectType);
+      return i === -1 ? typeOrder.length : i;
+    };
+    projects.sort((a, b) =>
+      (statusOrder.indexOf(a.status) - statusOrder.indexOf(b.status)) ||
+      (typeRank(a) - typeRank(b))
+    );
 
     // Limit results
     if (options.limit) {

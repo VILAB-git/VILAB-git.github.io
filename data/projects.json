@@ -9,15 +9,78 @@
     "completed": "Completed",
     "planned": "Planned"
   },
+  "projectTypes": {
+    "innocore": "InnoCore",
+    "national": "National R&D",
+    "industry": "Industry-Academia"
+  },
   "projects": [
+    {
+      "title": "Global Humanities and Social Sciences Convergence Research: Development of a Multimodal AI-based Reading Disability Diagnosis and Learning Support System",
+      "category": "computer-vision",
+      "status": "ongoing",
+      "description": "TBD.",
+      "funding": "Ministry of Education",
+      "organization": "National Research Foundation of Korea (NRF), Inha University",
+      "duration": "09/2026 - 02/2027",
+      "projectType": "national",
+      "links": {}
+    },
+    {
+      "title": "Long-Horizon Agentic AI Research",
+      "category": "computer-vision",
+      "status": "ongoing",
+      "description": "TBD.",
+      "funding": "Ministry of Science and ICT",
+      "organization": "National Research Foundation of Korea (NRF)",
+      "duration": "07/2026 - 12/2031",
+      "role": "PI",
+      "projectType": "national",
+      "links": {}
+    },
+    {
+      "title": "Development of Outpainting AI and Spatial Expansion Technology for Utilizing Archive Video Contents",
+      "category": "computer-vision",
+      "status": "ongoing",
+      "description": "TBD.",
+      "funding": "Ministry of Science and ICT",
+      "organization": "Institute for Information & Communications Technology Planning & Evaluation (IITP)",
+      "duration": "04/2026 - 12/2028",
+      "projectType": "national",
+      "links": {}
+    },
+    {
+      "title": "Development of High-precision Hand-crafting and Service Technologies based on Physical AI",
+      "category": "computer-vision",
+      "status": "ongoing",
+      "description": "TBD.",
+      "funding": "Ministry of Science and ICT",
+      "organization": "Institute for Information & Communications Technology Planning & Evaluation (IITP)",
+      "duration": "04/2026 - 12/2026",
+      "projectType": "national",
+      "links": {}
+    },
+    {
+      "title": "Multi-modal Sensor based Self-improving Autonomous Driving Research",
+      "category": "computer-vision",
+      "status": "ongoing",
+      "description": "TBD.",
+      "funding": "Ministry of Science and ICT",
+      "organization": "National Research Foundation of Korea (NRF)",
+      "duration": "03/2026 - 02/2029",
+      "role": "PI",
+      "projectType": "national",
+      "links": {}
+    },
     {
       "title": "GS E&C-KAIST Joint R&D on Urban AI Technologies for Future Cities",
       "category": "computer-vision",
       "status": "ongoing",
       "description": "TBD.",
       "funding": "GS E&C",
-      "duration": "08/2025 - 08/2028",
+      "duration": "06/2025 - 08/2028",
       "role": "PI",
+      "projectType": "industry",
       "links": {
         "CAUS Website": "https://caus.kaist.ac.kr/"
       }
@@ -28,8 +91,9 @@
       "status": "ongoing",
       "description": "TBD.",
       "funding": "DK Medical Systems",
-      "duration": "07/2025 - 06/2026",
+      "duration": "07/2025 - 12/2026",
       "role": "PI",
+      "projectType": "industry",
       "links": {}
     },
     {
@@ -39,8 +103,9 @@
       "description": "TBD.",
       "funding": "Ministry of Science and ICT (InnoCore)",
       "organization": "KAIST",
-      "duration": "07/2025 - 12/2025",
+      "duration": "07/2025 - 12/2029",
       "role": "PI",
+      "projectType": "innocore",
       "links": {}
     },
     {
@@ -50,13 +115,14 @@
       "description": "TBD.",
       "funding": "Government-funded research institute (InnoCore)",
       "organization": "DGIST",
-      "duration": "07/2025 - 12/2025",
+      "duration": "07/2025 - 12/2029",
+      "projectType": "innocore",
       "links": {}
     },
     {
       "title": "AI Robot-Based Digital Twin Care Platform for Continuous Integrated Care of the Elderly",
       "category": "computer-vision",
-      "status": "ongoing",
+      "status": "completed",
       "description": "TBD.",
       "funding": "Ministry of Health and Welfare",
       "organization": "Korea Health Industry Development Institute (KHIDI)",
@@ -67,7 +133,7 @@
     {
       "title": "Development of a Generative AI-Based 16-bit HDR Solution",
       "category": "computer-vision",
-      "status": "ongoing",
+      "status": "completed",
       "description": "TBD.",
       "funding": "Samsung Electronics",
       "duration": "05/2025 - 04/2026",
@@ -87,7 +153,7 @@
     {
       "title": "Computer Vision Research Based on Multimodal Cameras for Robust Autonomous Driving",
       "category": "computer-vision",
-      "status": "ongoing",
+      "status": "completed",
       "description": "TBD.",
       "funding": "Ministry of Science and ICT",
       "organization": "National Research Foundation of Korea (NRF)",
@@ -104,6 +170,7 @@
       "organization": "Institute for Information & Communications Technology Planning & Evaluation (IITP)",
       "duration": "07/2024 - 12/2028",
       "role": "PI",
+      "projectType": "national",
       "links": {}
     },
     {
@@ -115,6 +182,7 @@
       "organization": "Institute for Information & Communications Technology Planning & Evaluation (IITP)",
       "duration": "06/2024 - 12/2026",
       "role": "PI",
+      "projectType": "national",
       "links": {}
     },
     {
@@ -124,7 +192,8 @@
       "description": "TBD.",
       "funding": "Ministry of Trade, Industry and Energy (MOTIE)",
       "organization": "LG Electronics",
-      "duration": "01/2024 - 12/2026",
+      "duration": "01/2024 - 06/2027",
+      "projectType": "national",
       "links": {}
     },
     {
@@ -136,6 +205,7 @@
       "organization": "Agency for Defense Development (ADD)",
       "duration": "01/2022 - 05/2027",
       "role": "PI",
+      "projectType": "national",
       "links": {}
     },
     {
@@ -154,7 +224,7 @@
       "status": "completed",
       "description": "TBD.",
       "funding": "42dot",
-      "duration": "12/2024 - 11/2025",
+      "duration": "12/2024 - 02/2026",
       "role": "PI",
       "links": {}
     },
@@ -191,7 +261,7 @@
     {
       "title": "Development of Core Technologies for Autonomous Driving in Unstructured Off-Road Environments",
       "category": "computer-vision",
-      "status": "ongoing",
+      "status": "completed",
       "description": "TBD.",
       "funding": "Hanwha Aerospace",
       "duration": "07/2023 - 06/2026",
@@ -269,16 +339,6 @@
       "links": {}
     },
     {
-      "title": "Development of an Iron Plate Abrasion Rate Recognition System",
-      "category": "computer-vision",
-      "status": "completed",
-      "description": "TBD.",
-      "funding": "Samsung Heavy Industry",
-      "duration": "05/2021 - 01/2022",
-      "role": "PI",
-      "links": {}
-    },
-    {
       "title": "Intelligent Focus Adjustment for Dual Pixel Cameras",
       "category": "computer-vision",
       "status": "completed",
@@ -300,7 +360,7 @@
       "links": {}
     },
     {
-      "title": "Deep-learning-based HandPoseEstimation using Low-resolution Images",
+      "title": "Deep-learning-based Hand Pose Estimation using Low-resolution Images",
       "category": "computer-vision",
       "status": "completed",
       "description": "TBD.",
