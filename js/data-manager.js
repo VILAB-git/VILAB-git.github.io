@@ -40,7 +40,8 @@ class DataManager {
       const isInSubdirectory = window.location.pathname.includes('/pages/');
       const basePath = isInSubdirectory ? '../../data/' : 'data/';
 
-      const response = await fetch(`${basePath}${type}.json`);
+      // no-cache = revalidate with the server, so JSON edits show up on reload
+      const response = await fetch(`${basePath}${type}.json`, { cache: 'no-cache' });
       if (!response.ok) {
         throw new Error(`Failed to load ${type} data: ${response.status}`);
       }

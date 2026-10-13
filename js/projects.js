@@ -15,10 +15,56 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       // Display projects
       displayProjects(allProjects);
+      setupFilters();
 
     } catch (error) {
       console.error('Error initializing projects:', error);
       showErrorMessage();
+    }
+  }
+
+  // Search box plus two filter rows (type x status), combined with AND.
+  const filters = { type: 'all', status: 'all', query: '' };
+
+  // InnoCore projects are government-funded, so they belong under National R&D.
+  function matchesType(project, type) {
+    if (type === 'all') return true;
+    if (type === 'national') return project.projectType === 'national' || project.projectType === 'innocore';
+    return project.projectType === type;
+  }
+
+  function matchesQuery(project, query) {
+    if (!query) return true;
+    const haystack = [project.title, project.funding, project.organization, project.duration]
+      .filter(Boolean).join(' ').toLowerCase();
+    return query.split(/\s+/).every(word => haystack.includes(word));
+  }
+
+  function applyFilters() {
+    displayProjects(allProjects.filter(project =>
+      matchesType(project, filters.type) &&
+      (filters.status === 'all' || project.status === filters.status) &&
+      matchesQuery(project, filters.query)
+    ));
+  }
+
+  function setupFilters() {
+    document.querySelectorAll('.project-filters .filter-group').forEach(group => {
+      group.addEventListener('click', e => {
+        const button = e.target.closest('.filter-btn');
+        if (!button) return;
+        group.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === button));
+        filters[group.dataset.filter] = button.dataset.value;
+        applyFilters();
+      });
+    });
+
+    const searchInput = document.querySelector('.projects-controls .search-input');
+    if (searchInput) {
+      searchInput.addEventListener('input', () => {
+        filters.query = searchInput.value.trim().toLowerCase();
+        applyFilters();
+      });
     }
   }
 

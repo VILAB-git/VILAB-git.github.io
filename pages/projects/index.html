@@ -18,7 +18,7 @@
 
   <!-- <link rel="stylesheet" href="../../css/main.css"> -->
   <link rel="stylesheet" href="../../css/base.css">
-  <link rel="stylesheet" href="../../css/projects.css">
+  <link rel="stylesheet" href="../../css/projects.css?v=20261013">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
@@ -61,6 +61,26 @@
       <div class="container">
         <!-- Projects Content -->
         <div class="projects-content">
+          <!-- Search and Filter Options -->
+          <div class="projects-controls">
+            <div class="project-search">
+              <input type="text" placeholder="Search projects..." class="search-input">
+            </div>
+            <div class="project-filters">
+              <div class="filter-group" data-filter="type">
+                <label>Filter by Type:</label>
+                <button class="filter-btn active" data-value="all">All</button>
+                <button class="filter-btn" data-value="national">National R&amp;D</button>
+                <button class="filter-btn" data-value="industry">Industry-Academia</button>
+              </div>
+              <div class="filter-group" data-filter="status">
+                <label>Filter by Status:</label>
+                <button class="filter-btn active" data-value="all">All</button>
+                <button class="filter-btn" data-value="ongoing">Ongoing</button>
+                <button class="filter-btn" data-value="completed">Completed</button>
+              </div>
+            </div>
+          </div>
           <!-- Projects will be dynamically loaded here -->
           <div class="projects-grid">
             <div class="loading-message">Loading projects...</div>
@@ -125,9 +145,9 @@
     </div>
   </footer>
 
-  <script src="../../js/data-manager.js"></script>
+  <script src="../../js/data-manager.js?v=20261013"></script>
   <script src="../../js/main.js"></script>
-  <script src="../../js/projects.js"></script>
+  <script src="../../js/projects.js?v=20261013"></script>
 </body>
 
 </html>

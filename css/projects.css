@@ -4,6 +4,76 @@
   padding: 50px 0;
 }
 
+/* Search + filters (same look as the Publications page) */
+.projects-controls {
+  margin-bottom: 40px;
+}
+
+.project-search {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.projects-controls .search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: inherit;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.projects-controls .search-input:focus {
+  outline: none;
+  border-color: var(--brand);
+  background: #fff;
+  box-shadow: 0 0 0 3px var(--brand-ring);
+}
+
+.project-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.project-filters .filter-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-filters .filter-group label {
+  font-weight: 500;
+  color: #333;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.project-filters .filter-btn {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #666;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.project-filters .filter-btn.active,
+.project-filters .filter-btn:hover {
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));  /* 1열 고정 */
