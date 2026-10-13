@@ -1,7 +1,0 @@
-<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="250" fill="#f0f8ff"/>
-  <rect x="50" y="50" width="300" height="150" rx="10" fill="#e1f5fe"/>
-  <circle cx="200" cy="100" r="30" fill="#81c784"/>
-  <rect x="100" y="140" width="200" height="40" rx="20" fill="#ffb74d"/>
-  <text x="200" y="200" text-anchor="middle" fill="#666" font-family="Arial" font-size="14">Lab Meeting</text>
-</svg>
