@@ -367,6 +367,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             ${pub.pdf_url ? `<a href="${pub.pdf_url}" class="pub-link">Paper</a>` : ''}
             ${pub.supp_url ? `<a href="${pub.supp_url}" class="pub-link">Supp</a>` : ''}
             ${pub.arxiv_url ? `<a href="${pub.arxiv_url}" class="pub-link">ArXiv</a>` : ''}
+            ${pub.proceedings_url ? `<a href="${pub.proceedings_url}" class="pub-link">Proceedings</a>` : ''}
+            ${pub.poster_url ? `<a href="${pub.poster_url}" class="pub-link">Poster</a>` : ''}
             ${pub.code_url ? `<a href="${pub.code_url}" class="pub-link">Code</a>` : ''}
             ${pub.project_url ? `<a href="${pub.project_url}" class="pub-link">Project Page</a>` : ''}
           </div>

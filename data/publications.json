@@ -30,7 +30,8 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["Vision-Language-Action Model", "Dual-System"]
+      "keywords": ["Vision-Language-Action Model", "Dual-System"],
+      "arxiv_url": "https://arxiv.org/abs/2610.05025"
     },
     {
       "title": "Preference-Guided Adaptation for Open-Vocabulary Semantic Segmentation via Prompt Disagreement",
@@ -39,7 +40,10 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["RLHF", "Semantic Segmentation", "Open-Vocabulary"]
+      "keywords": ["RLHF", "Semantic Segmentation", "Open-Vocabulary"],
+      "arxiv_url": "https://arxiv.org/abs/2609.34528",
+      "code_url": "https://github.com/blue-531/pref-ovss",
+      "project_url": "https://blue-531.github.io/pref-ovss/"
     },
     {
       "title": "SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction",
@@ -70,7 +74,10 @@
       "status": "accepted",
       "presentation": "Oral",
       "keywords": ["Autonomous Driving", "Benchmark", "Vehicle-to-Everything"],
-      "project_url": "https://vips2026.github.io/"
+      "project_url": "https://vips2026.github.io/",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37225-3_25",
+      "arxiv_url": "https://arxiv.org/abs/2609.02462",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/3793"
     },
     {
       "title": "PriSplat: Propagating Reliable Multi-view Information for Distractor-Free 3DGS",
@@ -80,7 +87,9 @@
       "type": "conference",
       "status": "accepted",
       "presentation": "Oral",
-      "keywords": ["Multi-view Harmonization", "Distractor-Free", "3D Gaussian Splatting"]
+      "keywords": ["Multi-view Harmonization", "Distractor-Free", "3D Gaussian Splatting"],
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37174-4_20",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/4019"
     },
     {
       "title": "GeoNVS: Geometry Grounded Video Diffusion for Novel View Synthesis",
@@ -92,7 +101,10 @@
       "presentation": "Oral",
       "keywords": ["Novel View Synthesis", "Image and Video Generation"],
       "arxiv_url": "https://arxiv.org/abs/2603.14965",
-      "project_url": "https://sites.google.com/view/minjun-kang/geonvs-eccv26"
+      "project_url": "https://sites.google.com/view/minjun-kang/geonvs-eccv26",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37013-6_30",
+      "code_url": "https://github.com/MinJunKang/GeoNVS",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/3876"
     },
     {
       "title": "HSDF-Lane: Height-Aligned Signed Distance Field with Semantic Lane Prior for 3D Lane Detection",
@@ -103,7 +115,10 @@
       "status": "accepted",
       "keywords": ["Autonomous Driving", "3D Lane Detection", "Height Map Estimation"],
       "arxiv_url": "https://arxiv.org/abs/2606.31172",
-      "code_url": "https://github.com/JiyongBoo/HSDF-Lane"
+      "code_url": "https://github.com/JiyongBoo/HSDF-Lane",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37383-0_15",
+      "project_url": "https://jiyongboo.github.io/HSDF-Lane-project-page/",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/5119"
     },
     {
       "title": "GoStop: Reinforcement Learning for Adaptive Temporal Aggregation in Event-Based Feature Tracking",
@@ -114,7 +129,9 @@
       "status": "accepted",
       "keywords": ["Event Camera", "Reinforcement Learning", "Feature Tracking"],
       "arxiv_url": "https://arxiv.org/abs/2607.15699",
-      "code_url": "https://github.com/kmax2001/GoSTOP"
+      "code_url": "https://github.com/kmax2001/GoSTOP",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37026-6_18",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/4118"
     },
     {
       "title": "RAF: Reliability-Aware Fusion of Camera, LiDAR, and 4D RADAR for Robust 3D Object Detection in Adverse Weather",
@@ -125,7 +142,9 @@
       "status": "accepted",
       "keywords": ["Reliability-Aware Fusion", "3D Object Detection", "Adverse Weather", "Multi-Sensor Fusion", "4D RADAR"],
       "arxiv_url": "https://arxiv.org/abs/2607.04587",
-      "code_url": "https://github.com/parkie0517/RAF"
+      "code_url": "https://github.com/parkie0517/RAF",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37517-9_12",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/4159"
     },
     {
       "title": "MotionEditGS: Editing Motion and Appearance of 4D Scenes from Monocular Video via Semantically Anchored Gaussians",
@@ -134,7 +153,9 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "keywords": ["4D Scene Editing", "Video Editing", "Gaussian Splatting"]
+      "keywords": ["4D Scene Editing", "Video Editing", "Gaussian Splatting"],
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37490-5_18",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/4803"
     },
     {
       "title": "Distill Once, Adapt Life-Long: Exploring Dataset Distillation for Continual Test-Time Adaptation",
@@ -145,7 +166,9 @@
       "status": "accepted",
       "keywords": ["Transfer Learning", "Test-Time Adaptation", "Dataset Distillation"],
       "arxiv_url": "https://arxiv.org/abs/2606.20196",
-      "code_url": "https://github.com/blue-531/DOALL"
+      "code_url": "https://github.com/blue-531/DOALL",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37083-9_28",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/3773"
     },
     {
       "title": "Unified Prediction and Planning via Conflict-Aware Disjoint Parameter Training",
@@ -156,7 +179,10 @@
       "status": "accepted",
       "keywords": ["Autonomous Driving", "Model Merging"],
       "arxiv_url": "https://arxiv.org/abs/2607.19971",
-      "project_url": "https://dpt2026.github.io/"
+      "project_url": "https://dpt2026.github.io/",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37013-6_19",
+      "code_url": "https://github.com/taewon-seo/disjoint-parameter-training",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/4845"
     },
     {
       "title": "Ego-human Motion Prediction with 3D-aware LLM",
@@ -167,7 +193,10 @@
       "status": "accepted",
       "keywords": ["Egocentric Vision", "Human Motion Forecasting", "Multi-modal Large Language Models"],
       "arxiv_url": "https://arxiv.org/abs/2607.07001",
-      "project_url": "https://jaewoo97.github.io/Ego3DLM/"
+      "project_url": "https://jaewoo97.github.io/Ego3DLM/",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37189-8_2",
+      "code_url": "https://github.com/jinyubae/Ego3DLM",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/5287"
     },
     {
       "title": "FrozenDrive: Zero-Shot Text-Guided Driving Scene Generation and Data Augmentation with Parameter-Free Frozen Diffusion Model",
@@ -178,7 +207,10 @@
       "status": "accepted",
       "keywords": ["Multi-view Generation", "Autonomous Driving"],
       "arxiv_url": "https://arxiv.org/abs/2606.20110",
-      "project_url": "https://frozendriveeccv.github.io/"
+      "project_url": "https://frozendriveeccv.github.io/",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37335-9_11",
+      "code_url": "https://github.com/daehyunwe/FrozenDrive",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/3978"
     },
     {
       "title": "DINOde: Continuous Vision-Text Alignment for Open-Vocabulary Semantic Segmentation",
@@ -189,7 +221,9 @@
       "status": "accepted",
       "keywords": ["Open-Vocabulary Semantic Segmentation"],
       "arxiv_url": "https://arxiv.org/abs/2607.21371",
-      "code_url": "https://github.com/yoon307/DINOde"
+      "code_url": "https://github.com/yoon307/DINOde",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37252-9_15",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/3756"
     },
     {
       "title": "Rank-Aware Hyperbolic Alignment for Vision-Language Dataset Distillation",
@@ -205,7 +239,10 @@
         "year": 2026
       },
       "arxiv_url": "https://arxiv.org/abs/2606.29464",
-      "project_url": "https://andyj1.github.io/raha/"
+      "project_url": "https://andyj1.github.io/raha/",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-032-37083-9_2",
+      "code_url": "https://github.com/andyj1/raha",
+      "poster_url": "https://eccv.ecva.net/virtual/2026/poster/4352"
     },
     {
       "title": "Bootstrapping a 4D LiDAR Annotation Tool from Video Foundation Models",
@@ -220,7 +257,8 @@
         "venue": "ECCV",
         "year": 2026,
         "presentation": "Oral"
-      }
+      },
+      "arxiv_url": "https://arxiv.org/abs/2608.25418"
     },
     {
       "title": "Reuse Before You Retrieve: Diagnosing Headroom and Complementarity for Test-Time Augmentation of Embodied Multimodal Policies",
@@ -825,7 +863,8 @@
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05923.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05923-supp.pdf",
       "arxiv_url": "https://arxiv.org/abs/2407.20657",
-      "project_url": "https://pdcl-attack.github.io/"
+      "project_url": "https://pdcl-attack.github.io/",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-72775-7_3"
     },
     {
       "title": "Towards Real-world Event-guided Low-light Video Enhancement and Deblurring",
@@ -838,7 +877,8 @@
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01982.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01982-supp.pdf",
       "arxiv_url": "https://arxiv.org/abs/2408.14916",
-      "code_url": "https://github.com/intelpro/ELEDNet"
+      "code_url": "https://github.com/intelpro/ELEDNet",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-73254-6_25"
     },
     {
       "title": "Phase Concentration and Shortcut Suppression for Weakly Supervised Semantic Segmentation",
@@ -850,7 +890,8 @@
       "keywords": ["Weakly Supervised Semantic Segmentation", "Fourier Transform", "Shotcut Learning"],
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04729.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04729-supp.pdf",
-      "code_url": "https://github.com/kwonhoyong3/PCSS-WSSS"
+      "code_url": "https://github.com/kwonhoyong3/PCSS-WSSS",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-73411-3_17"
     },
     {
       "title": "Temporal Event Stereo via Joint Learning with Stereoscopic Flow",
@@ -862,7 +903,8 @@
       "keywords": ["Stereo Matching", "Event Cameras", "3D From Other Sensors"],
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05185.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05185-supp.pdf",
-      "code_url": "https://github.com/mickeykang16/TemporalEventStereo"
+      "code_url": "https://github.com/mickeykang16/TemporalEventStereo",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-72761-0_17"
     },
     {
       "title": "Finding Meaning in Points: Weakly Supervised Semantic Segmentation for Event Cameras",
@@ -875,7 +917,8 @@
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05674.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05674-supp.pdf",
       "code_url": "https://github.com/Chohoonhee/EV-WSSS",
-      "arxiv_url": "https://arxiv.org/abs/2407.11216"
+      "arxiv_url": "https://arxiv.org/abs/2407.11216",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-73661-2_15"
     },
     {
       "title": "Diffusion-Guided Weakly Supervised Semantic Segmentation",
@@ -887,7 +930,8 @@
       "keywords": ["Diffusion Models", "Weakly Supervised Semantic Segmentation"],
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06482.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06482-supp.pdf",
-      "code_url": "https://github.com/yoon307/DiG"
+      "code_url": "https://github.com/yoon307/DiG",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-73195-2_23"
     },
     {
       "title": "On-the-fly Category Discovery for LiDAR Semantic Segmentation",
@@ -899,6 +943,7 @@
       "keywords": ["Autonomous driving", "LiDAR semantic segmentation", "On-the-fly category discovery"],
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06676.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06676-supp.pdf",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-72973-7_14",
       "code_url2": "https://github.com/hskim617/OCDSS"
     },
     {
@@ -911,7 +956,8 @@
       "keywords": ["Point Cloud Completion", "Synthetic to Real Adaptation"],
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06768.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06768-supp.pdf",
-      "code_url": "https://github.com/yun-seo/PPCC"
+      "code_url": "https://github.com/yun-seo/PPCC",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-72983-6_11"
     },
     {
       "title": "CMTA: Cross-Modal Temporal Alignment for Event-guided Video Deblurring",
@@ -924,7 +970,8 @@
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06838.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06838-supp.pdf",
       "arxiv_url": "https://arxiv.org/abs/2408.14930",
-      "code_url": "https://github.com/intelpro/CMTA"
+      "code_url": "https://github.com/intelpro/CMTA",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-72943-0_1"
     },
     {
       "title": "GMT: Enhancing Generalizable Neural Rendering via Geometry-Driven Multi-Reference Texture Transfer",
@@ -937,7 +984,8 @@
       "arxiv_url": "https://arxiv.org/abs/2410.00672",
       "code_url": "https://github.com/yh-yoon/GMT",
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07223.pdf",
-      "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07223-supp.pdf"
+      "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07223-supp.pdf",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-73001-6_16"
     },
     {
       "title": "LiDAR-based All-weather 3D Object Detection via Prompting and Distilling 4D Radar",
@@ -949,6 +997,7 @@
       "keywords": ["LiDAR", "3D object detection", "Normal/adverse", "4D radar", "Knowledge distillation", "3D prompt learning", "Autonomous driving"],
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07349.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07349-supp.pdf",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-72992-8_21",
       "code_url": "https://github.com/yujeong-star/LOD_PDR"
     },
     {
@@ -962,7 +1011,8 @@
       "arxiv_url": "https://arxiv.org/abs/2407.10703",
       "code_url": "https://github.com/jeongyh98/UDNET",
       "pdf_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08432.pdf",
-      "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08432-supp.pdf"
+      "supp_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08432-supp.pdf",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-72855-6_17"
     },
     {
       "title": "Weakly Supervised Point Cloud Semantic Segmentation via Artificial Oracle",
@@ -1378,7 +1428,8 @@
       "project_url": "https://intelpro.github.io/UEVD/",
       "code_url": "https://github.com/intelpro/UEVD_public",
       "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780510.pdf",
-      "supp_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780510-supp.zip"
+      "supp_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780510-supp.zip",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-19797-0_30"
     },
     {
       "title": "BIPS: Bi-modal Indoor Panorama Synthesis via Residual Depth-aided Adversarial Learning",
@@ -1391,7 +1442,8 @@
       "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136760331.pdf",
       "code_url": "https://github.com/chang9711/BIPS",
       "arxiv_url": "https://arxiv.org/abs/2112.06179",
-      "supp_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136760331-supp.pdf"
+      "supp_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136760331-supp.pdf",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-19787-1_20"
     },
     {
       "title": "Adversarial Erasing Framework via Triplet with Gated Pyramid Pooling Layer for Weakly Supervised Semantic Segmentation",
@@ -1403,7 +1455,8 @@
       "keywords": ["Weakly Supervised Semantic Segmentation", "Adversarial Erasing"],
       "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136890323.pdf",
       "supp_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136890323-supp.pdf",
-      "code_url": "https://github.com/KAIST-vilab/AEFT"
+      "code_url": "https://github.com/KAIST-vilab/AEFT",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-19818-2_19"
     },
     {
       "title": "Selection and Cross Similarity for Event-Image Deep Stereo",
@@ -1415,7 +1468,8 @@
       "keywords": ["Event Cameras", "Stereo Depth", "Multi-modal Fusion"],
       "code_url": "https://github.com/Chohoonhee/SCSNet",
       "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920467.pdf",
-      "supp_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920467-supp.pdf"
+      "supp_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136920467-supp.pdf",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-19824-3_28"
     },
     {
       "title": "Facial Depth and Normal Estimation using Single Dual-Pixel Camera",
@@ -1428,7 +1482,8 @@
       "arxiv_url": "https://arxiv.org/abs/2111.12928",
       "code_url": "https://github.com/MinJunKang/DualPixelFace",
       "pdf_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680176.pdf",
-      "supp_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680176-supp.pdf"
+      "supp_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680176-supp.pdf",
+      "proceedings_url": "https://link.springer.com/chapter/10.1007/978-3-031-20074-8_11"
     },
     {
       "title": "Multi-source Domain Alignment for Robust Segmentation in Unknown Targets",
