@@ -31,7 +31,8 @@
       "type": "conference",
       "status": "accepted",
       "keywords": ["Vision-Language-Action Model", "Dual-System"],
-      "arxiv_url": "https://arxiv.org/abs/2610.05025"
+      "arxiv_url": "https://arxiv.org/abs/2610.05025",
+      "project_url": "https://tudneurips2026.github.io/"
     },
     {
       "title": "Preference-Guided Adaptation for Open-Vocabulary Semantic Segmentation via Prompt Disagreement",
