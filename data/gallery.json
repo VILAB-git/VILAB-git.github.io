@@ -5,6 +5,32 @@
   },
   "gallery_items": [
     {
+      "title": "ECCV 2026",
+      "description": "ECCV 2026 학회 참석",
+      "category": "conferences",
+      "date": "2026-09",
+      "image_dir": "ECCV26",
+      "image_count": 2,
+      "alt_text": "ECCV 2026",
+      "featured": true,
+      "tags": ["eccv", "conference"],
+      "venue": "ECCV 2026",
+      "location": "Malmö, Sweden"
+    },
+    {
+      "title": "CVPR 2026",
+      "description": "CVPR 2026 학회 참석",
+      "category": "conferences",
+      "date": "2026-06",
+      "image_dir": "CVPR26",
+      "image_count": 1,
+      "alt_text": "CVPR 2026",
+      "featured": true,
+      "tags": ["cvpr", "conference"],
+      "venue": "CVPR 2026",
+      "location": "Denver, USA"
+    },
+    {
       "title": "2026 Teacher's Day",
       "description": "2026년 스승의날",
       "category": "lab-life",
